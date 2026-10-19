@@ -1,0 +1,121 @@
+{
+  "version": "1.0",
+  "description": "Unified waste taxonomy for the Waste VLM Dataset project.",
+
+  "object_categories": [
+    "plastic_bottle",
+    "glass_bottle",
+    "metal_can",
+    "drink_carton",
+    "food_container",
+    "plastic_bag_wrapper",
+    "cup_lid",
+    "cardboard_box",
+    "paper_tissue",
+    "styrofoam",
+    "cigarette_butt",
+    "other_litter"
+  ],
+
+  "materials": [
+    "plastic_rigid",
+    "plastic_film",
+    "metal_aluminum",
+    "metal_steel",
+    "glass",
+    "paper_cardboard",
+    "composite_multilayer"
+  ],
+
+  "conditions": [
+    "intact",
+    "crushed",
+    "torn_shredded",
+    "flattened",
+    "crumpled",
+    "dirty_soiled",
+    "liquid_filled",
+    "partially_occluded"
+  ],
+
+  "scene_contexts": [
+    "isolated_clean_background",
+    "outdoor_natural_litter",
+    "urban_pavement",
+    "high_clutter_conveyor_pile",
+    "indoor_bin_area"
+  ],
+
+  "sorting_actions": [
+    "recycle_plastic",
+    "recycle_metal",
+    "recycle_paper_cardboard",
+    "recycle_glass",
+    "dispose_general_waste",
+    "manual_cleaning_required"
+  ],
+
+  "taco_category_map": {
+    "Clear plastic bottle": { "category": "plastic_bottle", "material": "plastic_rigid" },
+    "Other plastic bottle": { "category": "plastic_bottle", "material": "plastic_rigid" },
+    "Plastic bottle cap": { "category": "cup_lid", "material": "plastic_rigid" },
+    "Metal bottle cap": { "category": "cup_lid", "material": "metal_aluminum" },
+    "Aluminium foil": { "category": "other_litter", "material": "metal_aluminum" },
+    "Broken glass": { "category": "glass_bottle", "material": "glass" },
+    "Glass bottle": { "category": "glass_bottle", "material": "glass" },
+    "Glass jar": { "category": "glass_bottle", "material": "glass" },
+    "Drink can": { "category": "metal_can", "material": "metal_aluminum" },
+    "Food can": { "category": "metal_can", "material": "metal_steel" },
+    "Aerosol": { "category": "metal_can", "material": "metal_aluminum" },
+    "Drink carton": { "category": "drink_carton", "material": "composite_multilayer" },
+    "Corrugated carton": { "category": "cardboard_box", "material": "paper_cardboard" },
+    "Meal carton": { "category": "food_container", "material": "paper_cardboard" },
+    "Pizza box": { "category": "cardboard_box", "material": "paper_cardboard" },
+    "Paper bag": { "category": "plastic_bag_wrapper", "material": "paper_cardboard" },
+    "Plastified paper bag": { "category": "plastic_bag_wrapper", "material": "composite_multilayer" },
+    "Garbage bag": { "category": "plastic_bag_wrapper", "material": "plastic_film" },
+    "Single-use carrier bag": { "category": "plastic_bag_wrapper", "material": "plastic_film" },
+    "Polypropylene bag": { "category": "plastic_bag_wrapper", "material": "plastic_film" },
+    "Crisp packet": { "category": "plastic_bag_wrapper", "material": "composite_multilayer" },
+    "Spread tub": { "category": "food_container", "material": "plastic_rigid" },
+    "Tupperware": { "category": "food_container", "material": "plastic_rigid" },
+    "Disposable food container": { "category": "food_container", "material": "plastic_rigid" },
+    "Foam food container": { "category": "food_container", "material": "styrofoam" },
+    "Other plastic container": { "category": "food_container", "material": "plastic_rigid" },
+    "Plastic film": { "category": "plastic_bag_wrapper", "material": "plastic_film" },
+    "Six pack rings": { "category": "other_litter", "material": "plastic_rigid" },
+    "Plastic glooves": { "category": "other_litter", "material": "plastic_film" },
+    "Plastic utensils": { "category": "other_litter", "material": "plastic_rigid" },
+    "Plastic straw": { "category": "other_litter", "material": "plastic_rigid" },
+    "Other plastic": { "category": "other_litter", "material": "plastic_rigid" },
+    "Disposable plastic cup": { "category": "cup_lid", "material": "plastic_rigid" },
+    "Foam cup": { "category": "cup_lid", "material": "styrofoam" },
+    "Other plastic cup": { "category": "cup_lid", "material": "plastic_rigid" },
+    "Plastic lid": { "category": "cup_lid", "material": "plastic_rigid" },
+    "Metal lid": { "category": "cup_lid", "material": "metal_aluminum" },
+    "Paper cup": { "category": "cup_lid", "material": "paper_cardboard" },
+    "Normal paper": { "category": "paper_tissue", "material": "paper_cardboard" },
+    "Tissues": { "category": "paper_tissue", "material": "paper_cardboard" },
+    "Wrapping paper": { "category": "paper_tissue", "material": "paper_cardboard" },
+    "Magazine paper": { "category": "paper_tissue", "material": "paper_cardboard" },
+    "Paper straw": { "category": "other_litter", "material": "paper_cardboard" },
+    "Cigarette": { "category": "cigarette_butt", "material": "composite_multilayer" },
+    "Rope & strings": { "category": "other_litter", "material": "plastic_film" },
+    "Squeezable tube": { "category": "other_litter", "material": "composite_multilayer" },
+    "Scrap metal": { "category": "other_litter", "material": "metal_steel" },
+    "Shoe": { "category": "other_litter", "material": "composite_multilayer" },
+    "Battery": { "category": "other_litter", "material": "composite_multilayer" },
+    "Unlabeled litter": { "category": "other_litter", "material": "composite_multilayer" },
+    "Pop tab": { "category": "other_litter", "material": "metal_aluminum" },
+    "Styrofoam piece": { "category": "styrofoam", "material": "styrofoam" },
+    "Other carton": { "category": "cardboard_box", "material": "paper_cardboard" },
+    "Egg carton": { "category": "food_container", "material": "paper_cardboard" }
+  },
+
+  "zerowaste_category_map": {
+    "rigid_plastic":  { "category": "food_container", "material": "plastic_rigid" },
+    "cardboard":      { "category": "cardboard_box",  "material": "paper_cardboard" },
+    "metal":          { "category": "metal_can",       "material": "metal_aluminum" },
+    "soft_plastic":   { "category": "plastic_bag_wrapper", "material": "plastic_film" }
+  }
+}
