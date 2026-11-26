@@ -34,6 +34,14 @@ python -m pip install --upgrade pip
 
 REM Install dependencies
 echo [4/5] Installing dependencies...
+nvidia-smi >nul 2>&1
+if not errorlevel 1 (
+    echo [INFO] NVIDIA GPU detected. Installing PyTorch with CUDA 12.1 support...
+    pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+) else (
+    echo [INFO] No NVIDIA GPU detected. Installing standard PyTorch...
+    pip install torch torchvision
+)
 pip install -r requirements.txt
 
 REM Create data directories

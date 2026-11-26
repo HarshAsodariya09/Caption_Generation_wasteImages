@@ -21,6 +21,7 @@ data/processed/
 *.bmp
 *.tiff
 !docs/*.png
+!docs/**/*.png
 
 # Model weights
 models/

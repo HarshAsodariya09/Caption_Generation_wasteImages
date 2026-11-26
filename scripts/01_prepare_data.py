@@ -1,22 +1,13 @@
 #!/usr/bin/env python3
 """
-01_prepare_data.py – Week 1: Merge TACO & ZeroWaste into unified schema and split.
+01_prepare_data.py – Week 1: Prepare TACO into unified schema and 70/15/15 split.
 
 Usage (local):
     python scripts/01_prepare_data.py \
         --taco_dir  data/raw/TACO \
-        --zw_dir    data/raw/zerowaste \
-        --output    data/annotations/week1_base.json \
-        --img_out   data/processed \
+        --output    data/annotations/waste_dataset.json \
+        --img_out   data/images \
         --seed 42
-
-The script:
-  1. Reads TACO annotations.json (COCO format).
-  2. Reads ZeroWaste annotations (COCO format).
-  3. Maps every category → unified taxonomy (config/taxonomy.json).
-  4. Copies / symlinks images into data/processed/{train,val,test}/.
-  5. Splits 70/15/15 by image (stratified by dominant category when possible).
-  6. Writes data/annotations/week1_base.json with empty caption fields.
 """
 
 import argparse
@@ -25,7 +16,15 @@ import os
 import pathlib
 import random
 import shutil
+import sys
 from collections import Counter, defaultdict
+
+if sys.platform == "win32":
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+        sys.stderr.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
 
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -63,18 +62,9 @@ def map_taco_category(cat_name: str, taco_map: dict) -> dict:
     """Map a TACO category name to unified category + material."""
     if cat_name in taco_map:
         return taco_map[cat_name]
-    # Fuzzy fallback – try stripping whitespace
     stripped = cat_name.strip()
     if stripped in taco_map:
         return taco_map[stripped]
-    return {"category": "other_litter", "material": "composite_multilayer"}
-
-
-def map_zerowaste_category(cat_name: str, zw_map: dict) -> dict:
-    """Map a ZeroWaste category name to unified category + material."""
-    key = cat_name.lower().replace(" ", "_")
-    if key in zw_map:
-        return zw_map[key]
     return {"category": "other_litter", "material": "composite_multilayer"}
 
 
@@ -138,15 +128,35 @@ def load_taco(taco_dir: str, taxonomy: dict) -> list[dict]:
         if not os.path.exists(img_path):
             continue  # skip missing images
 
+        # Inspect real image resolution and calculate scale if downloaded as resized (e.g. 640px)
+        try:
+            with Image.open(img_path) as _im:
+                real_w, real_h = _im.size
+        except Exception:
+            real_w, real_h = img_info.get("width", 0), img_info.get("height", 0)
+
+        meta_w = img_info.get("width", real_w) or real_w
+        meta_h = img_info.get("height", real_h) or real_h
+        scale_x = real_w / meta_w if meta_w > 0 else 1.0
+        scale_y = real_h / meta_h if meta_h > 0 else 1.0
+
         image_id = f"taco_{img_id:06d}"
         objects = []
         for idx, ann in enumerate(anns_by_img.get(img_id, []), start=1):
             cat_name = cat_id_to_name.get(ann["category_id"], "Unlabeled litter")
             mapped = map_taco_category(cat_name, taco_map)
 
+            raw_bbox = ann.get("bbox", [0, 0, 0, 0])
+            scaled_bbox = [
+                round(raw_bbox[0] * scale_x, 1),
+                round(raw_bbox[1] * scale_y, 1),
+                round(raw_bbox[2] * scale_x, 1),
+                round(raw_bbox[3] * scale_y, 1),
+            ]
+
             obj = {
                 "object_id": f"{image_id}_obj_{idx}",
-                "bbox": ann.get("bbox", [0, 0, 0, 0]),
+                "bbox": scaled_bbox,
                 "segmentation": ann.get("segmentation", []),
                 "original_label": cat_name,
                 "structured_attributes": {
@@ -159,7 +169,6 @@ def load_taco(taco_dir: str, taxonomy: dict) -> list[dict]:
                 "candidate_captions": {
                     "blip2": "",
                     "qwen2_5_vl": "",
-                    "llava": "",
                 },
                 "metrics": {
                     "clip_score_blip2": 0.0,
@@ -179,8 +188,8 @@ def load_taco(taco_dir: str, taxonomy: dict) -> list[dict]:
             "file_name": "",  # filled after split
             "source_dataset": "TACO",
             "split": "",      # filled after split
-            "width": img_info.get("width", 0),
-            "height": img_info.get("height", 0),
+            "width": real_w,
+            "height": real_h,
             "scene_context": "",
             "scene_caption_blip2": "",
             "scene_caption_qwen": "",
@@ -200,102 +209,21 @@ def load_taco(taco_dir: str, taxonomy: dict) -> list[dict]:
 
 
 # ──────────────────────────────────────────────
-# ZeroWaste Loader
-# ──────────────────────────────────────────────
-
-def load_zerowaste(zw_dir: str, taxonomy: dict) -> list[dict]:
-    """Parse ZeroWaste COCO-format annotations → list of unified records."""
-    # ZeroWaste typically has train/val/test sub-folders each with an annotations JSON
-    zw_map = taxonomy.get("zerowaste_category_map", {})
-    records = []
-
-    for sub in ["train", "val", "test"]:
-        ann_path = os.path.join(zw_dir, sub, "annotations.json")
-        if not os.path.exists(ann_path):
-            ann_path = os.path.join(zw_dir, sub, "sem_train_coco.json") 
-            if not os.path.exists(ann_path):
-                continue
-
-        data = load_json(ann_path)
-        cat_id_to_name = {c["id"]: c["name"] for c in data.get("categories", [])}
-        img_lookup = {img["id"]: img for img in data.get("images", [])}
-
-        anns_by_img = defaultdict(list)
-        for ann in data.get("annotations", []):
-            anns_by_img[ann["image_id"]].append(ann)
-
-        for img_id, img_info in tqdm(img_lookup.items(), desc=f"Loading ZeroWaste/{sub}"):
-            fname = img_info["file_name"]
-            img_path = os.path.join(zw_dir, sub, "data", fname)
-            if not os.path.exists(img_path):
-                img_path = os.path.join(zw_dir, sub, fname)
-            if not os.path.exists(img_path):
-                continue
-
-            image_id = f"zw_{img_id:06d}"
-            objects = []
-            for idx, ann in enumerate(anns_by_img.get(img_id, []), start=1):
-                cat_name = cat_id_to_name.get(ann["category_id"], "rigid_plastic")
-                mapped = map_zerowaste_category(cat_name, zw_map)
-
-                obj = {
-                    "object_id": f"{image_id}_obj_{idx}",
-                    "bbox": ann.get("bbox", [0, 0, 0, 0]),
-                    "segmentation": ann.get("segmentation", []),
-                    "original_label": cat_name,
-                    "structured_attributes": {
-                        "category": mapped["category"],
-                        "material": mapped["material"],
-                        "condition": [],
-                        "spatial_location": "",
-                        "sorting_action": infer_sorting_action(mapped["material"]),
-                    },
-                    "candidate_captions": {
-                        "blip2": "",
-                        "qwen2_5_vl": "",
-                        "llava": "",
-                    },
-                    "metrics": {
-                        "clip_score_blip2": 0.0,
-                        "clip_score_qwen": 0.0,
-                    },
-                    "human_review": {
-                        "status": "pending",
-                        "verified_caption": "",
-                        "sorting_instruction": "",
-                        "hallucination_flagged": False,
-                    },
-                }
-                objects.append(obj)
-
-            record = {
-                "image_id": image_id,
-                "file_name": "",
-                "source_dataset": "ZeroWaste",
-                "split": "",
-                "width": img_info.get("width", 0),
-                "height": img_info.get("height", 0),
-                "scene_context": "high_clutter_conveyor_pile",
-                "scene_caption_blip2": "",
-                "scene_caption_qwen": "",
-                "verified_scene_caption": "",
-                "objects": objects,
-                "_src_path": img_path,
-                "_dominant_category": (
-                    Counter(o["structured_attributes"]["category"] for o in objects).most_common(1)[0][0]
-                    if objects else "other_litter"
-                ),
-            }
-            records.append(record)
-
-    print(f"  → ZeroWaste: {len(records)} images, "
-          f"{sum(len(r['objects']) for r in records)} objects")
-    return records
-
-
-# ──────────────────────────────────────────────
 # Split & Finalize
 # ──────────────────────────────────────────────
+
+def make_safe_stratify(labels: list[str], min_count: int = 2) -> list[str] | None:
+    """Ensure every class has >= min_count members, or merge rare into most common."""
+    if not labels:
+        return None
+    counts = Counter(labels)
+    most_common = counts.most_common(1)[0][0]
+    safe = [l if counts[l] >= min_count else most_common for l in labels]
+    safe_counts = Counter(safe)
+    if len(safe_counts) < 2 or any(c < min_count for c in safe_counts.values()):
+        return None
+    return safe
+
 
 def split_and_copy(records: list[dict], img_out: str, seed: int = 42):
     """
@@ -306,26 +234,29 @@ def split_and_copy(records: list[dict], img_out: str, seed: int = 42):
         return records
 
     labels = [r["_dominant_category"] for r in records]
-
-    # Ensure every class has ≥ 2 members for stratification
-    class_counts = Counter(labels)
-    safe_labels = [
-        l if class_counts[l] >= 2 else "__OTHER__" for l in labels
-    ]
-
     indices = list(range(len(records)))
-    train_idx, temp_idx = train_test_split(
-        indices, test_size=0.30, random_state=seed, stratify=safe_labels
-    )
+
+    strat1 = make_safe_stratify(labels, min_count=2)
+    try:
+        train_idx, temp_idx = train_test_split(
+            indices, test_size=0.30, random_state=seed, stratify=strat1
+        )
+    except Exception:
+        train_idx, temp_idx = train_test_split(
+            indices, test_size=0.30, random_state=seed, stratify=None
+        )
+
     # Now split temp → val + test (50/50 of 30% → 15/15)
-    temp_labels = [safe_labels[i] for i in temp_idx]
-    temp_class_counts = Counter(temp_labels)
-    safe_temp_labels = [
-        l if temp_class_counts[l] >= 2 else "__OTHER__" for l in temp_labels
-    ]
-    val_idx, test_idx = train_test_split(
-        temp_idx, test_size=0.50, random_state=seed, stratify=safe_temp_labels
-    )
+    temp_labels = [labels[i] for i in temp_idx]
+    strat2 = make_safe_stratify(temp_labels, min_count=2)
+    try:
+        val_idx, test_idx = train_test_split(
+            temp_idx, test_size=0.50, random_state=seed, stratify=strat2
+        )
+    except Exception:
+        val_idx, test_idx = train_test_split(
+            temp_idx, test_size=0.50, random_state=seed, stratify=None
+        )
 
     split_map = {}
     for i in train_idx:
@@ -389,14 +320,12 @@ def print_stats(records: list[dict]):
 # ──────────────────────────────────────────────
 
 def main():
-    parser = argparse.ArgumentParser(description="Week 1: Prepare and merge waste datasets.")
+    parser = argparse.ArgumentParser(description="Week 1: Prepare TACO waste dataset.")
     parser.add_argument("--taco_dir", type=str, default="data/raw/TACO",
                         help="Path to cloned TACO repository root.")
-    parser.add_argument("--zw_dir", type=str, default="data/raw/zerowaste",
-                        help="Path to unzipped ZeroWaste directory.")
     parser.add_argument("--config_dir", type=str, default="config",
                         help="Path to config/ directory with taxonomy.json.")
-    parser.add_argument("--output", type=str, default="data/annotations/week1_base.json",
+    parser.add_argument("--output", type=str, default="data/annotations/waste_dataset.json",
                         help="Output JSON path.")
     parser.add_argument("--img_out", type=str, default="data/processed",
                         help="Root for processed image splits.")
@@ -405,7 +334,7 @@ def main():
                         help="If >0, randomly sample this many images total (useful for testing).")
     args = parser.parse_args()
 
-    print("\n🗂  Week 1 – Data Preparation")
+    print("\n🗂  Week 1 – TACO Data Preparation")
     print("-" * 40)
 
     taxonomy = load_taxonomy(args.config_dir)
@@ -417,12 +346,6 @@ def main():
         records.extend(load_taco(args.taco_dir, taxonomy))
     else:
         print(f"  ⚠  TACO directory not found: {args.taco_dir}")
-
-    # Load ZeroWaste
-    if os.path.isdir(args.zw_dir):
-        records.extend(load_zerowaste(args.zw_dir, taxonomy))
-    else:
-        print(f"  ⚠  ZeroWaste directory not found: {args.zw_dir}")
 
     if not records:
         print("\n  ❌  No images found. Please download datasets first.")

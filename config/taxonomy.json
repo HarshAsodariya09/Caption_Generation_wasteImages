@@ -35,8 +35,60 @@
     "crumpled",
     "dirty_soiled",
     "liquid_filled",
-    "partially_occluded"
+    "partially_occluded",
+    "weathered",
+    "deformed",
+    "soiled",
+    "clean"
   ],
+
+  "polymer_resins": [
+    "pet_type_1",
+    "hdpe_type_2",
+    "pvc_type_3",
+    "ldpe_type_4",
+    "pp_type_5",
+    "ps_type_6",
+    "other_plastic_type_7",
+    "non_ferrous_aluminum",
+    "ferrous_steel",
+    "soda_lime_glass",
+    "corrugated_cardboard",
+    "mixed_paper_fiber",
+    "aseptic_composite"
+  ],
+
+  "optical_properties": [
+    "clear_transparent",
+    "tinted_translucent",
+    "opaque_solid",
+    "reflective_metallic"
+  ],
+
+  "contamination_levels": [
+    "clean_uncontaminated",
+    "weathered_uv_degraded",
+    "surface_dirt_soil",
+    "oil_grease_stained",
+    "organic_food_residue",
+    "liquid_filled_heavy"
+  ],
+
+  "industrial_sorting_mechanisms": [
+    "robotic_delta_suction",
+    "robotic_delta_mechanical_gripper",
+    "high_speed_pneumatic_air_jet",
+    "overband_magnet_ferrous",
+    "eddy_current_non_ferrous",
+    "air_classifier_trommel",
+    "manual_quality_control"
+  ],
+
+  "expert_vlm_prompts": {
+    "scene_comprehensive_qwen": "You are an expert industrial recycling engineer and computer vision system operating in a Material Recovery Facility (MRF). Analyze this waste scene in comprehensive technical detail:\n1. Environment & Setting: Identify the inspection context (e.g. high-speed conveyor belt, urban pavement, natural soil), ambient lighting, and background clutter level.\n2. Detected Waste Entities: Identify and enumerate every visible waste object, noting its precise category (e.g. beverage bottle, cup lid, food carton, flexible film) and spatial arrangement.\n3. Material Composition & Optical Properties: Classify the material substrate (PET plastic, HDPE, aluminum alloy, corrugated cardboard, silica glass), noting if it is transparent, opaque, or metallic reflective.\n4. Physical Condition & Contamination: Characterize the mechanical deformation (crushed, flattened, intact, torn) and surface state (weathered, sun-bleached, soiled with organic residue, liquid-filled).\n5. Industrial Routing & Robotics: Recommend the automated sorting destination (Bin #1 Plastics, Bin #2 Metals, Bin #3 Paper/Cardboard, Bin #4 Glass, Bin #5 Landfill/Residue) and appropriate robotic actuator (pneumatic suction, optical air-jet, or mechanical clamp).",
+    "object_fine_grained_qwen": "Examine this isolated waste item closely. Provide an expert technical description covering:\n- Exact product packaging identity and likely commercial origin (e.g., single-use beverage bottle, food condiment lid, shipping box scrap)\n- Polymer resin and substrate classification (e.g., rigid PET #1, HDPE #2, aluminum 3000-series, OCC kraft paperboard)\n- Physical deformation, structural integrity, and surface contamination (crushed, weathered, soil encrusted)\n- Recommended automated MRF sorting bin stream and robotic pick-and-place actuator handling instructions.",
+    "object_vqa_blip2": "Question: What is this waste object, what specific material is it made of, what is its physical condition, and how should it be sorted? Answer:"
+  },
 
   "scene_contexts": [
     "isolated_clean_background",
@@ -54,6 +106,24 @@
     "dispose_general_waste",
     "manual_cleaning_required"
   ],
+
+  "literature_references": {
+    "prompt_engineering": "Malla et al. (2025) 'Enhancing waste recognition with vision-language models: A prompt engineering approach for a scalable solution', Waste Management 204, 114939.",
+    "optimal_vlm_backbone": "OpenCLIP ViT-L/14-2B (3.79 ms inference, 90.48% zero-shot accuracy)",
+    "real_time_conveyor_fps_threshold": "30-60 FPS (Prasad and Arashpour, 2025)"
+  },
+
+  "malla_2025_optimized_prompts": {
+    "cardboard_box": "an image of cardboard waste",
+    "glass_bottle": "a picture of a glass jar and beer bottles",
+    "metal_can": "an image of metal and tin cans",
+    "plastic_bag_wrapper": "a reusable plastic bag and flexible film",
+    "cup_lid": "a picture of a disposable paper cup and plastic lid",
+    "paper_tissue": "a stack of old newspapers and paper tissue waste",
+    "food_container": "an image of disposable food packaging and meal tubs",
+    "plastic_bottle": "a picture of discarded plastic bottles and containers",
+    "other_litter": "an image of scrap metal, shuttering pipe and mixed waste litter"
+  },
 
   "taco_category_map": {
     "Clear plastic bottle": { "category": "plastic_bottle", "material": "plastic_rigid" },
@@ -110,12 +180,5 @@
     "Styrofoam piece": { "category": "styrofoam", "material": "styrofoam" },
     "Other carton": { "category": "cardboard_box", "material": "paper_cardboard" },
     "Egg carton": { "category": "food_container", "material": "paper_cardboard" }
-  },
-
-  "zerowaste_category_map": {
-    "rigid_plastic":  { "category": "food_container", "material": "plastic_rigid" },
-    "cardboard":      { "category": "cardboard_box",  "material": "paper_cardboard" },
-    "metal":          { "category": "metal_can",       "material": "metal_aluminum" },
-    "soft_plastic":   { "category": "plastic_bag_wrapper", "material": "plastic_film" }
   }
 }

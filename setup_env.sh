@@ -34,6 +34,13 @@ pip install --upgrade pip
 
 # Install dependencies
 echo "[4/5] Installing dependencies..."
+if command -v nvidia-smi &> /dev/null; then
+    echo "[INFO] NVIDIA GPU detected. Installing PyTorch with CUDA 12.1..."
+    pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+else
+    echo "[INFO] Installing standard PyTorch..."
+    pip install torch torchvision
+fi
 pip install -r requirements.txt
 
 # Create data directories

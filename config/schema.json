@@ -15,7 +15,7 @@
     },
     "source_dataset": {
       "type": "string",
-      "enum": ["TACO", "ZeroWaste", "COCO", "custom"]
+      "enum": ["TACO", "custom"]
     },
     "split": {
       "type": "string",
@@ -34,8 +34,20 @@
       ]
     },
     "scene_caption_blip2": { "type": "string", "default": "" },
+    "scene_caption_blip2_baseline": { "type": "string", "default": "" },
+    "scene_caption_blip2_finetuned": { "type": "string", "default": "" },
     "scene_caption_qwen":  { "type": "string", "default": "" },
+    "scene_caption_qwen_baseline": { "type": "string", "default": "" },
     "verified_scene_caption": { "type": "string", "default": "" },
+    "ground_truth_metadata": {
+      "type": "object",
+      "properties": {
+        "primary_category": { "type": "string" },
+        "material": { "type": "string" },
+        "condition": { "type": "string" },
+        "destination_bin": { "type": "string" }
+      }
+    },
     "objects": {
       "type": "array",
       "items": {
@@ -68,6 +80,7 @@
                 "type": "array",
                 "items": { "type": "string" }
               },
+              "count": { "type": "integer", "minimum": 1, "default": 1 },
               "spatial_location": { "type": "string" },
               "sorting_action":   { "type": "string" }
             }
@@ -75,9 +88,12 @@
           "candidate_captions": {
             "type": "object",
             "properties": {
-              "blip2":      { "type": "string", "default": "" },
-              "qwen2_5_vl": { "type": "string", "default": "" },
-              "llava":      { "type": "string", "default": "" }
+              "blip2":           { "type": "string", "default": "" },
+              "blip2_baseline":  { "type": "string", "default": "" },
+              "blip2_finetuned": { "type": "string", "default": "" },
+              "qwen2_5_vl":      { "type": "string", "default": "" },
+              "qwen_baseline":   { "type": "string", "default": "" },
+              "ground_truth":    { "type": "string", "default": "" }
             }
           },
           "metrics": {
