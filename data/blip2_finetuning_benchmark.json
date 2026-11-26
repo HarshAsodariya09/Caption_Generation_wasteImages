@@ -1,0 +1,16 @@
+{
+  "model_architecture": "Salesforce/blip2-opt-2.7b",
+  "base_language_model": "Meta OPT-2.7B",
+  "adaptation_technique": "LoRA (r=16, alpha=32 on q_proj & v_proj)",
+  "training_time_minutes": 4.6,
+  "epochs": 5,
+  "train_samples": 417,
+  "val_samples": 346,
+  "test_samples": 40,
+  "data_leakage": "ZERO LEAKAGE (Trained exclusively on train split, evaluated strictly on held-out test split)",
+  "initial_val_loss": 1.9891,
+  "final_val_loss": 0.1057,
+  "baseline_clip_score": 25.15,
+  "finetuned_clip_score": 23.23,
+  "clip_score_gain": -1.92
+}

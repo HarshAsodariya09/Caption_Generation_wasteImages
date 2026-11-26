@@ -1,0 +1,132 @@
+{
+  "evaluation_summary": {
+    "primary_scope": "Clean Matched Ablation (n=220 scenes, taco_000000..taco_000219 \u2014 excludes 73 high-res 6000x4000 Qwen T4 OOM scenes)",
+    "full_dataset_scenes": 293,
+    "clean_paired_scenes": 220,
+    "note": "Raw Qwen2-VL hit CUDA OOM on 73 full-res images (220..292) without 640px thumbnails; primary Qwen Before/After uses clean matched n=220 while full n=293 metrics are also recorded."
+  },
+  "models": {
+    "blip2_zero_shot": {
+      "name": "BLIP-2 (Zero-Shot, No Taxonomy)",
+      "n_evaluated": 220,
+      "gt_alignment_score": 25.9,
+      "clip_score": 25.9,
+      "bleu_1": 0.48,
+      "bleu_2": 0.1,
+      "rouge_l_f1": 4.78,
+      "bin_accuracy_pct": 7.7,
+      "explicit_stream_pct": 0.0,
+      "avg_words": 5.8
+    },
+    "blip2_finetuned_lora": {
+      "name": "BLIP-2 (LoRA Fine-Tuned + Taxonomy)",
+      "n_evaluated": 220,
+      "gt_alignment_score": 47.4,
+      "clip_score": 47.4,
+      "bleu_1": 2.2,
+      "bleu_2": 1.03,
+      "rouge_l_f1": 14.68,
+      "bin_accuracy_pct": 100.0,
+      "explicit_stream_pct": 100.0,
+      "avg_words": 11.2
+    },
+    "qwen_zero_shot": {
+      "name": "Qwen2-VL (Zero-Shot, No Taxonomy)",
+      "n_evaluated": 220,
+      "gt_alignment_score": 40.6,
+      "clip_score": 40.6,
+      "bleu_1": 9.34,
+      "bleu_2": 2.4,
+      "rouge_l_f1": 11.97,
+      "bin_accuracy_pct": 22.3,
+      "explicit_stream_pct": 0.5,
+      "avg_words": 23.9
+    },
+    "qwen2_5_vl": {
+      "name": "Qwen2.5-VL (Domain Prompted + Schema)",
+      "n_evaluated": 220,
+      "gt_alignment_score": 53.9,
+      "clip_score": 53.9,
+      "bleu_1": 21.54,
+      "bleu_2": 12.81,
+      "rouge_l_f1": 20.2,
+      "bin_accuracy_pct": 44.5,
+      "explicit_stream_pct": 0.9,
+      "avg_words": 74.1
+    },
+    "human_ground_truth": {
+      "name": "Gold Ground Truth (Human Vetted)",
+      "n_evaluated": 220,
+      "gt_alignment_score": 100.0,
+      "clip_score": 100.0,
+      "bleu_1": 100.0,
+      "bleu_2": 100.0,
+      "rouge_l_f1": 100.0,
+      "bin_accuracy_pct": 100.0,
+      "explicit_stream_pct": 100.0,
+      "avg_words": 46.4
+    }
+  },
+  "models_full_293": {
+    "blip2_zero_shot": {
+      "name": "BLIP-2 (Zero-Shot, No Taxonomy)",
+      "n_evaluated": 293,
+      "gt_alignment_score": 27.7,
+      "clip_score": 27.7,
+      "bleu_1": 0.5,
+      "bleu_2": 0.11,
+      "rouge_l_f1": 4.82,
+      "bin_accuracy_pct": 14.3,
+      "explicit_stream_pct": 0.0,
+      "avg_words": 5.8
+    },
+    "blip2_finetuned_lora": {
+      "name": "BLIP-2 (LoRA Fine-Tuned + Taxonomy)",
+      "n_evaluated": 293,
+      "gt_alignment_score": 45.6,
+      "clip_score": 45.6,
+      "bleu_1": 2.71,
+      "bleu_2": 1.1,
+      "rouge_l_f1": 13.26,
+      "bin_accuracy_pct": 81.2,
+      "explicit_stream_pct": 100.0,
+      "avg_words": 12.8
+    },
+    "qwen_zero_shot": {
+      "name": "Qwen2-VL (Zero-Shot, No Taxonomy)",
+      "n_evaluated": 293,
+      "gt_alignment_score": 38.5,
+      "clip_score": 38.5,
+      "bleu_1": 7.02,
+      "bleu_2": 1.8,
+      "rouge_l_f1": 11.03,
+      "bin_accuracy_pct": 16.7,
+      "explicit_stream_pct": 0.3,
+      "avg_words": 19.2
+    },
+    "qwen2_5_vl": {
+      "name": "Qwen2.5-VL (Domain Prompted + Schema)",
+      "n_evaluated": 293,
+      "gt_alignment_score": 65.0,
+      "clip_score": 65.0,
+      "bleu_1": 41.09,
+      "bleu_2": 34.54,
+      "rouge_l_f1": 40.08,
+      "bin_accuracy_pct": 58.4,
+      "explicit_stream_pct": 25.6,
+      "avg_words": 67.0
+    },
+    "human_ground_truth": {
+      "name": "Gold Ground Truth (Human Vetted)",
+      "n_evaluated": 293,
+      "gt_alignment_score": 100.0,
+      "clip_score": 100.0,
+      "bleu_1": 100.0,
+      "bleu_2": 100.0,
+      "rouge_l_f1": 100.0,
+      "bin_accuracy_pct": 100.0,
+      "explicit_stream_pct": 100.0,
+      "avg_words": 46.2
+    }
+  }
+}

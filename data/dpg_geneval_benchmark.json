@@ -1,0 +1,90 @@
+{
+  "benchmark_description": "DPG-Bench (0-100) & GenEval (0.00-1.00) \u2014 Before (No Taxonomy) vs After (Our Pipeline)",
+  "primary_scope": "Clean matched n=220 scenes (taco_000000..taco_000219, zero OOM fallback)",
+  "models": {
+    "blip2_baseline": {
+      "name": "BLIP-2 (Zero-Shot, No Taxonomy)",
+      "n_evaluated": 220,
+      "dpg_bench": 12.2,
+      "geneval": 0.251
+    },
+    "blip2_lora": {
+      "name": "BLIP-2 (LoRA Fine-Tuned + Taxonomy)",
+      "n_evaluated": 220,
+      "dpg_bench": 39.09,
+      "geneval": 0.475
+    },
+    "qwen_baseline": {
+      "name": "Qwen2-VL (Zero-Shot, No Taxonomy)",
+      "n_evaluated": 220,
+      "dpg_bench": 35.73,
+      "geneval": 0.434
+    },
+    "qwen2_5_vl": {
+      "name": "Qwen2.5-VL (Domain Prompted + Schema)",
+      "n_evaluated": 220,
+      "dpg_bench": 56.2,
+      "geneval": 0.58
+    },
+    "gold_ground_truth": {
+      "name": "Gold Ground Truth (Human Vetted)",
+      "n_evaluated": 220,
+      "dpg_bench": 74.77,
+      "geneval": 0.669
+    }
+  },
+  "models_full_293": {
+    "blip2_baseline": {
+      "name": "BLIP-2 (Zero-Shot, No Taxonomy)",
+      "n_evaluated": 293,
+      "dpg_bench": 12.26,
+      "geneval": 0.257
+    },
+    "blip2_lora": {
+      "name": "BLIP-2 (LoRA Fine-Tuned + Taxonomy)",
+      "n_evaluated": 293,
+      "dpg_bench": 42.6,
+      "geneval": 0.525
+    },
+    "qwen_baseline": {
+      "name": "Qwen2-VL (Zero-Shot, No Taxonomy)",
+      "n_evaluated": 293,
+      "dpg_bench": 35.33,
+      "geneval": 0.426
+    },
+    "qwen2_5_vl": {
+      "name": "Qwen2.5-VL (Domain Prompted + Schema)",
+      "n_evaluated": 293,
+      "dpg_bench": 61.7,
+      "geneval": 0.601
+    },
+    "gold_ground_truth": {
+      "name": "Gold Ground Truth (Human Vetted)",
+      "n_evaluated": 293,
+      "dpg_bench": 75.65,
+      "geneval": 0.668
+    }
+  },
+  "literature_baselines": {
+    "OmniGen2": {
+      "dpg_bench": 83.48,
+      "geneval": 0.77
+    },
+    "BAGEL": {
+      "dpg_bench": 84.07,
+      "geneval": 0.79
+    },
+    "Show-O": {
+      "dpg_bench": 67.27,
+      "geneval": 0.68
+    },
+    "Janus-pro": {
+      "dpg_bench": 84.19,
+      "geneval": 0.8
+    },
+    "xLARD": {
+      "dpg_bench": 86.45,
+      "geneval": 0.81
+    }
+  }
+}
