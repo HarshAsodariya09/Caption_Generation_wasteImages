@@ -1,0 +1,2346 @@
+[
+  {
+    "image_index": 0,
+    "image_id": "taco_000000",
+    "file_name": "data/images/taco_000000.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: I'm not sure what to caption this image",
+    "raw_qwen_caption": "A green glass bottle with a Buddha face design is placed on a wooden table. The bottle has the word \"Lucky\" written on it."
+  },
+  {
+    "image_index": 1,
+    "image_id": "taco_000001",
+    "file_name": "data/images/taco_000001.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a piece of paper with a tape measure on it",
+    "raw_qwen_caption": "A crumpled piece of corrugated cardboard with the text \"Freshly baked\" and a small image of a baked good on it, placed on a wooden surface."
+  },
+  {
+    "image_index": 2,
+    "image_id": "taco_000002",
+    "file_name": "data/images/taco_000002.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a bottle of water",
+    "raw_qwen_caption": "A discarded plastic water bottle lies on the ground next to a large, crumpled tarp. The bottle appears to be empty and is surrounded by debris on the pavement."
+  },
+  {
+    "image_index": 3,
+    "image_id": "taco_000003",
+    "file_name": "data/images/taco_000003.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: bottles, cans, plastic, plastic bottles, plastic bottles, plastic bottles, plastic bottles, plastic bottles, plastic bottles, plastic bottles, plastic bottles, plastic bottles, plastic bottles, plastic bottles, plastic",
+    "raw_qwen_caption": "The image shows a littered area with various pieces of discarded waste, including plastic bottles and a can, surrounded by greenery and leaves. The scene highlights the impact of litter on the environment."
+  },
+  {
+    "image_index": 4,
+    "image_id": "taco_000004",
+    "file_name": "data/images/taco_000004.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a can of beer",
+    "raw_qwen_caption": "A discarded aluminum can is partially buried in the grass, surrounded by green plants and leaves."
+  },
+  {
+    "image_index": 5,
+    "image_id": "taco_000005",
+    "file_name": "data/images/taco_000005.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "A bottle of cooking oil, a can of beans, and a can of soup are placed on a wooden surface."
+  },
+  {
+    "image_index": 6,
+    "image_id": "taco_000006",
+    "file_name": "data/images/taco_000006.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: Generate a caption for this waste image.",
+    "raw_qwen_caption": "A hand holds a can of Batiste dry shampoo in front of a tiled wall."
+  },
+  {
+    "image_index": 7,
+    "image_id": "taco_000007",
+    "file_name": "data/images/taco_000007.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a plastic bottle",
+    "raw_qwen_caption": "A discarded plastic water bottle lies on the ground near a tactile paving surface, indicating a pedestrian crossing area."
+  },
+  {
+    "image_index": 8,
+    "image_id": "taco_000008",
+    "file_name": "data/images/taco_000008.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a bottle of water",
+    "raw_qwen_caption": "A discarded plastic bottle lies on the ground, surrounded by small plants and weeds, near a green metal structure."
+  },
+  {
+    "image_index": 9,
+    "image_id": "taco_000009",
+    "file_name": "data/images/taco_000009.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A can of beans",
+    "raw_qwen_caption": "A can of Heinz baked beans is placed on a wooden countertop next to a stove."
+  },
+  {
+    "image_index": 10,
+    "image_id": "taco_000010",
+    "file_name": "data/images/taco_000010.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a bottle of alcohol",
+    "raw_qwen_caption": "A discarded glass bottle lies on the ground amidst a mix of green foliage and dry leaves, indicating littering in an outdoor area."
+  },
+  {
+    "image_index": 11,
+    "image_id": "taco_000011",
+    "file_name": "data/images/taco_000011.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: rubbish, plastic, plastic bags, plastic bottles, plastic bags, plastic bottles, plastic bags, plastic bottles, plastic bags, plastic bottles, plastic bags, plastic bottles, plastic bags, plastic bottles,",
+    "raw_qwen_caption": "The image shows a piece of litter, specifically a yellow can, lying on the ground near a blue metal fence. The area appears to be a natural setting with some greenery and dry grass. The can is partially crushed and has some white residue on it."
+  },
+  {
+    "image_index": 12,
+    "image_id": "taco_000012",
+    "file_name": "data/images/taco_000012.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A refrigerator with milk, juice, and a bottle of wine",
+    "raw_qwen_caption": "A variety of beverages are arranged on a shelf, including a bottle of wine, a bottle of Innocent juice, two cartons of Alpro almond milk, and a bottle of milk."
+  },
+  {
+    "image_index": 13,
+    "image_id": "taco_000013",
+    "file_name": "data/images/taco_000013.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: I'm not sure what to do with this bottle of juice",
+    "raw_qwen_caption": "\"Organic goodness in the fridge: fresh vegetables and a healthy juice bottle!\""
+  },
+  {
+    "image_index": 14,
+    "image_id": "taco_000014",
+    "file_name": "data/images/taco_000014.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "A hand holds a bottle of Lacura Suncare Aftersun Spray, which is dermatologically tested and contains soothing aloe vera for easy absorption."
+  },
+  {
+    "image_index": 15,
+    "image_id": "taco_000015",
+    "file_name": "data/images/taco_000015.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "A bottle of Cien moisturizing shampoo and a bottle of Radox liquid, both placed on a bathroom countertop."
+  },
+  {
+    "image_index": 16,
+    "image_id": "taco_000016",
+    "file_name": "data/images/taco_000016.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: I'm not sure what to do with this image",
+    "raw_qwen_caption": "A can of VSure Active Dry deodorant is placed on a white desk, with a window in the background showing a view of houses at dusk."
+  },
+  {
+    "image_index": 17,
+    "image_id": "taco_000017",
+    "file_name": "data/images/taco_000017.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a discarded shoe",
+    "raw_qwen_caption": "A discarded paper cup lies on the ground near a curb and a yellow line on a street."
+  },
+  {
+    "image_index": 18,
+    "image_id": "taco_000018",
+    "file_name": "data/images/taco_000018.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a plastic container",
+    "raw_qwen_caption": "A discarded can with a colorful pattern lies among fallen leaves and grass in a natural setting."
+  },
+  {
+    "image_index": 19,
+    "image_id": "taco_000019",
+    "file_name": "data/images/taco_000019.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A bottle of water",
+    "raw_qwen_caption": "A discarded, crumpled blue and white plastic bag lies on the ground, surrounded by dirt and small plants. The bag appears to be partially torn and has some white residue on it."
+  },
+  {
+    "image_index": 20,
+    "image_id": "taco_000020",
+    "file_name": "data/images/taco_000020.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: I'm not sure what to do with this image",
+    "raw_qwen_caption": "Two cans of Tesco Chickpeas in water are placed on a wooden table."
+  },
+  {
+    "image_index": 21,
+    "image_id": "taco_000021",
+    "file_name": "data/images/taco_000021.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: waste image",
+    "raw_qwen_caption": "A can of beans with an expiration date of June 2020 is placed on a wooden surface."
+  },
+  {
+    "image_index": 22,
+    "image_id": "taco_000022",
+    "file_name": "data/images/taco_000022.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: Red Bull can",
+    "raw_qwen_caption": "A hand is holding a can of Red Bull energy drink."
+  },
+  {
+    "image_index": 23,
+    "image_id": "taco_000023",
+    "file_name": "data/images/taco_000023.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "A bottle of Tesco Cream Cleaner lemon, a bottle of Ecover Toilet Cleaner, and a can of air freshener are placed on a tiled surface."
+  },
+  {
+    "image_index": 24,
+    "image_id": "taco_000024",
+    "file_name": "data/images/taco_000024.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "A hand is holding a can of Sure Men Active Dry deodorant."
+  },
+  {
+    "image_index": 25,
+    "image_id": "taco_000025",
+    "file_name": "data/images/taco_000025.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a bottle of coke and a plastic bag",
+    "raw_qwen_caption": "The image shows a discarded plastic bag and a beer bottle lying on the ground, surrounded by green ivy and branches. The scene is viewed through a chain-link fence, adding a sense of enclosure and isolation to the image."
+  },
+  {
+    "image_index": 26,
+    "image_id": "taco_000026",
+    "file_name": "data/images/taco_000026.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a bottle of beer",
+    "raw_qwen_caption": "A discarded Budweiser bottle lies among ivy and other vegetation, adding to the litter in the natural environment."
+  },
+  {
+    "image_index": 27,
+    "image_id": "taco_000027",
+    "file_name": "data/images/taco_000027.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A bottle of water and a bottle of coke",
+    "raw_qwen_caption": "The image shows a pile of litter in a natural setting, surrounded by greenery and fallen branches. The litter includes a plastic bottle, a can, and other small pieces of trash. This scene highlights the importance of proper waste disposal and the impact of litter on the environment."
+  },
+  {
+    "image_index": 28,
+    "image_id": "taco_000028",
+    "file_name": "data/images/taco_000028.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A bottle of water is found in the woods",
+    "raw_qwen_caption": "The image shows a pile of branches and twigs mixed with green ivy. There is a discarded plastic bottle and a blue object, possibly a piece of plastic or a small tool, among the vegetation. The scene appears to be an area where natural elements and discarded items have intertwined."
+  },
+  {
+    "image_index": 29,
+    "image_id": "taco_000029",
+    "file_name": "data/images/taco_000029.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a can of coke",
+    "raw_qwen_caption": "A discarded aluminum can is lying in a patch of grass and weeds, surrounded by green leaves and some brown foliage."
+  },
+  {
+    "image_index": 30,
+    "image_id": "taco_000030",
+    "file_name": "data/images/taco_000030.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a plastic container",
+    "raw_qwen_caption": "A discarded plastic container lies on the ground, surrounded by dry leaves and soil."
+  },
+  {
+    "image_index": 31,
+    "image_id": "taco_000031",
+    "file_name": "data/images/taco_000031.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a can of coke",
+    "raw_qwen_caption": "A discarded can of beer is surrounded by green foliage and debris, leaning against a brick wall."
+  },
+  {
+    "image_index": 32,
+    "image_id": "taco_000032",
+    "file_name": "data/images/taco_000032.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A can of soda",
+    "raw_qwen_caption": "A discarded aluminum can lies on the ground, surrounded by dirt and small pieces of debris. The can appears to be crushed and partially covered by soil."
+  },
+  {
+    "image_index": 33,
+    "image_id": "taco_000033",
+    "file_name": "data/images/taco_000033.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: I'm not sure what to do with this image",
+    "raw_qwen_caption": "Two cans on a wooden floor, with a shadow of a person holding a camera."
+  },
+  {
+    "image_index": 34,
+    "image_id": "taco_000034",
+    "file_name": "data/images/taco_000034.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: Red Bull",
+    "raw_qwen_caption": "A hand holding a can of Red Bull energy drink in a laundry room."
+  },
+  {
+    "image_index": 35,
+    "image_id": "taco_000035",
+    "file_name": "data/images/taco_000035.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: I'm not sure what to caption this image",
+    "raw_qwen_caption": "A can of V-Sure Active Dry sits on a desk next to a laptop, mouse, and some paperwork."
+  },
+  {
+    "image_index": 36,
+    "image_id": "taco_000036",
+    "file_name": "data/images/taco_000036.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a bottle of water",
+    "raw_qwen_caption": "A discarded plastic bottle lies on the ground near a metal fence and a brick building. The area appears to be a public space, possibly a park or a school yard."
+  },
+  {
+    "image_index": 37,
+    "image_id": "taco_000037",
+    "file_name": "data/images/taco_000037.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a bird's nest",
+    "raw_qwen_caption": "A discarded plastic bottle lies on the ground amidst a mix of green foliage and dry leaves, indicating littering in a natural environment."
+  },
+  {
+    "image_index": 38,
+    "image_id": "taco_000038",
+    "file_name": "data/images/taco_000038.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: rubbish",
+    "raw_qwen_caption": "The image shows a blue metal fence with ivy growing on it. There is some litter on the ground, including a red and white plastic bag and a piece of white plastic. The area appears to be neglected, with dry leaves and twigs scattered around."
+  },
+  {
+    "image_index": 39,
+    "image_id": "taco_000039",
+    "file_name": "data/images/taco_000039.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a bottle of water",
+    "raw_qwen_caption": "A discarded plastic bottle lies on the ground, surrounded by dry grass and a white wall."
+  },
+  {
+    "image_index": 40,
+    "image_id": "taco_000040",
+    "file_name": "data/images/taco_000040.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a bottle of pepsi",
+    "raw_qwen_caption": "A discarded green bottle lies in a patch of dry grass near a white wall."
+  },
+  {
+    "image_index": 41,
+    "image_id": "taco_000041",
+    "file_name": "data/images/taco_000041.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a bag of trash on the ground",
+    "raw_qwen_caption": "The image shows a piece of litter, specifically a plastic bag, lying on the ground amidst some green foliage and fallen leaves. The bag appears to be discarded and is surrounded by natural elements, highlighting the contrast between human waste and the natural environment."
+  },
+  {
+    "image_index": 42,
+    "image_id": "taco_000042",
+    "file_name": "data/images/taco_000042.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a can of beer",
+    "raw_qwen_caption": "A discarded can is lying in the grass, surrounded by leaves and plants."
+  },
+  {
+    "image_index": 43,
+    "image_id": "taco_000043",
+    "file_name": "data/images/taco_000043.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: Fairy liquid",
+    "raw_qwen_caption": "Two bottles of dishwashing liquid, one labeled \"Fairy Original,\" are placed on a wooden countertop in front of a kitchen scale."
+  },
+  {
+    "image_index": 44,
+    "image_id": "taco_000044",
+    "file_name": "data/images/taco_000044.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: canned food",
+    "raw_qwen_caption": "Three cans of food are placed on a textured countertop. The cans appear to contain different types of beans."
+  },
+  {
+    "image_index": 45,
+    "image_id": "taco_000045",
+    "file_name": "data/images/taco_000045.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: I have a pantry full of beans",
+    "raw_qwen_caption": "\"Variety of canned legumes on a shelf, including black beans, green lentils, and unspecified beans.\""
+  },
+  {
+    "image_index": 46,
+    "image_id": "taco_000046",
+    "file_name": "data/images/taco_000046.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "Three empty cans are lying on a tiled floor. The cans appear to be from different brands and types of food products."
+  },
+  {
+    "image_index": 47,
+    "image_id": "taco_000047",
+    "file_name": "data/images/taco_000047.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a bag of chicken and a container of milk",
+    "raw_qwen_caption": "A kitchen scene with a plastic container, a carton of organic eggs, and a small bowl of what appears to be a dairy product, possibly milk or cream, on a metal surface."
+  },
+  {
+    "image_index": 48,
+    "image_id": "taco_000048",
+    "file_name": "data/images/taco_000048.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "A crumpled egg carton lies on a textured, brown and gray floor."
+  },
+  {
+    "image_index": 49,
+    "image_id": "taco_000049",
+    "file_name": "data/images/taco_000049.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: I'm not sure what to do with this egg",
+    "raw_qwen_caption": "A person is holding a cardboard egg carton labeled \"Woodcote 6 British Organic Eggs Mixed Sizes\" in front of a cozy living room setting with a gray couch, a striped blanket, and a floor lamp."
+  },
+  {
+    "image_index": 50,
+    "image_id": "taco_000050",
+    "file_name": "data/images/taco_000050.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A discarded cigarette butt",
+    "raw_qwen_caption": "A discarded pink straw lies on the ground near a curb and a yellow painted line on the pavement."
+  },
+  {
+    "image_index": 51,
+    "image_id": "taco_000051",
+    "file_name": "data/images/taco_000051.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A red and white piece of paper",
+    "raw_qwen_caption": "A discarded piece of paper with a red and white design lies on a paved surface."
+  },
+  {
+    "image_index": 52,
+    "image_id": "taco_000052",
+    "file_name": "data/images/taco_000052.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a can of coke",
+    "raw_qwen_caption": "A discarded Boost energy drink can lies on the ground, surrounded by fallen leaves, between a sidewalk and a road."
+  },
+  {
+    "image_index": 53,
+    "image_id": "taco_000053",
+    "file_name": "data/images/taco_000053.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a book",
+    "raw_qwen_caption": "A discarded cigarette pack lies on the ground, surrounded by fallen leaves and ivy."
+  },
+  {
+    "image_index": 54,
+    "image_id": "taco_000054",
+    "file_name": "data/images/taco_000054.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a piece of paper and a piece of paper",
+    "raw_qwen_caption": "A discarded piece of paper and a crumpled plastic bag lie on the ground, surrounded by fallen leaves and ivy."
+  },
+  {
+    "image_index": 55,
+    "image_id": "taco_000055",
+    "file_name": "data/images/taco_000055.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a can of coke",
+    "raw_qwen_caption": "A discarded aluminum can lies on the ground, partially buried in soil and surrounded by scattered leaves."
+  },
+  {
+    "image_index": 56,
+    "image_id": "taco_000056",
+    "file_name": "data/images/taco_000056.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a coffee cup on the side of the road",
+    "raw_qwen_caption": "A discarded cup lies on the pavement near a double yellow line on the road."
+  },
+  {
+    "image_index": 57,
+    "image_id": "taco_000057",
+    "file_name": "data/images/taco_000057.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "\"Close-up view of a patterned concrete floor, showcasing the interlocking tiles and the subtle green moss growing between them.\""
+  },
+  {
+    "image_index": 58,
+    "image_id": "taco_000058",
+    "file_name": "data/images/taco_000058.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a bag of rice",
+    "raw_qwen_caption": "A hand holds a crumpled piece of paper with some text on it, against a background of gray brick pavement."
+  },
+  {
+    "image_index": 59,
+    "image_id": "taco_000059",
+    "file_name": "data/images/taco_000059.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a bag of trash",
+    "raw_qwen_caption": "A crumpled piece of paper with text on it is being held in a hand, against a backdrop of a tiled floor."
+  },
+  {
+    "image_index": 60,
+    "image_id": "taco_000060",
+    "file_name": "data/images/taco_000060.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "A discarded plastic bottle lies on the ground near a brick wall and a metal grate, surrounded by weeds and dry grass."
+  },
+  {
+    "image_index": 61,
+    "image_id": "taco_000061",
+    "file_name": "data/images/taco_000061.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a discarded cigarette butt",
+    "raw_qwen_caption": "A crumpled piece of black and silver plastic is lying on a patch of green grass near a gravel path."
+  },
+  {
+    "image_index": 62,
+    "image_id": "taco_000062",
+    "file_name": "data/images/taco_000062.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A cup of coffee",
+    "raw_qwen_caption": "A discarded McDonald's cup lies on the ground, surrounded by grass and gravel."
+  },
+  {
+    "image_index": 63,
+    "image_id": "taco_000063",
+    "file_name": "data/images/taco_000063.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a bottle of water",
+    "raw_qwen_caption": "The image shows a concrete floor with several pieces of litter scattered around. There is a plastic cup with some residue, a small black object, and another piece of litter in the background. The area appears to be an outdoor space, possibly near a building or construction site."
+  },
+  {
+    "image_index": 64,
+    "image_id": "taco_000064",
+    "file_name": "data/images/taco_000064.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a pink pencil",
+    "raw_qwen_caption": "A discarded straw lies on the ground near a brick wall, surrounded by debris and dirt."
+  },
+  {
+    "image_index": 65,
+    "image_id": "taco_000065",
+    "file_name": "data/images/taco_000065.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a spoon",
+    "raw_qwen_caption": "A discarded plastic spoon lies on the ground near a brick wall, adding to the urban litter problem."
+  },
+  {
+    "image_index": 66,
+    "image_id": "taco_000066",
+    "file_name": "data/images/taco_000066.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A discarded sandwich",
+    "raw_qwen_caption": "A discarded piece of trash, possibly a plastic bag, lies on the pavement near a curb."
+  },
+  {
+    "image_index": 67,
+    "image_id": "taco_000067",
+    "file_name": "data/images/taco_000067.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: I'm not sure what to do with this can of tuna",
+    "raw_qwen_caption": "A can and a jar of pickles sit on a countertop next to a roll of paper towels and a coffee maker."
+  },
+  {
+    "image_index": 68,
+    "image_id": "taco_000068",
+    "file_name": "data/images/taco_000068.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: I'm not sure what to do with this",
+    "raw_qwen_caption": "An open can of tuna on a wooden countertop."
+  },
+  {
+    "image_index": 69,
+    "image_id": "taco_000069",
+    "file_name": "data/images/taco_000069.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a can of tomato sauce",
+    "raw_qwen_caption": "A used tomato paste tube and its lid are placed on a wooden surface. The tube is partially squeezed and has a red cap."
+  },
+  {
+    "image_index": 70,
+    "image_id": "taco_000070",
+    "file_name": "data/images/taco_000070.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "The image shows a partially used yogurt container and a small, sealed yogurt cup on a black table. The yogurt container appears to be empty, with only a small amount of yogurt remaining. The yogurt cup is still sealed and has not been opened."
+  },
+  {
+    "image_index": 71,
+    "image_id": "taco_000071",
+    "file_name": "data/images/taco_000071.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A cup of coffee on a wooden floor",
+    "raw_qwen_caption": "A discarded yogurt container lies on a wooden floor."
+  },
+  {
+    "image_index": 72,
+    "image_id": "taco_000072",
+    "file_name": "data/images/taco_000072.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a loaf of bread",
+    "raw_qwen_caption": "A hand is holding a package of bread wrapped in plastic, with a blue label visible. The bread is partially obscured by the packaging. In the background, there is a potted plant with green leaves."
+  },
+  {
+    "image_index": 73,
+    "image_id": "taco_000073",
+    "file_name": "data/images/taco_000073.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a plastic bag and flip flops",
+    "raw_qwen_caption": "A white plastic bag with a green logo and text, placed on a wooden floor next to a pair of black flip-flops."
+  },
+  {
+    "image_index": 74,
+    "image_id": "taco_000074",
+    "file_name": "data/images/taco_000074.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: rubbish bag",
+    "raw_qwen_caption": "A black plastic bag filled with waste is placed on a concrete surface near a wooden door. The bag appears to be tied shut, and there is a metal pole next to it. The area is outdoors, with grass visible in the background."
+  },
+  {
+    "image_index": 75,
+    "image_id": "taco_000075",
+    "file_name": "data/images/taco_000075.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: trash, plastic bottles, and cans",
+    "raw_qwen_caption": "The image shows a pile of litter scattered on the ground, including plastic bottles, cans, and other debris. The litter is mixed with fallen leaves and branches, indicating it has been left in a natural outdoor area."
+  },
+  {
+    "image_index": 76,
+    "image_id": "taco_000076",
+    "file_name": "data/images/taco_000076.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A blue bottle",
+    "raw_qwen_caption": "A discarded plastic bottle lies on the ground, surrounded by dry leaves and small debris. The bottle appears to be made of blue plastic and is partially crushed."
+  },
+  {
+    "image_index": 77,
+    "image_id": "taco_000077",
+    "file_name": "data/images/taco_000077.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a coin",
+    "raw_qwen_caption": "A discarded plastic lid lies on the ground, surrounded by dry leaves and debris. The lid is blue and appears to be from a take-out container or a similar product."
+  },
+  {
+    "image_index": 78,
+    "image_id": "taco_000078",
+    "file_name": "data/images/taco_000078.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a coffee cup",
+    "raw_qwen_caption": "A discarded white ceramic cup lies on the ground, surrounded by leaves and small rocks, indicating it has been left out in nature."
+  },
+  {
+    "image_index": 79,
+    "image_id": "taco_000079",
+    "file_name": "data/images/taco_000079.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A cup of coffee",
+    "raw_qwen_caption": "A discarded styrofoam cup lies on the ground, surrounded by fallen leaves and dirt, casting shadows on a brick pathway."
+  },
+  {
+    "image_index": 80,
+    "image_id": "taco_000080",
+    "file_name": "data/images/taco_000080.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a straw in a glass of water",
+    "raw_qwen_caption": "A glass of water with a blue and white striped straw, placed on a wooden table with a black napkin. The glass appears to be partially empty, and there are some small pieces of food or debris visible at the bottom."
+  },
+  {
+    "image_index": 81,
+    "image_id": "taco_000081",
+    "file_name": "data/images/taco_000081.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "The image shows a pile of cardboard boxes on the ground, likely discarded or awaiting collection. The boxes appear to be empty and are placed on a paved surface, possibly a street or parking area."
+  },
+  {
+    "image_index": 82,
+    "image_id": "taco_000082",
+    "file_name": "data/images/taco_000082.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: I used a toothbrush, a tube of toothpaste, a tube of toothpaste, a tube of toothpaste, a tube of toothpaste, a tube of toothpaste, a tube of tooth",
+    "raw_qwen_caption": "The image shows a variety of items that appear to be waste or discarded items. These include:\n\n1. A blue bottle with a yellow cap.\n2. A tube of toothpaste.\n3. A blister pack, possibly containing medication.\n4. Two batteries.\n5. A small tube, possibly a"
+  },
+  {
+    "image_index": 83,
+    "image_id": "taco_000083",
+    "file_name": "data/images/taco_000083.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a plastic bag with a yellow sticker on it",
+    "raw_qwen_caption": "A hand is holding a crumpled plastic bag with a yellow label, likely containing some food or product. The background shows a hedge and a brick wall."
+  },
+  {
+    "image_index": 84,
+    "image_id": "taco_000084",
+    "file_name": "data/images/taco_000084.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: toilet paper roll",
+    "raw_qwen_caption": "\"Empty toilet paper rolls and cleaning supplies in a bathroom setting.\""
+  },
+  {
+    "image_index": 85,
+    "image_id": "taco_000085",
+    "file_name": "data/images/taco_000085.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "A view of a garden area with a brick wall, some green bushes, and a concrete pathway. There is a discarded can on the ledge in the foreground."
+  },
+  {
+    "image_index": 86,
+    "image_id": "taco_000086",
+    "file_name": "data/images/taco_000086.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a green plastic hook",
+    "raw_qwen_caption": "A piece of blue plastic or rubber band lies on a patch of grass, surrounded by dry, brown patches and some green grass."
+  },
+  {
+    "image_index": 87,
+    "image_id": "taco_000087",
+    "file_name": "data/images/taco_000087.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a purple flower",
+    "raw_qwen_caption": "The image shows a patch of ground covered with a mix of green and brown leaves, along with some small plants and a few pieces of litter, including a plastic bottle. The scene appears to be a natural outdoor area, possibly a garden or a forest floor."
+  },
+  {
+    "image_index": 88,
+    "image_id": "taco_000088",
+    "file_name": "data/images/taco_000088.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: rubbish on the pavement",
+    "raw_qwen_caption": "A littered street scene with two soda cans and a plastic container lying on the ground near a yellow painted line on the pavement."
+  },
+  {
+    "image_index": 89,
+    "image_id": "taco_000089",
+    "file_name": "data/images/taco_000089.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: rubbish on the pavement",
+    "raw_qwen_caption": "The image shows a littered area with various pieces of trash, including a plastic bottle, a can, and a discarded food container, scattered on a paved surface. The area appears to be in need of cleaning and maintenance."
+  },
+  {
+    "image_index": 90,
+    "image_id": "taco_000090",
+    "file_name": "data/images/taco_000090.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a cup of coffee",
+    "raw_qwen_caption": "A discarded coffee cup is lying on the ground near a fence, surrounded by small rocks and debris."
+  },
+  {
+    "image_index": 91,
+    "image_id": "taco_000091",
+    "file_name": "data/images/taco_000091.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: rubbish",
+    "raw_qwen_caption": "A littered area with scattered leaves, grass, and a discarded plastic bottle near a brick wall."
+  },
+  {
+    "image_index": 92,
+    "image_id": "taco_000092",
+    "file_name": "data/images/taco_000092.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: I'm not sure what to do with this",
+    "raw_qwen_caption": "A hand holding a piece of apple against a background of a paved path with scattered leaves."
+  },
+  {
+    "image_index": 93,
+    "image_id": "taco_000093",
+    "file_name": "data/images/taco_000093.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a plastic bag on the pavement",
+    "raw_qwen_caption": "A crumpled plastic bag lies on the pavement, partially obscured by fallen leaves. The bag appears to be discarded, adding to the litter in the area."
+  },
+  {
+    "image_index": 94,
+    "image_id": "taco_000094",
+    "file_name": "data/images/taco_000094.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A frisbee",
+    "raw_qwen_caption": "A blue plastic bottle cap and a white plastic bottle cap are lying on a patch of grass, surrounded by dry leaves and small twigs."
+  },
+  {
+    "image_index": 95,
+    "image_id": "taco_000095",
+    "file_name": "data/images/taco_000095.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a red frisbee",
+    "raw_qwen_caption": "A pink object lies on a patch of grass, surrounded by areas of dry, brown grass."
+  },
+  {
+    "image_index": 96,
+    "image_id": "taco_000096",
+    "file_name": "data/images/taco_000096.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a bottle of water",
+    "raw_qwen_caption": "A discarded can lies on a moss-covered ground, surrounded by small plants and debris."
+  },
+  {
+    "image_index": 97,
+    "image_id": "taco_000097",
+    "file_name": "data/images/taco_000097.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "The image shows an open styrofoam cooler with two pieces of food wrapped in aluminum foil inside. The cooler appears to be on a tiled floor, and the lid is propped open."
+  },
+  {
+    "image_index": 98,
+    "image_id": "taco_000098",
+    "file_name": "data/images/taco_000098.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: food waste",
+    "raw_qwen_caption": "The image shows a variety of food items and packaging, including a can of Kellogg's Crunchy Nut Glorious Oat Granola, a bag of snacks, and other food products. The items appear to be discarded or in a state of disarray, suggesting they might be in a trash or"
+  },
+  {
+    "image_index": 99,
+    "image_id": "taco_000099",
+    "file_name": "data/images/taco_000099.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: food waste",
+    "raw_qwen_caption": "This image shows a variety of recyclable materials, including cardboard, aluminum cans, and plastic packaging. The items appear to be sorted for recycling, with labels and packaging visible."
+  },
+  {
+    "image_index": 100,
+    "image_id": "taco_000100",
+    "file_name": "data/images/taco_000100.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: I have a box of baby wipes, a box of baby wipes, a box of baby wipes, a box of baby wipes, a box of baby wipes, a box of baby wipes, a box",
+    "raw_qwen_caption": "A cardboard box labeled \"Thermo Scientific\" is open on the floor, with various items scattered around it, including a can, a green egg holder, a yellow snack packet, and a box of tea."
+  },
+  {
+    "image_index": 101,
+    "image_id": "taco_000101",
+    "file_name": "data/images/taco_000101.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "The image shows a gravel path or road with a mix of small rocks and dirt. The surrounding area has some dry vegetation and grass. The path appears to be in a natural, outdoor setting, possibly a park or a rural area."
+  },
+  {
+    "image_index": 102,
+    "image_id": "taco_000102",
+    "file_name": "data/images/taco_000102.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: trash on the beach",
+    "raw_qwen_caption": "The image shows a patch of dry, grassy land with several pieces of litter scattered around. The litter includes a can, a plastic bottle, and some other small items. The scene highlights the issue of littering in natural environments, which can have negative impacts on wildlife and the ecosystem."
+  },
+  {
+    "image_index": 103,
+    "image_id": "taco_000103",
+    "file_name": "data/images/taco_000103.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a bottle of water",
+    "raw_qwen_caption": "The image shows a neglected area with dry grass and soil. There is a green plastic bottle lying on the ground, indicating littering. The environment appears to be a natural outdoor space that has been left untended, contributing to environmental pollution."
+  },
+  {
+    "image_index": 104,
+    "image_id": "taco_000104",
+    "file_name": "data/images/taco_000104.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: trash, trash, trash, trash, trash, trash, trash, trash, trash, trash, trash, trash, trash, trash, trash, trash, trash, trash, trash, trash,",
+    "raw_qwen_caption": "The image shows a patch of land with dry grass and some scattered debris. There are several plastic bottles and other pieces of litter scattered across the area. The ground appears to be a mix of dirt and small rocks, and there is a concrete structure visible in the background. The overall scene suggests a neglected"
+  },
+  {
+    "image_index": 105,
+    "image_id": "taco_000105",
+    "file_name": "data/images/taco_000105.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: trash, plastic, plastic waste, plastic waste, plastic waste, plastic waste, plastic waste, plastic waste, plastic waste, plastic waste, plastic waste, plastic waste, plastic waste, plastic waste,",
+    "raw_qwen_caption": "The image shows a natural outdoor setting with dry grass and some green plants. There is a plastic bag and other pieces of litter scattered on the ground, indicating a lack of proper waste disposal. This scene highlights the importance of maintaining cleanliness and environmental responsibility in natural areas."
+  },
+  {
+    "image_index": 106,
+    "image_id": "taco_000106",
+    "file_name": "data/images/taco_000106.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: trash, trash, trash, trash, trash, trash, trash, trash, trash, trash, trash, trash, trash, trash, trash, trash, trash, trash, trash, trash,",
+    "raw_qwen_caption": "The image shows a natural area with dry grass and some greenery. There are several pieces of discarded plastic bottles scattered among the vegetation. The bottles appear to be of different colors and sizes, and they are not properly disposed of, causing litter in the environment."
+  },
+  {
+    "image_index": 107,
+    "image_id": "taco_000107",
+    "file_name": "data/images/taco_000107.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "The image shows a piece of green plastic debris, possibly a plastic bag or container, lying on the ground near a concrete structure. The surrounding area appears to be a natural, outdoor environment with dry grass and some rocks. The plastic waste is an example of litter and can have negative impacts on the environment"
+  },
+  {
+    "image_index": 108,
+    "image_id": "taco_000108",
+    "file_name": "data/images/taco_000108.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a waste image",
+    "raw_qwen_caption": "The image shows a concrete post with the number \"30\" painted on it, standing in a grassy area with some dry patches. The ground around the post is covered with small rocks and grass. There is also a piece of litter on the ground near the base of the post."
+  },
+  {
+    "image_index": 109,
+    "image_id": "taco_000109",
+    "file_name": "data/images/taco_000109.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A man's feet are in the foreground",
+    "raw_qwen_caption": "The image shows a piece of plastic debris on the ground, surrounded by dry grass. The plastic appears to be a piece of packaging or a plastic bag."
+  },
+  {
+    "image_index": 110,
+    "image_id": "taco_000110",
+    "file_name": "data/images/taco_000110.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: The waste image is of a concrete structure that is on the side of a hill",
+    "raw_qwen_caption": "This image shows a piece of concrete debris or a concrete structure that has been left in a natural outdoor setting. The surrounding area is covered with dry grass and vegetation, indicating that the debris has been there for some time. The concrete appears to be weathered and partially covered by plants, suggesting it has"
+  },
+  {
+    "image_index": 111,
+    "image_id": "taco_000111",
+    "file_name": "data/images/taco_000111.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: The road is in the countryside, the trees are in the foreground, and the house is in the background",
+    "raw_qwen_caption": "A dirt road winds through a rural landscape, flanked by dry grass and scattered trees. The road leads to a gated entrance, suggesting a private property or a restricted area. The sky is clear, indicating a sunny day."
+  },
+  {
+    "image_index": 112,
+    "image_id": "taco_000112",
+    "file_name": "data/images/taco_000112.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: drink",
+    "raw_qwen_caption": "Two individuals are enjoying a meal at an outdoor restaurant, with a red table and chairs. The table is set with various drinks and snacks, including a bottle of water, a bottle of soda, and a glass of juice. The atmosphere appears relaxed and casual, with other diners and vehicles visible in"
+  },
+  {
+    "image_index": 113,
+    "image_id": "taco_000113",
+    "file_name": "data/images/taco_000113.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "\"Abandoned car parts and debris on a sandy beach, with a gate in the background.\""
+  },
+  {
+    "image_index": 114,
+    "image_id": "taco_000114",
+    "file_name": "data/images/taco_000114.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: the shadow of a person walking on the hillside",
+    "raw_qwen_caption": "A patch of dry, brown grass interspersed with green shoots of plants, possibly indicating the early stages of spring growth."
+  },
+  {
+    "image_index": 115,
+    "image_id": "taco_000115",
+    "file_name": "data/images/taco_000115.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "\"Wooden fence along a sandy path, with vibrant green and red plants in the background.\""
+  },
+  {
+    "image_index": 116,
+    "image_id": "taco_000116",
+    "file_name": "data/images/taco_000116.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: The beach is littered with trash, including plastic bottles, cans, and other items",
+    "raw_qwen_caption": "\"Rugged coastline with eroded cliffs and scattered debris, contrasting with the serene ocean waves.\""
+  },
+  {
+    "image_index": 117,
+    "image_id": "taco_000117",
+    "file_name": "data/images/taco_000117.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a plant with red and green leaves",
+    "raw_qwen_caption": "\"Close-up of vibrant, multi-colored plants in a natural setting, surrounded by dry grass and twigs.\""
+  },
+  {
+    "image_index": 118,
+    "image_id": "taco_000118",
+    "file_name": "data/images/taco_000118.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a plant growing in a field",
+    "raw_qwen_caption": "\"Close-up of a vibrant, colorful plant bed with a narrow path cutting through it.\""
+  },
+  {
+    "image_index": 119,
+    "image_id": "taco_000119",
+    "file_name": "data/images/taco_000119.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: the plant is a succulent, which is a type of cactus",
+    "raw_qwen_caption": "A close-up view of a garden bed with a variety of plants, including some with red and green leaves. The soil is covered with dry, brown mulch, and there is a small, white object on the ground."
+  },
+  {
+    "image_index": 120,
+    "image_id": "taco_000120",
+    "file_name": "data/images/taco_000120.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a plant growing in a parking lot",
+    "raw_qwen_caption": "\"Close-up of a vibrant green plant with red tips, thriving in a garden bed.\""
+  },
+  {
+    "image_index": 121,
+    "image_id": "taco_000121",
+    "file_name": "data/images/taco_000121.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a chair, a fan, a towel, a towel rack, a towel, a towel rack, a towel rack, a towel rack, a towel rack, a towel rack, a towel rack,",
+    "raw_qwen_caption": "A damaged and abandoned air conditioning unit is leaning against a wall with a tiled pattern. The unit appears to be broken, with parts missing and debris scattered around. There is a no smoking sign on the wall, and a red and white caution tape is visible in the foreground. The area looks neglected and"
+  },
+  {
+    "image_index": 122,
+    "image_id": "taco_000122",
+    "file_name": "data/images/taco_000122.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a chair and a fan",
+    "raw_qwen_caption": "\"Abandoned beer bottle and chair in a neglected outdoor area.\""
+  },
+  {
+    "image_index": 123,
+    "image_id": "taco_000123",
+    "file_name": "data/images/taco_000123.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A red towel is left on the ground",
+    "raw_qwen_caption": "The image shows a patch of ground with various pieces of litter scattered around. There is a red object that appears to be a piece of cloth or a small item, and some white paper or plastic. The ground is uneven and has some dirt and debris. The background wall has some graffiti on it."
+  },
+  {
+    "image_index": 124,
+    "image_id": "taco_000124",
+    "file_name": "data/images/taco_000124.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A man is sitting on a skateboard",
+    "raw_qwen_caption": "\"Urban Graffiti and Street Art: A Snapshot of Street Culture\""
+  },
+  {
+    "image_index": 125,
+    "image_id": "taco_000125",
+    "file_name": "data/images/taco_000125.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A silver car parked in a parking lot",
+    "raw_qwen_caption": "\"Silver car parked in a parking spot with a small piece of trash nearby.\""
+  },
+  {
+    "image_index": 126,
+    "image_id": "taco_000126",
+    "file_name": "data/images/taco_000126.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a piece of paper",
+    "raw_qwen_caption": "A small, orange-colored object is lying on a textured surface. The object appears to be a piece of packaging or a small item, possibly a snack or a piece of candy."
+  },
+  {
+    "image_index": 127,
+    "image_id": "taco_000127",
+    "file_name": "data/images/taco_000127.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "A collection of items on a tiled floor, including a blue plastic bag, a brown paper bag, a carton of eggs, and a blue egg carton."
+  },
+  {
+    "image_index": 128,
+    "image_id": "taco_000128",
+    "file_name": "data/images/taco_000128.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a blue plastic bottle",
+    "raw_qwen_caption": "\"Close-up of a cobblestone pavement with a small blue object on the ground.\""
+  },
+  {
+    "image_index": 129,
+    "image_id": "taco_000129",
+    "file_name": "data/images/taco_000129.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: The shadow of a man is cast on a wall",
+    "raw_qwen_caption": "\"Shadow of a person taking a photo against a textured wall with circular holes.\""
+  },
+  {
+    "image_index": 130,
+    "image_id": "taco_000130",
+    "file_name": "data/images/taco_000130.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: The image shows a metal pipe that is being used to support a wooden structure",
+    "raw_qwen_caption": "\"An empty plastic bottle found on a cobblestone sidewalk, surrounded by wooden planks.\""
+  },
+  {
+    "image_index": 131,
+    "image_id": "taco_000131",
+    "file_name": "data/images/taco_000131.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "\"Concrete Wall with Circular Holes and a Cardboard Box on the Sidewalk\""
+  },
+  {
+    "image_index": 132,
+    "image_id": "taco_000132",
+    "file_name": "data/images/taco_000132.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "\"Concrete wall with circular cutouts, possibly for ventilation or artistic design, next to a sandy area.\""
+  },
+  {
+    "image_index": 133,
+    "image_id": "taco_000133",
+    "file_name": "data/images/taco_000133.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: The holes in the concrete wall are the result of a graffiti artist's spray paint",
+    "raw_qwen_caption": "A concrete wall with numerous circular holes and some graffiti on it. The ground in front of the wall appears to be a concrete sidewalk with some debris and litter scattered around."
+  },
+  {
+    "image_index": 134,
+    "image_id": "taco_000134",
+    "file_name": "data/images/taco_000134.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: sand",
+    "raw_qwen_caption": "\"Footprints in the sand, capturing the essence of a beach day.\""
+  },
+  {
+    "image_index": 135,
+    "image_id": "taco_000135",
+    "file_name": "data/images/taco_000135.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a plant growing in the trash",
+    "raw_qwen_caption": "The image shows a cobblestone pavement with some scattered debris and litter. There is a small plant growing on the pavement, and the area appears to be a public space, possibly a street or sidewalk. The litter includes a blue plastic bottle and other small pieces of trash."
+  },
+  {
+    "image_index": 136,
+    "image_id": "taco_000136",
+    "file_name": "data/images/taco_000136.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "\"Abandoned litter on a cobblestone street, emphasizing the importance of maintaining cleanliness in urban areas.\""
+  },
+  {
+    "image_index": 137,
+    "image_id": "taco_000137",
+    "file_name": "data/images/taco_000137.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "A street scene showing a cobblestone sidewalk with a metal bollard and a curb separating it from a street with parked cars. There is a piece of paper or trash on the ground near the curb."
+  },
+  {
+    "image_index": 138,
+    "image_id": "taco_000138",
+    "file_name": "data/images/taco_000138.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a waste bin",
+    "raw_qwen_caption": "A discarded can lies on the ground near a cobblestone sidewalk, emphasizing the importance of littering responsibly."
+  },
+  {
+    "image_index": 139,
+    "image_id": "taco_000139",
+    "file_name": "data/images/taco_000139.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "The image shows a cobblestone floor with some scattered items on it. There are a few pieces of paper, a small yellow object, and a black object. The floor appears to be in a state of disrepair, with visible wear and tear. The surrounding walls are white and show signs of"
+  },
+  {
+    "image_index": 140,
+    "image_id": "taco_000140",
+    "file_name": "data/images/taco_000140.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: The shadow of a man's feet on the beach",
+    "raw_qwen_caption": "\"Shadow of a person standing on a textured surface, with a small blue object nearby.\""
+  },
+  {
+    "image_index": 141,
+    "image_id": "taco_000141",
+    "file_name": "data/images/taco_000141.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a post in the sand",
+    "raw_qwen_caption": "A weathered concrete block with several holes in it is partially buried in a sandy area with some dry grass and debris around it."
+  },
+  {
+    "image_index": 142,
+    "image_id": "taco_000142",
+    "file_name": "data/images/taco_000142.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a plant growing on the side of the road",
+    "raw_qwen_caption": "\"Urban Greenery Amidst Waste: A Patch of Succulents Thrives Amidst Discarded Materials\""
+  },
+  {
+    "image_index": 143,
+    "image_id": "taco_000143",
+    "file_name": "data/images/taco_000143.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A succulent plant is growing in a plastic bag",
+    "raw_qwen_caption": "This image shows a garden bed with various succulent plants and some rocks. There is a plastic bag and some debris on the ground, which appears to be litter. The garden bed is bordered by a wooden frame, and there is a pathway or driveway next to it. The scene suggests a need for"
+  },
+  {
+    "image_index": 144,
+    "image_id": "taco_000144",
+    "file_name": "data/images/taco_000144.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a plant in a garden",
+    "raw_qwen_caption": "A garden area with various plants and rocks, including a wooden pathway on the left. The soil appears to be disturbed, with some sticks and debris scattered around."
+  },
+  {
+    "image_index": 145,
+    "image_id": "taco_000145",
+    "file_name": "data/images/taco_000145.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: sand dunes",
+    "raw_qwen_caption": "\"Sand dunes under the sun, capturing the serene beauty of nature's patterns.\""
+  },
+  {
+    "image_index": 146,
+    "image_id": "taco_000146",
+    "file_name": "data/images/taco_000146.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: The image shows a pile of sand and grass on the beach",
+    "raw_qwen_caption": "\"Sunlit dunes with scattered vegetation, showcasing the natural beauty of a desert landscape.\""
+  },
+  {
+    "image_index": 147,
+    "image_id": "taco_000147",
+    "file_name": "data/images/taco_000147.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a plastic bottle and a plastic bag",
+    "raw_qwen_caption": "\"Trash on the Beach: A Reminder of Our Impact\""
+  },
+  {
+    "image_index": 148,
+    "image_id": "taco_000148",
+    "file_name": "data/images/taco_000148.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: The railroad tracks are empty and the sand is dirty",
+    "raw_qwen_caption": "\"Abandoned railway tracks in a sandy landscape.\""
+  },
+  {
+    "image_index": 149,
+    "image_id": "taco_000149",
+    "file_name": "data/images/taco_000149.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a man is walking on the beach",
+    "raw_qwen_caption": "A close-up view of a sandy beach with some dry vegetation and a few scattered leaves. The sand appears to be quite fine and light in color, with some small shadows cast by the plants."
+  },
+  {
+    "image_index": 150,
+    "image_id": "taco_000150",
+    "file_name": "data/images/taco_000150.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: sand",
+    "raw_qwen_caption": "\"An unexpected visitor: A lone green bottle cap on the sandy beach.\""
+  },
+  {
+    "image_index": 151,
+    "image_id": "taco_000151",
+    "file_name": "data/images/taco_000151.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a plant growing in the sand",
+    "raw_qwen_caption": "The image shows a patch of sand with various plants and debris. There are some plastic pieces and other litter scattered among the vegetation. The plants appear to be a mix of grasses and small shrubs, with some leaves and branches visible. The scene suggests an area that has been affected by human activity"
+  },
+  {
+    "image_index": 152,
+    "image_id": "taco_000152",
+    "file_name": "data/images/taco_000152.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: the desert is a place where the dead and dying are left to decompose",
+    "raw_qwen_caption": "A close-up view of a sandy beach with scattered dry plants and a small white object, possibly a piece of debris or a natural formation, lying on the sand. The scene suggests a natural, possibly remote, coastal environment."
+  },
+  {
+    "image_index": 153,
+    "image_id": "taco_000153",
+    "file_name": "data/images/taco_000153.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a blue plastic bottle",
+    "raw_qwen_caption": "A close-up view of a sandy beach with scattered debris, including a small piece of blue plastic and some dried plant material. The scene highlights the contrast between natural elements and human waste."
+  },
+  {
+    "image_index": 154,
+    "image_id": "taco_000154",
+    "file_name": "data/images/taco_000154.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: The sand dunes of the cape are a popular place for people to play",
+    "raw_qwen_caption": "\"Footprints in the Sand: A Tranquil Beach Scene\""
+  },
+  {
+    "image_index": 155,
+    "image_id": "taco_000155",
+    "file_name": "data/images/taco_000155.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A volleyball net",
+    "raw_qwen_caption": "\"Red pole and white structure on a sandy beach.\""
+  },
+  {
+    "image_index": 156,
+    "image_id": "taco_000156",
+    "file_name": "data/images/taco_000156.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "\"Close-up of textured sand on a beach, capturing the natural patterns and contours of the shoreline.\""
+  },
+  {
+    "image_index": 157,
+    "image_id": "taco_000157",
+    "file_name": "data/images/taco_000157.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: Sand dunes",
+    "raw_qwen_caption": "\"Close-up view of textured sand patterns on a beach.\""
+  },
+  {
+    "image_index": 158,
+    "image_id": "taco_000158",
+    "file_name": "data/images/taco_000158.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: The yellow plastic bag is on the beach",
+    "raw_qwen_caption": "A yellow plastic bag lies on a sandy beach, blending with the natural surroundings."
+  },
+  {
+    "image_index": 159,
+    "image_id": "taco_000159",
+    "file_name": "data/images/taco_000159.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A beach in the south of france",
+    "raw_qwen_caption": "\"Left behind: A discarded plastic bag on the sandy beach, a silent reminder of our impact on the environment.\""
+  },
+  {
+    "image_index": 160,
+    "image_id": "taco_000160",
+    "file_name": "data/images/taco_000160.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: The image shows a sand dune with a small hole in it",
+    "raw_qwen_caption": "\"Close-up of textured sand with small debris and a single blue object.\""
+  },
+  {
+    "image_index": 161,
+    "image_id": "taco_000161",
+    "file_name": "data/images/taco_000161.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "\"Footprints in the Sand: A Moment of Solitude\""
+  },
+  {
+    "image_index": 162,
+    "image_id": "taco_000162",
+    "file_name": "data/images/taco_000162.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: The image shows a sand dune on the beach at the southern tip of the atlantic coast of canada",
+    "raw_qwen_caption": "\"Close-up of a sandy beach with footprints and a small object embedded in the sand.\""
+  },
+  {
+    "image_index": 163,
+    "image_id": "taco_000163",
+    "file_name": "data/images/taco_000163.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: The image shows a pile of sand and a pile of dirt",
+    "raw_qwen_caption": "\"Footprints in the sand, a reminder of the journey taken.\""
+  },
+  {
+    "image_index": 164,
+    "image_id": "taco_000164",
+    "file_name": "data/images/taco_000164.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a dead bird",
+    "raw_qwen_caption": "A discarded plastic bottle lies buried in the sand, blending with the natural surroundings."
+  },
+  {
+    "image_index": 165,
+    "image_id": "taco_000165",
+    "file_name": "data/images/taco_000165.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A crab tracks in the sand",
+    "raw_qwen_caption": "\"Close-up of a sandy beach with small shells and a piece of debris.\""
+  },
+  {
+    "image_index": 166,
+    "image_id": "taco_000166",
+    "file_name": "data/images/taco_000166.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a dead fish",
+    "raw_qwen_caption": "A discarded plastic straw lies on a sandy surface, surrounded by small holes and indentations in the sand."
+  },
+  {
+    "image_index": 167,
+    "image_id": "taco_000167",
+    "file_name": "data/images/taco_000167.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a dead bird on the beach",
+    "raw_qwen_caption": "\"Close-up of a sandy beach with scattered debris and footprints, highlighting the natural beauty and the need for environmental conservation.\""
+  },
+  {
+    "image_index": 168,
+    "image_id": "taco_000168",
+    "file_name": "data/images/taco_000168.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: The sand is made of sand, and the sand is made of sand, and the sand is made of sand, and the sand is made of sand, and the sand is made of sand, and",
+    "raw_qwen_caption": "\"Footprints in the Sand: A Moment of Serenity\""
+  },
+  {
+    "image_index": 169,
+    "image_id": "taco_000169",
+    "file_name": "data/images/taco_000169.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a beach chair and a plastic bottle",
+    "raw_qwen_caption": "\"Keep our beaches clean: Dispose of waste properly!\""
+  },
+  {
+    "image_index": 170,
+    "image_id": "taco_000170",
+    "file_name": "data/images/taco_000170.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: sand",
+    "raw_qwen_caption": "\"Close-up of textured sand with a small, delicate object partially buried.\""
+  },
+  {
+    "image_index": 171,
+    "image_id": "taco_000171",
+    "file_name": "data/images/taco_000171.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A beach umbrella",
+    "raw_qwen_caption": "\"Abandoned orange leash in the sand, a reminder of the importance of responsible pet ownership.\""
+  },
+  {
+    "image_index": 172,
+    "image_id": "taco_000172",
+    "file_name": "data/images/taco_000172.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: Sand dunes, sand dunes, sand dunes, sand dunes, sand dunes, sand dunes, sand dunes, sand dunes, sand dunes, sand dunes,",
+    "raw_qwen_caption": "\"Close-up of textured sand, capturing the intricate patterns and shadows cast by the sun.\""
+  },
+  {
+    "image_index": 173,
+    "image_id": "taco_000173",
+    "file_name": "data/images/taco_000173.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A red flag is stuck in the sand",
+    "raw_qwen_caption": "\"Close-up of textured sand on a beach, with a small red object partially buried.\""
+  },
+  {
+    "image_index": 174,
+    "image_id": "taco_000174",
+    "file_name": "data/images/taco_000174.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: Sand texture",
+    "raw_qwen_caption": "\"Sunlit Sand Dunes: A Tranquil Beach Scene at Sunset\""
+  },
+  {
+    "image_index": 175,
+    "image_id": "taco_000175",
+    "file_name": "data/images/taco_000175.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A chair on the beach",
+    "raw_qwen_caption": "\"Footprints in the sand, a day at the beach.\""
+  },
+  {
+    "image_index": 176,
+    "image_id": "taco_000176",
+    "file_name": "data/images/taco_000176.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "\"Sunset Serenity: A Perfect Beach Day\""
+  },
+  {
+    "image_index": 177,
+    "image_id": "taco_000177",
+    "file_name": "data/images/taco_000177.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A beach chair",
+    "raw_qwen_caption": "\"An empty beach with a white plastic chair and a red and white striped umbrella, with a small piece of trash on the sand.\""
+  },
+  {
+    "image_index": 178,
+    "image_id": "taco_000178",
+    "file_name": "data/images/taco_000178.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: Sand dunes",
+    "raw_qwen_caption": "\"Close-up of textured sand, capturing the intricate details and patterns of the beach.\""
+  },
+  {
+    "image_index": 179,
+    "image_id": "taco_000179",
+    "file_name": "data/images/taco_000179.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a shell on the beach",
+    "raw_qwen_caption": "\"Nature's simplicity: A lone shell on the sandy beach.\""
+  },
+  {
+    "image_index": 180,
+    "image_id": "taco_000180",
+    "file_name": "data/images/taco_000180.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "A close-up of a sandy beach with a few pieces of litter scattered around. The sand is light brown, and the litter includes a small piece of green plastic and a white object. The image also shows a blurred finger in the foreground, suggesting someone is taking the photo."
+  },
+  {
+    "image_index": 181,
+    "image_id": "taco_000181",
+    "file_name": "data/images/taco_000181.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: sand dunes, palm tree, dunes, palm tree, dunes, palm tree, dunes, palm tree, dunes, palm tree, dunes, palm tree, dunes,",
+    "raw_qwen_caption": "\"Desert Solitude: A Single Plant Amidst the Sand Dunes\""
+  },
+  {
+    "image_index": 182,
+    "image_id": "taco_000182",
+    "file_name": "data/images/taco_000182.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a beach chair",
+    "raw_qwen_caption": "A discarded plastic bottle lies on the sandy beach near a wooden fence and a wooden deck."
+  },
+  {
+    "image_index": 183,
+    "image_id": "taco_000183",
+    "file_name": "data/images/taco_000183.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "\"Close-up of feet wearing flip-flops on a gravel path.\""
+  },
+  {
+    "image_index": 184,
+    "image_id": "taco_000184",
+    "file_name": "data/images/taco_000184.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: The street is empty at night, but the car is parked in the middle of the road",
+    "raw_qwen_caption": "\"Urban Detail: Cobblestone Pathway and Reflective Surface\""
+  },
+  {
+    "image_index": 185,
+    "image_id": "taco_000185",
+    "file_name": "data/images/taco_000185.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "\"Abandoned keys and a crumpled piece of paper lie on a cobblestone sidewalk, suggesting someone may have accidentally dropped them.\""
+  },
+  {
+    "image_index": 186,
+    "image_id": "taco_000186",
+    "file_name": "data/images/taco_000186.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A garbage can",
+    "raw_qwen_caption": "The image shows a cluttered area with various pieces of debris and trash scattered on a cobblestone surface. There are broken glass pieces, plastic bottles, and other miscellaneous items. The area appears to be in need of cleaning and maintenance."
+  },
+  {
+    "image_index": 187,
+    "image_id": "taco_000187",
+    "file_name": "data/images/taco_000187.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a broken water pipe",
+    "raw_qwen_caption": "A discarded piece of plastic is seen on the ground near a tree trunk."
+  },
+  {
+    "image_index": 188,
+    "image_id": "taco_000188",
+    "file_name": "data/images/taco_000188.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A man is sitting on a bench",
+    "raw_qwen_caption": "\"Recycling in the City: A Plastic Bottle Left Behind on a Cobblestone Path\""
+  },
+  {
+    "image_index": 189,
+    "image_id": "taco_000189",
+    "file_name": "data/images/taco_000189.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A man is walking on the sidewalk",
+    "raw_qwen_caption": "A discarded plastic bottle lies on the ground near a curb, surrounded by a patterned brick sidewalk."
+  },
+  {
+    "image_index": 190,
+    "image_id": "taco_000190",
+    "file_name": "data/images/taco_000190.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "\"Footprints in the sand, a boat's shadow, and a glimpse of a flip-flop.\""
+  },
+  {
+    "image_index": 191,
+    "image_id": "taco_000191",
+    "file_name": "data/images/taco_000191.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: The image is of a beach in the ocean",
+    "raw_qwen_caption": "\"Beachside Dunes and Ocean Waves\""
+  },
+  {
+    "image_index": 192,
+    "image_id": "taco_000192",
+    "file_name": "data/images/taco_000192.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a pelican nest on the beach",
+    "raw_qwen_caption": "A panoramic view of a beach with a rocky shoreline and waves crashing onto the sand. The foreground features a variety of plants and vegetation, including some with distinctive red and green leaves. The scene is serene and natural, with the ocean providing a calming backdrop."
+  },
+  {
+    "image_index": 193,
+    "image_id": "taco_000193",
+    "file_name": "data/images/taco_000193.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "\"Beachside Beauty: A Tranquil View of the Ocean and Dunes\""
+  },
+  {
+    "image_index": 194,
+    "image_id": "taco_000194",
+    "file_name": "data/images/taco_000194.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: trash on the beach",
+    "raw_qwen_caption": "The image shows a beach area with a significant amount of litter and debris scattered around. The waste includes plastic bottles, cups, and other plastic items, as well as some organic waste. The area appears to be in need of cleaning to maintain a clean and safe environment for visitors."
+  },
+  {
+    "image_index": 195,
+    "image_id": "taco_000195",
+    "file_name": "data/images/taco_000195.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "A view of a coastal area with a steep cliff leading down to the ocean. The cliff is covered in vegetation and there is a fence at the top. The sky is clear and the ocean is visible in the background."
+  },
+  {
+    "image_index": 196,
+    "image_id": "taco_000196",
+    "file_name": "data/images/taco_000196.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a rope",
+    "raw_qwen_caption": "A close-up view of a rope and a stone path, with some rocks and debris on the ground."
+  },
+  {
+    "image_index": 197,
+    "image_id": "taco_000197",
+    "file_name": "data/images/taco_000197.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a street in the city of istanbul, turkey",
+    "raw_qwen_caption": "\"Abandoned treasure: A mysterious object on a cobblestone path.\""
+  },
+  {
+    "image_index": 198,
+    "image_id": "taco_000198",
+    "file_name": "data/images/taco_000198.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A bottle of water",
+    "raw_qwen_caption": "A discarded plastic bottle lies on a cobblestone pavement, contrasting with the natural stone surface."
+  },
+  {
+    "image_index": 199,
+    "image_id": "taco_000199",
+    "file_name": "data/images/taco_000199.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "\"Broken plastic container on a marble floor near a staircase.\""
+  },
+  {
+    "image_index": 200,
+    "image_id": "taco_000200",
+    "file_name": "data/images/taco_000200.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A newspaper on the ground",
+    "raw_qwen_caption": "A discarded item lies on the ground between two parked cars in a parking lot at night."
+  },
+  {
+    "image_index": 201,
+    "image_id": "taco_000201",
+    "file_name": "data/images/taco_000201.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "\"An empty styrofoam container sits on a brown surface, ready for recycling.\""
+  },
+  {
+    "image_index": 202,
+    "image_id": "taco_000202",
+    "file_name": "data/images/taco_000202.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A white plastic container",
+    "raw_qwen_caption": "A piece of white plastic debris lies on a cobblestone sidewalk, next to a white barrier."
+  },
+  {
+    "image_index": 203,
+    "image_id": "taco_000203",
+    "file_name": "data/images/taco_000203.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a person holding a piece of paper",
+    "raw_qwen_caption": "A person is holding a piece of white plastic or foam material, possibly a part of a larger object, on a cobblestone street."
+  },
+  {
+    "image_index": 204,
+    "image_id": "taco_000204",
+    "file_name": "data/images/taco_000204.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "The image shows a stack of cardboard boxes. The top box has the text \"NA LINHA TRANSPORTES\" printed on it, indicating it is from a transportation company. The boxes appear to be used and are stacked on a tiled floor."
+  },
+  {
+    "image_index": 205,
+    "image_id": "taco_000205",
+    "file_name": "data/images/taco_000205.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "A white, foam-like object with a rectangular shape and a protruding vertical piece is placed on a tiled floor next to a cardboard box labeled \"Galama.\""
+  },
+  {
+    "image_index": 206,
+    "image_id": "taco_000206",
+    "file_name": "data/images/taco_000206.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: The waste image is a waste of time",
+    "raw_qwen_caption": "\"Unboxing a mystery package on the stairs.\""
+  },
+  {
+    "image_index": 207,
+    "image_id": "taco_000207",
+    "file_name": "data/images/taco_000207.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "\"Unpacking in progress: Boxes and plants ready to be arranged in a new home.\""
+  },
+  {
+    "image_index": 208,
+    "image_id": "taco_000208",
+    "file_name": "data/images/taco_000208.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "\"Marble Floor with a Small White Object\""
+  },
+  {
+    "image_index": 209,
+    "image_id": "taco_000209",
+    "file_name": "data/images/taco_000209.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "This image shows a piece of styrofoam packaging material that appears to have been torn or damaged. The styrofoam is commonly used for protecting fragile items during shipping and handling. The torn section suggests that it may have been damaged during use or disposal."
+  },
+  {
+    "image_index": 210,
+    "image_id": "taco_000210",
+    "file_name": "data/images/taco_000210.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A box of pizza",
+    "raw_qwen_caption": "The image shows a discarded cardboard box and a black plastic bag lying on a paved surface. The box appears to be empty and has been left on the ground, contributing to litter in the area."
+  },
+  {
+    "image_index": 211,
+    "image_id": "taco_000211",
+    "file_name": "data/images/taco_000211.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a cardboard box with a cat in it",
+    "raw_qwen_caption": "The image shows a pile of cardboard boxes and a plastic container on a concrete surface near a street. The boxes appear to be discarded, and there are green recycling bins in the background. The scene suggests that the boxes are being recycled or disposed of properly."
+  },
+  {
+    "image_index": 212,
+    "image_id": "taco_000212",
+    "file_name": "data/images/taco_000212.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "\"Recycling cardboard in a blue slot of a large gray bin.\""
+  },
+  {
+    "image_index": 213,
+    "image_id": "taco_000213",
+    "file_name": "data/images/taco_000213.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: cardboard box",
+    "raw_qwen_caption": "A discarded cardboard box lies on the ground, showing signs of wear and tear. Nearby, there is a green trash bin."
+  },
+  {
+    "image_index": 214,
+    "image_id": "taco_000214",
+    "file_name": "data/images/taco_000214.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a person is holding a cardboard box",
+    "raw_qwen_caption": "A cardboard box with a piece of tape on it, placed on a concrete surface."
+  },
+  {
+    "image_index": 215,
+    "image_id": "taco_000215",
+    "file_name": "data/images/taco_000215.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a box of tissues and a plastic bag",
+    "raw_qwen_caption": "A discarded cardboard box with a plastic bag inside is lying on the ground in a parking lot. The box appears to be from a hardware store, and it is partially open."
+  },
+  {
+    "image_index": 216,
+    "image_id": "taco_000216",
+    "file_name": "data/images/taco_000216.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A chair is placed under a tree",
+    "raw_qwen_caption": "A discarded white plastic object lies on its side in a cobblestone area, next to a tree. The object appears to be broken or damaged."
+  },
+  {
+    "image_index": 217,
+    "image_id": "taco_000217",
+    "file_name": "data/images/taco_000217.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a box of ice cream",
+    "raw_qwen_caption": "The image shows a discarded cardboard box and a plastic panel lying on the ground. The box appears to be from a company named \"Jogel\" and has a snowflake design on it. The plastic panel has several holes and is leaning against a wall. The setting appears to be an outdoor area"
+  },
+  {
+    "image_index": 218,
+    "image_id": "taco_000218",
+    "file_name": "data/images/taco_000218.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "A white rectangular object with multiple circular holes is leaning against a brown cylindrical object, possibly a trash can or a similar container. The object appears to be made of a light material, possibly plastic or foam."
+  },
+  {
+    "image_index": 219,
+    "image_id": "taco_000219",
+    "file_name": "data/images/taco_000219.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a pair of twigs",
+    "raw_qwen_caption": "The image shows a piece of discarded plastic on a paved surface. The plastic appears to be a piece of packaging or a small plastic bag."
+  },
+  {
+    "image_index": 220,
+    "image_id": "taco_000220",
+    "file_name": "data/images/taco_000220.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: Red plastic bottle on the beach",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 221,
+    "image_id": "taco_000221",
+    "file_name": "data/images/taco_000221.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: plastic waste",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 222,
+    "image_id": "taco_000222",
+    "file_name": "data/images/taco_000222.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A plastic bottle and a broken glass bottle are found on the beach in the city of vancouver, bc",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 223,
+    "image_id": "taco_000223",
+    "file_name": "data/images/taco_000223.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A gold canister",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 224,
+    "image_id": "taco_000224",
+    "file_name": "data/images/taco_000224.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a green sea turtle",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 225,
+    "image_id": "taco_000225",
+    "file_name": "data/images/taco_000225.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: blue plastic bottle",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 226,
+    "image_id": "taco_000226",
+    "file_name": "data/images/taco_000226.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A blue shoe",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 227,
+    "image_id": "taco_000227",
+    "file_name": "data/images/taco_000227.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A blue plastic bottle on a beach in the north of ireland",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 228,
+    "image_id": "taco_000228",
+    "file_name": "data/images/taco_000228.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A blue frisbee is thrown off a cliff",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 229,
+    "image_id": "taco_000229",
+    "file_name": "data/images/taco_000229.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: The garbage is on the shore",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 230,
+    "image_id": "taco_000230",
+    "file_name": "data/images/taco_000230.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a yellow flower in the grass",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 231,
+    "image_id": "taco_000231",
+    "file_name": "data/images/taco_000231.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A skateboarder is standing on a street with a skateboard",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 232,
+    "image_id": "taco_000232",
+    "file_name": "data/images/taco_000232.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 233,
+    "image_id": "taco_000233",
+    "file_name": "data/images/taco_000233.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A white piece of paper",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 234,
+    "image_id": "taco_000234",
+    "file_name": "data/images/taco_000234.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A white plastic bottle with a hole in the bottom",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 235,
+    "image_id": "taco_000235",
+    "file_name": "data/images/taco_000235.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 236,
+    "image_id": "taco_000236",
+    "file_name": "data/images/taco_000236.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 237,
+    "image_id": "taco_000237",
+    "file_name": "data/images/taco_000237.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer:",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 238,
+    "image_id": "taco_000238",
+    "file_name": "data/images/taco_000238.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A discarded cigarette butt",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 239,
+    "image_id": "taco_000239",
+    "file_name": "data/images/taco_000239.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A fire hydrant",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 240,
+    "image_id": "taco_000240",
+    "file_name": "data/images/taco_000240.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A toilet",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 241,
+    "image_id": "taco_000241",
+    "file_name": "data/images/taco_000241.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A yellow and white wrapper, a piece of paper, and a piece of trash",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 242,
+    "image_id": "taco_000242",
+    "file_name": "data/images/taco_000242.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a bird in a tree",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 243,
+    "image_id": "taco_000243",
+    "file_name": "data/images/taco_000243.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A toilet",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 244,
+    "image_id": "taco_000244",
+    "file_name": "data/images/taco_000244.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A person is standing on a rock with a pink piece of paper on it",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 245,
+    "image_id": "taco_000245",
+    "file_name": "data/images/taco_000245.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A black plastic bag",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 246,
+    "image_id": "taco_000246",
+    "file_name": "data/images/taco_000246.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A bottle of water",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 247,
+    "image_id": "taco_000247",
+    "file_name": "data/images/taco_000247.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A flower and a can of soda",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 248,
+    "image_id": "taco_000248",
+    "file_name": "data/images/taco_000248.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a box of cigarettes",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 249,
+    "image_id": "taco_000249",
+    "file_name": "data/images/taco_000249.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a disposable diaper",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 250,
+    "image_id": "taco_000250",
+    "file_name": "data/images/taco_000250.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a rock",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 251,
+    "image_id": "taco_000251",
+    "file_name": "data/images/taco_000251.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: plastic bag",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 252,
+    "image_id": "taco_000252",
+    "file_name": "data/images/taco_000252.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a blue plastic card",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 253,
+    "image_id": "taco_000253",
+    "file_name": "data/images/taco_000253.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a bottle of water",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 254,
+    "image_id": "taco_000254",
+    "file_name": "data/images/taco_000254.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A plastic bottle with a broken lid",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 255,
+    "image_id": "taco_000255",
+    "file_name": "data/images/taco_000255.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A broken toilet",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 256,
+    "image_id": "taco_000256",
+    "file_name": "data/images/taco_000256.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A broken ice cream container",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 257,
+    "image_id": "taco_000257",
+    "file_name": "data/images/taco_000257.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A tire and a rock",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 258,
+    "image_id": "taco_000258",
+    "file_name": "data/images/taco_000258.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a red plastic bottle",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 259,
+    "image_id": "taco_000259",
+    "file_name": "data/images/taco_000259.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A blue piece of paper",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 260,
+    "image_id": "taco_000260",
+    "file_name": "data/images/taco_000260.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: trash",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 261,
+    "image_id": "taco_000261",
+    "file_name": "data/images/taco_000261.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a white kite",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 262,
+    "image_id": "taco_000262",
+    "file_name": "data/images/taco_000262.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A toilet paper roll",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 263,
+    "image_id": "taco_000263",
+    "file_name": "data/images/taco_000263.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a white mushroom",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 264,
+    "image_id": "taco_000264",
+    "file_name": "data/images/taco_000264.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A white plastic bag",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 265,
+    "image_id": "taco_000265",
+    "file_name": "data/images/taco_000265.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A plastic bag",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 266,
+    "image_id": "taco_000266",
+    "file_name": "data/images/taco_000266.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A plastic bag",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 267,
+    "image_id": "taco_000267",
+    "file_name": "data/images/taco_000267.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A plastic bag on the ground",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 268,
+    "image_id": "taco_000268",
+    "file_name": "data/images/taco_000268.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A plastic bag, a rock, and a tree",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 269,
+    "image_id": "taco_000269",
+    "file_name": "data/images/taco_000269.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a cement block",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 270,
+    "image_id": "taco_000270",
+    "file_name": "data/images/taco_000270.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A white plastic toilet seat and a white plastic toilet seat cover are found in a field near a tree",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 271,
+    "image_id": "taco_000271",
+    "file_name": "data/images/taco_000271.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a plastic bottle",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 272,
+    "image_id": "taco_000272",
+    "file_name": "data/images/taco_000272.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A blue plastic bag",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 273,
+    "image_id": "taco_000273",
+    "file_name": "data/images/taco_000273.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a bag of potato chips",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 274,
+    "image_id": "taco_000274",
+    "file_name": "data/images/taco_000274.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A plastic bag",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 275,
+    "image_id": "taco_000275",
+    "file_name": "data/images/taco_000275.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a plastic bag, a plastic bottle, a plastic cup, a plastic bag, a plastic bottle, a plastic cup, a plastic bag, a plastic cup, a plastic bag, a plastic bottle,",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 276,
+    "image_id": "taco_000276",
+    "file_name": "data/images/taco_000276.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A bottle and a plastic container",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 277,
+    "image_id": "taco_000277",
+    "file_name": "data/images/taco_000277.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A bench in a forest",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 278,
+    "image_id": "taco_000278",
+    "file_name": "data/images/taco_000278.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A white surfboard",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 279,
+    "image_id": "taco_000279",
+    "file_name": "data/images/taco_000279.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A white, rectangular, rectangular, rectangular, rectangular, rectangular, rectangular, rectangular, rectangular, rectangular, rectangular, rectangular, rectangular, rectangular, rectangular, rectangular, rectangular, rectangular, rectangular, rectangular",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 280,
+    "image_id": "taco_000280",
+    "file_name": "data/images/taco_000280.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a black bag with a blue tarp on top",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 281,
+    "image_id": "taco_000281",
+    "file_name": "data/images/taco_000281.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A plastic bag and a stick",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 282,
+    "image_id": "taco_000282",
+    "file_name": "data/images/taco_000282.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a white plastic water bottle",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 283,
+    "image_id": "taco_000283",
+    "file_name": "data/images/taco_000283.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A bag of chips",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 284,
+    "image_id": "taco_000284",
+    "file_name": "data/images/taco_000284.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a plastic bag",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 285,
+    "image_id": "taco_000285",
+    "file_name": "data/images/taco_000285.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: plastic bag",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 286,
+    "image_id": "taco_000286",
+    "file_name": "data/images/taco_000286.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A person holding a frisbee",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 287,
+    "image_id": "taco_000287",
+    "file_name": "data/images/taco_000287.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A person is holding a piece of paper with a bird on it",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 288,
+    "image_id": "taco_000288",
+    "file_name": "data/images/taco_000288.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: A dead bird",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 289,
+    "image_id": "taco_000289",
+    "file_name": "data/images/taco_000289.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a plastic cup on the beach",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 290,
+    "image_id": "taco_000290",
+    "file_name": "data/images/taco_000290.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a cigarette butt",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 291,
+    "image_id": "taco_000291",
+    "file_name": "data/images/taco_000291.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: a plastic bottle",
+    "raw_qwen_caption": "An object on the ground."
+  },
+  {
+    "image_index": 292,
+    "image_id": "taco_000292",
+    "file_name": "data/images/taco_000292.jpg",
+    "prompt": "Generate a caption for this waste image.",
+    "raw_blip2_caption": "Question: Generate a caption for this waste image. Answer: cigarette butt",
+    "raw_qwen_caption": "An object on the ground."
+  }
+]

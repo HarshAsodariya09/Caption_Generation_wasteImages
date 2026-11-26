@@ -1,0 +1,2349 @@
+{
+  "total_images": 293,
+  "captions": [
+    {
+      "image_id": "taco_000000",
+      "ground_truth_caption": "In the image, there is one cylindrical emerald-green glass bottle positioned upright with a slight tilt on a clean wooden table. The bottle is structurally intact with no fissures or cracks, showing specular daylight highlights. The table surface is clean and uncluttered. Destination: Glass recycling bin.",
+      "primary_category": "glass_bottle",
+      "material": "glass",
+      "condition": "intact",
+      "destination_bin": "Glass"
+    },
+    {
+      "image_id": "taco_000001",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one folded bleached paperboard meal carton made of paperboard substrate on a clean wooden desk surface alongside one folded paperboard packaging carton. The item is structurally intact with undamaged perimeter flanges and rigid container walls. Destination: Paper recycling bin.",
+      "primary_category": "food_container",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000002",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one transparent PET plastic beverage bottle made of PET #1 rigid plastic on rough asphalt pavement adjacent to a silver vehicle cover alongside one threaded rigid plastic bottle closure cap. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000003",
+      "ground_truth_caption": "In the image, there are 4 discarded waste items, dominated by one transparent PET plastic beverage bottle of PET #1 rigid plastic on dense green vegetation and tall grass. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000004",
+      "ground_truth_caption": "In the image, there is one cylindrical aluminum beverage can composed of aluminum alloy resting on dense green vegetation and tall grass. The item is structurally intact with preserved cylindrical geometry and legible printed branding. The surrounding outdoor ground is covered with natural foliage. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_aluminum",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000005",
+      "ground_truth_caption": "In the image, there are 6 discarded waste items, dominated by one opaque HDPE plastic bottle container of HDPE #2 rigid plastic on a clean wooden kitchen countertop. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000006",
+      "ground_truth_caption": "In the image, there is one pressurized cylindrical aluminum aerosol canister composed of aluminum alloy resting on ceramic wall tiles in a bathroom setting. The item exhibits severe mechanical compaction with dented sidewalls and chipped exterior coating. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_aluminum",
+      "condition": "crushed",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000007",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one transparent PET plastic beverage bottle made of PET #1 rigid plastic on rough asphalt pavement and yellow tactile paving tiles alongside one threaded rigid plastic bottle closure cap. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000008",
+      "ground_truth_caption": "In the image, there is one transparent PET plastic water bottle compressed and flattened on soil with dry leaf litter. The bottle shows surface scratch wear, missing closure cap, and slight dirt contamination along the ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "flattened",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000009",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one ribbed cylindrical steel food can of tin-plated steel on a wooden kitchen countertop beside an electric cooktop. The item exhibits severe mechanical compaction with dented sidewalls and chipped exterior coating. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_steel",
+      "condition": "crushed",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000010",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one cylindrical glass beverage bottle made of soda-lime silica glass on compacted soil and dry vegetation litter alongside one flexible clear plastic wrapper packaging. The item is structurally intact with no fissures, cracks, or chips across the vitreous surface. Destination: Glass recycling bin.",
+      "primary_category": "glass_bottle",
+      "material": "glass",
+      "condition": "intact",
+      "destination_bin": "Glass"
+    },
+    {
+      "image_id": "taco_000011",
+      "ground_truth_caption": "In the image, there are 6 discarded waste items, dominated by one folded paperboard packaging carton of kraft paperboard on natural soil ground bordered by green foliage. The item is structurally intact with crisp rectangular edges and planar cardboard panels. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000012",
+      "ground_truth_caption": "In the image, there are 10 discarded waste items, dominated by one cylindrical glass beverage bottle of soda-lime silica glass on a clean wooden table surface. The item is structurally intact with no fissures, cracks, or chips across the vitreous surface. Destination: Glass recycling bin.",
+      "primary_category": "glass_bottle",
+      "material": "glass",
+      "condition": "intact",
+      "destination_bin": "Glass"
+    },
+    {
+      "image_id": "taco_000013",
+      "ground_truth_caption": "In the image, there are 4 discarded waste items, dominated by one transparent PET plastic beverage bottle of PET #1 rigid plastic on a clean wooden table surface. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000014",
+      "ground_truth_caption": "In the image, there is one opaque HDPE plastic bottle container composed of HDPE #2 rigid plastic resting on a clean wooden table surface. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000015",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one opaque HDPE plastic bottle container of HDPE #2 rigid plastic on a clean wooden table surface. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000016",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one pressurized cylindrical aluminum aerosol canister made of aluminum alloy on a clean wooden table surface alongside one sheet of white cellulose printing paper. The item exhibits severe mechanical compaction with dented sidewalls and chipped exterior coating. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_aluminum",
+      "condition": "crushed",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000017",
+      "ground_truth_caption": "In the image, there is one single-use poly-coated paper beverage cup composed of paperboard substrate resting on asphalt roadway pavement. The item is structurally intact with an undamaged circular rim and clean sealing surfaces. The operational area consists of weathered paved asphalt. Destination: Paper recycling bin.",
+      "primary_category": "cup_lid",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000018",
+      "ground_truth_caption": "In the image, there is one cylindrical aluminum beverage can composed of aluminum alloy resting on dry fallen leaf litter and soil ground under an ivy hedge. The item is structurally intact with preserved cylindrical geometry and legible printed branding. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_aluminum",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000019",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one cylindrical aluminum beverage can made of aluminum alloy on rough coarse-aggregate asphalt pavement alongside one stamped metallic aluminum pull-ring tab. The item is structurally intact with preserved cylindrical geometry and legible printed branding. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_aluminum",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000020",
+      "ground_truth_caption": "In the image, there are 4 discarded waste items, dominated by one ribbed cylindrical steel food can of tin-plated steel on a clean wooden table surface. The item is structurally intact with preserved cylindrical geometry and legible printed branding. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_steel",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000021",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one ribbed cylindrical steel food can made of tin-plated steel on a clean wooden table surface alongside one stamped metallic aluminum pull-ring tab. The item is structurally intact with preserved cylindrical geometry and legible printed branding. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_steel",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000022",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one cylindrical aluminum beverage can made of aluminum alloy on a clean wooden table surface alongside one stamped metallic aluminum pull-ring tab. The item is structurally intact with preserved cylindrical geometry and legible printed branding. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_aluminum",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000023",
+      "ground_truth_caption": "In the image, there are 4 discarded waste items, dominated by one opaque HDPE plastic bottle container of HDPE #2 rigid plastic on a clean wooden table surface. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000024",
+      "ground_truth_caption": "In the image, there is one pressurized cylindrical aluminum aerosol canister composed of aluminum alloy resting on a clean wooden table surface. The item is structurally intact with preserved cylindrical geometry and legible printed branding. The table surface is smooth, clean, and uncluttered. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_aluminum",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000025",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one cylindrical glass beverage bottle made of soda-lime silica glass on natural soil ground bordered by green foliage alongside one flexible clear plastic wrapper packaging. The item is structurally intact with no fissures, cracks, or chips across the vitreous surface. Destination: Glass recycling bin.",
+      "primary_category": "glass_bottle",
+      "material": "glass",
+      "condition": "intact",
+      "destination_bin": "Glass"
+    },
+    {
+      "image_id": "taco_000026",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one cylindrical glass beverage bottle made of soda-lime silica glass on an open outdoor ground surface alongside one flexible clear plastic wrapper packaging. The item is structurally intact with no fissures, cracks, or chips across the vitreous surface. Destination: Glass recycling bin.",
+      "primary_category": "glass_bottle",
+      "material": "glass",
+      "condition": "intact",
+      "destination_bin": "Glass"
+    },
+    {
+      "image_id": "taco_000027",
+      "ground_truth_caption": "In the image, there are 7 discarded waste items, dominated by one transparent PET plastic beverage bottle of PET #1 rigid plastic on dense green vegetation and tall grass. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000028",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one cylindrical aluminum beverage can of aluminum alloy on dense green vegetation and tall grass. The item is structurally intact with preserved cylindrical geometry and legible printed branding. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_aluminum",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000029",
+      "ground_truth_caption": "In the image, there is one cylindrical aluminum beverage can composed of aluminum alloy resting on dense green vegetation and tall grass. The item is structurally intact with preserved cylindrical geometry and legible printed branding. The surrounding outdoor ground is covered with natural foliage. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_aluminum",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000030",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one thermoformed clear plastic food container made of PET #1 rigid plastic on compacted soil with organic dry leaf litter alongside one spent paper-wrapped cigarette butt filter. The item is soiled with environmental surface dust and residual organic staining along the base. Destination: Plastic recycling bin.",
+      "primary_category": "food_container",
+      "material": "plastic_rigid",
+      "condition": "soiled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000031",
+      "ground_truth_caption": "In the image, there is one cylindrical aluminum beverage can composed of aluminum alloy resting on dense green vegetation and tall grass. The item is structurally intact with preserved cylindrical geometry and legible printed branding. The surrounding outdoor ground is covered with natural foliage. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_aluminum",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000032",
+      "ground_truth_caption": "In the image, there is one cylindrical aluminum beverage can composed of aluminum alloy resting on compacted dirt ground with exposed weathered tree roots. The item is structurally intact with preserved cylindrical geometry and legible printed branding. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_aluminum",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000033",
+      "ground_truth_caption": "In the image, there are 4 discarded waste items, dominated by one ribbed cylindrical steel food can of tin-plated steel on a clean wooden table surface. The item is structurally intact with preserved cylindrical geometry and legible printed branding. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_steel",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000034",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one cylindrical aluminum beverage can made of aluminum alloy on a clean wooden table surface alongside one thin-gauge high-density plastic shopping bag. The item is structurally intact with preserved cylindrical geometry and legible printed branding. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_aluminum",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000035",
+      "ground_truth_caption": "In the image, there are 4 discarded waste items, dominated by one pressurized cylindrical aluminum aerosol canister of aluminum alloy on sandy coastal ground terrain. The item exhibits severe mechanical compaction with dented sidewalls and chipped exterior coating. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_aluminum",
+      "condition": "crushed",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000036",
+      "ground_truth_caption": "In the image, there is one transparent PET plastic beverage bottle composed of PET #1 rigid plastic resting on rough coarse-aggregate asphalt pavement. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000037",
+      "ground_truth_caption": "In the image, there is one cylindrical glass beverage bottle composed of soda-lime silica glass resting on dense green vegetation and tall grass. The item is structurally intact with no fissures, cracks, or chips across the vitreous surface. Destination: Glass recycling bin.",
+      "primary_category": "glass_bottle",
+      "material": "glass",
+      "condition": "intact",
+      "destination_bin": "Glass"
+    },
+    {
+      "image_id": "taco_000038",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one translucent flexible LDPE packaging film made of LDPE #4 flexible plastic film on natural soil ground bordered by green foliage alongside one metallized multilayer composite crisp packet. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000039",
+      "ground_truth_caption": "In the image, there is one cylindrical glass beverage bottle composed of soda-lime silica glass resting on a flat concrete pavement slab. The item is structurally intact with no fissures, cracks, or chips across the vitreous surface. Destination: Glass recycling bin.",
+      "primary_category": "glass_bottle",
+      "material": "glass",
+      "condition": "intact",
+      "destination_bin": "Glass"
+    },
+    {
+      "image_id": "taco_000040",
+      "ground_truth_caption": "In the image, there is one cylindrical glass beverage bottle composed of soda-lime silica glass resting on compacted soil with organic dry leaf litter. The item is structurally intact with no fissures, cracks, or chips across the vitreous surface. Destination: Glass recycling bin.",
+      "primary_category": "glass_bottle",
+      "material": "glass",
+      "condition": "intact",
+      "destination_bin": "Glass"
+    },
+    {
+      "image_id": "taco_000041",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one cylindrical aluminum beverage can of aluminum alloy on dense green vegetation and tall grass. The item is structurally intact with preserved cylindrical geometry and legible printed branding. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_aluminum",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000042",
+      "ground_truth_caption": "In the image, there is one cylindrical aluminum beverage can composed of aluminum alloy resting on natural soil ground bordered by green foliage. The item is structurally intact with preserved cylindrical geometry and legible printed branding. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_aluminum",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000043",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one opaque HDPE plastic bottle container of HDPE #2 rigid plastic on a clean wooden table surface. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000044",
+      "ground_truth_caption": "In the image, there are 5 discarded waste items, dominated by one ribbed cylindrical steel food can of tin-plated steel on a clean wooden table surface. The item is structurally intact with preserved cylindrical geometry and legible printed branding. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_steel",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000045",
+      "ground_truth_caption": "In the image, there are 6 discarded waste items, dominated by one ribbed cylindrical steel food can of tin-plated steel on a clean wooden table surface. The item is structurally intact with preserved cylindrical geometry and legible printed branding. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_steel",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000046",
+      "ground_truth_caption": "In the image, there are 6 discarded waste items, dominated by one ribbed cylindrical steel food can of tin-plated steel on compacted soil with organic dry leaf litter. The item is structurally intact with preserved cylindrical geometry and legible printed branding. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_steel",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000047",
+      "ground_truth_caption": "In the image, there are 4 discarded waste items, dominated by one molded cellulose pulp egg carton of recycled paper pulp on compacted soil with organic dry leaf litter. The item is soiled with environmental surface dust and residual organic staining along the base. Destination: Paper recycling bin.",
+      "primary_category": "food_container",
+      "material": "paper_cardboard",
+      "condition": "soiled",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000048",
+      "ground_truth_caption": "In the image, there is one molded cellulose pulp egg carton composed of recycled paper pulp resting on compacted soil with organic dry leaf litter. The item is soiled with environmental surface dust and residual organic staining along the base. Destination: Paper recycling bin.",
+      "primary_category": "food_container",
+      "material": "paper_cardboard",
+      "condition": "soiled",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000049",
+      "ground_truth_caption": "In the image, there is one molded cellulose pulp egg carton composed of recycled paper pulp resting on a flat concrete pavement slab. The item is structurally intact with undamaged perimeter flanges and rigid container walls. Destination: Paper recycling bin.",
+      "primary_category": "food_container",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000050",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one spent paper-wrapped cigarette butt filter of composite cellulose acetate on rough coarse-aggregate asphalt pavement. The item is weathered with compressed cellulose acetate fibers, scorched tip, and paper fading. Destination: Other recycling bin.",
+      "primary_category": "cigarette_butt",
+      "material": "composite_multilayer",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000051",
+      "ground_truth_caption": "In the image, there is one crushed 330ml aluminum beverage can lying horizontally on rough asphalt pavement. The metallic body exhibits severe mechanical compaction with peeled paint and dented sidewalls, free of visible organic liquid residues. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_aluminum",
+      "condition": "crushed",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000052",
+      "ground_truth_caption": "In the image, there is one cylindrical aluminum beverage can composed of aluminum alloy resting on asphalt roadway pavement. The item exhibits severe mechanical compaction with dented sidewalls and chipped exterior coating. The operational area consists of weathered paved asphalt. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_aluminum",
+      "condition": "crushed",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000053",
+      "ground_truth_caption": "In the image, there is one folded paperboard packaging carton composed of kraft paperboard resting on dense green vegetation and tall grass. The item is structurally intact with crisp rectangular edges and planar cardboard panels. The surrounding outdoor ground is covered with natural foliage. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000054",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one sheet of white cellulose printing paper of cellulose wood pulp paper on compacted soil with organic dry leaf litter. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Paper recycling bin.",
+      "primary_category": "paper_tissue",
+      "material": "paper_cardboard",
+      "condition": "crumpled",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000055",
+      "ground_truth_caption": "In the image, there is one cylindrical aluminum beverage can composed of aluminum alloy resting on rough coarse-aggregate asphalt pavement. The item is structurally intact with preserved cylindrical geometry and legible printed branding. The roadway surface exhibits coarse bitumen and mineral aggregates. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_aluminum",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000056",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one spent paper-wrapped cigarette butt filter made of composite cellulose acetate on rough coarse-aggregate asphalt pavement alongside one single-use poly-coated paper beverage cup. The item is weathered with compressed cellulose acetate fibers, scorched tip, and paper fading. Destination: Other recycling bin.",
+      "primary_category": "cigarette_butt",
+      "material": "composite_multilayer",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000057",
+      "ground_truth_caption": "In the image, there are 7 discarded waste items, dominated by one spent paper-wrapped cigarette butt filter of composite cellulose acetate on concrete sidewalk pavement. The item is weathered with compressed cellulose acetate fibers, scorched tip, and paper fading. Destination: Other recycling bin.",
+      "primary_category": "cigarette_butt",
+      "material": "composite_multilayer",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000058",
+      "ground_truth_caption": "In the image, there is one brown unbleached kraft paper shopping bag composed of kraft paper substrate resting on asphalt roadway pavement. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. The operational area consists of weathered paved asphalt. Destination: Paper recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "paper_cardboard",
+      "condition": "crumpled",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000059",
+      "ground_truth_caption": "In the image, there is one brown unbleached kraft paper shopping bag composed of kraft paper substrate resting on compacted soil with organic dry leaf litter. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Paper recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "paper_cardboard",
+      "condition": "crumpled",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000060",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one transparent PET plastic beverage bottle of PET #1 rigid plastic on natural soil ground bordered by green foliage. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000061",
+      "ground_truth_caption": "In the image, there is one metallized multilayer composite crisp packet composed of composite metallized film resting on dense green vegetation and tall grass. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Other recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "composite_multilayer",
+      "condition": "crumpled",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000062",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one single-use poly-coated paper beverage cup made of paperboard substrate on natural soil ground bordered by green foliage alongside one circular thermoformed plastic lid. The item is structurally intact with an undamaged circular rim and clean sealing surfaces. Destination: Paper recycling bin.",
+      "primary_category": "cup_lid",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000063",
+      "ground_truth_caption": "In the image, there are 4 discarded waste items, dominated by one cylindrical aluminum beverage can of aluminum alloy on concrete sidewalk pavement. The item is structurally intact with preserved cylindrical geometry and legible printed branding. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_aluminum",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000064",
+      "ground_truth_caption": "In the image, there are 9 discarded waste items, dominated by one fractured transparent glass container shard of soda-lime silica glass on concrete sidewalk pavement. The item is fractured into irregular sharp shards with acute angles across the glass matrix. Destination: Glass recycling bin.",
+      "primary_category": "glass_bottle",
+      "material": "glass",
+      "condition": "crushed",
+      "destination_bin": "Glass"
+    },
+    {
+      "image_id": "taco_000065",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one spent paper-wrapped cigarette butt filter of composite cellulose acetate on a flat concrete pavement slab. The item is weathered with compressed cellulose acetate fibers, scorched tip, and paper fading. Destination: Other recycling bin.",
+      "primary_category": "cigarette_butt",
+      "material": "composite_multilayer",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000066",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one brown unbleached kraft paper shopping bag made of kraft paper substrate on concrete sidewalk pavement alongside one spent paper-wrapped cigarette butt filter. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Paper recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "paper_cardboard",
+      "condition": "crumpled",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000067",
+      "ground_truth_caption": "In the image, there are 4 discarded waste items, dominated by one wide-mouth transparent glass food jar of soda-lime silica glass on a clean wooden table surface. The item is structurally intact with no fissures, cracks, or chips across the vitreous surface. Destination: Glass recycling bin.",
+      "primary_category": "glass_bottle",
+      "material": "glass",
+      "condition": "intact",
+      "destination_bin": "Glass"
+    },
+    {
+      "image_id": "taco_000069",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one crimped aluminum crown bottle cap made of aluminum alloy on a clean wooden table surface alongside one flexible laminate plastic squeeze tube. The item is structurally intact with an undamaged circular rim and clean sealing surfaces. Destination: Metal recycling bin.",
+      "primary_category": "cup_lid",
+      "material": "metal_aluminum",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000070",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one folded paperboard packaging carton of kraft paperboard on compacted soil with organic dry leaf litter. The item is structurally intact with crisp rectangular edges and planar cardboard panels. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000071",
+      "ground_truth_caption": "In the image, there is one injection-molded plastic margarine tub composed of PP #5 rigid plastic resting on compacted soil with organic dry leaf litter. The item is soiled with environmental surface dust and residual organic staining along the base. Destination: Plastic recycling bin.",
+      "primary_category": "food_container",
+      "material": "plastic_rigid",
+      "condition": "soiled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000072",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one translucent flexible LDPE packaging film made of LDPE #4 flexible plastic film on a flat concrete pavement slab alongside one degraded organic food waste matter. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000073",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one thin-gauge high-density plastic shopping bag of HDPE #2 plastic film on a clean wooden table surface. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000074",
+      "ground_truth_caption": "In the image, there is one black low-density polyethylene waste bag composed of LDPE plastic film resting on concrete sidewalk pavement. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. The ground features uniform concrete construction. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000075",
+      "ground_truth_caption": "In the image, there are 13 discarded waste items, dominated by one cylindrical aluminum beverage can of aluminum alloy on natural soil ground bordered by green foliage. The item is structurally intact with preserved cylindrical geometry and legible printed branding. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_aluminum",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000076",
+      "ground_truth_caption": "In the image, there are 5 discarded waste items, dominated by one transparent PET plastic beverage bottle of PET #1 rigid plastic on rough coarse-aggregate asphalt pavement. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000077",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one circular thermoformed plastic lid made of PS #6 rigid plastic on compacted soil with organic dry leaf litter alongside one flexible low-density polyethylene carrier ring. The item is structurally intact with an undamaged circular rim and clean sealing surfaces. Destination: Plastic recycling bin.",
+      "primary_category": "cup_lid",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000078",
+      "ground_truth_caption": "In the image, there is one expanded polystyrene foam cup composed of expanded polystyrene (EPS) resting on asphalt roadway pavement. The item is structurally intact with an undamaged circular rim and clean sealing surfaces. The operational area consists of weathered paved asphalt. Destination: Other recycling bin.",
+      "primary_category": "cup_lid",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000079",
+      "ground_truth_caption": "In the image, there is one expanded polystyrene foam cup composed of expanded polystyrene (EPS) resting on compacted soil with organic dry leaf litter. The item is structurally intact with an undamaged circular rim and clean sealing surfaces. Destination: Other recycling bin.",
+      "primary_category": "cup_lid",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000080",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one cylindrical transparent drinking glass tumbler made of soda-lime silica glass on compacted soil with organic dry leaf litter alongside one cylindrical spirally-wound paper drinking straw. The item is structurally intact with no fissures, cracks, or chips across the vitreous surface. Destination: Glass recycling bin.",
+      "primary_category": "glass_bottle",
+      "material": "glass",
+      "condition": "intact",
+      "destination_bin": "Glass"
+    },
+    {
+      "image_id": "taco_000081",
+      "ground_truth_caption": "In the image, there are 6 discarded waste items, dominated by one corrugated kraft cardboard shipping box of corrugated kraft paperboard on rough coarse-aggregate asphalt pavement. The item is structurally intact with crisp rectangular edges and planar cardboard panels. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000082",
+      "ground_truth_caption": "In the image, there are 7 discarded waste items, dominated by one pressurized cylindrical aluminum aerosol canister of aluminum alloy on a flat concrete pavement slab. The item is structurally intact with preserved cylindrical geometry and legible printed branding. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_aluminum",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000083",
+      "ground_truth_caption": "In the image, there is one translucent flexible LDPE packaging film composed of LDPE #4 flexible plastic film resting on dense green vegetation and tall grass. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000084",
+      "ground_truth_caption": "In the image, there are 6 discarded waste items, dominated by one opaque HDPE plastic bottle container of HDPE #2 rigid plastic on a clean wooden table surface. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000085",
+      "ground_truth_caption": "In the image, there are 5 discarded waste items, dominated by one cylindrical aluminum beverage can of aluminum alloy on natural soil ground bordered by green foliage. The item is structurally intact with preserved cylindrical geometry and legible printed branding. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_aluminum",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000086",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one spent paper-wrapped cigarette butt filter made of composite cellulose acetate on dense green vegetation and tall grass alongside one twisted synthetic polypropylene polymer cord. The item is weathered with compressed cellulose acetate fibers, scorched tip, and paper fading. Destination: Other recycling bin.",
+      "primary_category": "cigarette_butt",
+      "material": "composite_multilayer",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000087",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one cylindrical aluminum beverage can made of aluminum alloy on dense green vegetation and tall grass alongside one flexible clear plastic wrapper packaging. The item exhibits severe mechanical compaction with dented sidewalls and chipped exterior coating. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_aluminum",
+      "condition": "crushed",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000088",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one thermoformed clear plastic food container of PET #1 rigid plastic on rough coarse-aggregate asphalt pavement. The item is structurally intact with undamaged perimeter flanges and rigid container walls. Destination: Plastic recycling bin.",
+      "primary_category": "food_container",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000089",
+      "ground_truth_caption": "In the image, there are 12 discarded waste items, dominated by one folded bleached paperboard meal carton of paperboard substrate on natural soil ground bordered by green foliage. The item is soiled with environmental surface dust and residual organic staining along the base. Destination: Paper recycling bin.",
+      "primary_category": "food_container",
+      "material": "paper_cardboard",
+      "condition": "soiled",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000090",
+      "ground_truth_caption": "In the image, there are 4 discarded waste items, dominated by one sheet of white cellulose printing paper of cellulose wood pulp paper on concrete sidewalk pavement. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Paper recycling bin.",
+      "primary_category": "paper_tissue",
+      "material": "paper_cardboard",
+      "condition": "crumpled",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000091",
+      "ground_truth_caption": "In the image, there is one metallized multilayer composite crisp packet composed of composite metallized film resting on natural soil ground bordered by green foliage. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Other recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "composite_multilayer",
+      "condition": "crumpled",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000092",
+      "ground_truth_caption": "In the image, there is one degraded organic food waste matter composed of organic matter resting on asphalt roadway pavement. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. The operational area consists of weathered paved asphalt. Destination: Other recycling bin.",
+      "primary_category": "other_litter",
+      "material": "composite_multilayer",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000093",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one translucent flexible LDPE packaging film made of LDPE #4 flexible plastic film on rough coarse-aggregate asphalt pavement alongside one spent paper-wrapped cigarette butt filter. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000094",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one threaded rigid plastic bottle closure cap made of PP #5 rigid plastic on natural soil ground bordered by green foliage alongside one crimped aluminum crown bottle cap. The item is structurally intact with an undamaged circular rim and clean sealing surfaces. Destination: Plastic recycling bin.",
+      "primary_category": "cup_lid",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000095",
+      "ground_truth_caption": "In the image, there is one crimped aluminum crown bottle cap composed of aluminum alloy resting on dense green vegetation and tall grass. The item is structurally intact with an undamaged circular rim and clean sealing surfaces. Destination: Metal recycling bin.",
+      "primary_category": "cup_lid",
+      "material": "metal_aluminum",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000096",
+      "ground_truth_caption": "In the image, there is one cylindrical aluminum beverage can composed of aluminum alloy resting on compacted soil with organic dry leaf litter. The item is structurally intact with preserved cylindrical geometry and legible printed branding. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_aluminum",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000097",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one expanded polystyrene cellular foam fragment of expanded polystyrene (EPS) on compacted soil with organic dry leaf litter. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. Destination: Other recycling bin.",
+      "primary_category": "other_litter",
+      "material": "plastic_rigid",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000098",
+      "ground_truth_caption": "In the image, there are 10 discarded waste items, dominated by one folded paperboard packaging carton of kraft paperboard on dense green vegetation and tall grass. The item is structurally intact with crisp rectangular edges and planar cardboard panels. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000099",
+      "ground_truth_caption": "In the image, there are 13 discarded waste items, dominated by one folded paperboard packaging carton of kraft paperboard on compacted soil with organic dry leaf litter. The item is structurally intact with crisp rectangular edges and planar cardboard panels. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000100",
+      "ground_truth_caption": "In the image, there are 7 discarded waste items, dominated by one corrugated kraft cardboard shipping box of corrugated kraft paperboard on compacted soil with organic dry leaf litter. The item is structurally intact with crisp rectangular edges and planar cardboard panels. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000101",
+      "ground_truth_caption": "In the image, there is one transparent PET plastic beverage bottle composed of PET #1 rigid plastic resting on asphalt roadway pavement. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. The operational area consists of weathered paved asphalt. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000102",
+      "ground_truth_caption": "In the image, there are 13 discarded waste items, dominated by one opaque HDPE plastic bottle container of HDPE #2 rigid plastic on asphalt roadway pavement. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000103",
+      "ground_truth_caption": "In the image, there are 6 discarded waste items, dominated by one transparent PET plastic beverage bottle of PET #1 rigid plastic on compacted soil with organic dry leaf litter. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000104",
+      "ground_truth_caption": "In the image, there are 14 discarded waste items, dominated by one transparent PET plastic beverage bottle of PET #1 rigid plastic on compacted soil with organic dry leaf litter. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000105",
+      "ground_truth_caption": "In the image, there are 11 discarded waste items, dominated by one translucent flexible LDPE packaging film of LDPE #4 flexible plastic film on asphalt roadway pavement. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000106",
+      "ground_truth_caption": "In the image, there are 9 discarded waste items, dominated by one transparent PET plastic beverage bottle of PET #1 rigid plastic on asphalt roadway pavement. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000107",
+      "ground_truth_caption": "In the image, there are 4 discarded waste items, dominated by one thin-gauge high-density plastic shopping bag of HDPE #2 plastic film on compacted soil with organic dry leaf litter. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000108",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one molded rigid plastic packaging container made of rigid plastic polymer on coarse aggregate gravel ground alongside one weathered post-consumer solid litter fragment. The item is structurally intact with undamaged perimeter flanges and rigid container walls. Destination: Plastic recycling bin.",
+      "primary_category": "food_container",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000109",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one translucent flexible LDPE packaging film of LDPE #4 flexible plastic film on concrete sidewalk pavement. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000110",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one thin-gauge high-density plastic shopping bag made of HDPE #2 plastic film on compacted soil with organic dry leaf litter alongside one weathered post-consumer solid litter fragment. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000111",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one transparent PET plastic beverage bottle made of PET #1 rigid plastic on concrete sidewalk pavement alongside one weathered post-consumer solid litter fragment. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000112",
+      "ground_truth_caption": "In the image, there are 14 discarded waste items, dominated by one cylindrical glass beverage bottle of soda-lime silica glass on an open outdoor ground surface. The item is structurally intact with no fissures, cracks, or chips across the vitreous surface. Destination: Glass recycling bin.",
+      "primary_category": "glass_bottle",
+      "material": "glass",
+      "condition": "intact",
+      "destination_bin": "Glass"
+    },
+    {
+      "image_id": "taco_000113",
+      "ground_truth_caption": "In the image, there is one transparent PET plastic beverage bottle composed of PET #1 rigid plastic resting on compacted soil with organic dry leaf litter. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000114",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one cylindrical glass beverage bottle made of soda-lime silica glass on compacted soil with organic dry leaf litter alongside one cylindrical glass beverage bottle. The item is structurally intact with no fissures, cracks, or chips across the vitreous surface. Destination: Glass recycling bin.",
+      "primary_category": "glass_bottle",
+      "material": "glass",
+      "condition": "intact",
+      "destination_bin": "Glass"
+    },
+    {
+      "image_id": "taco_000115",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one cylindrical glass beverage bottle of soda-lime silica glass on asphalt roadway pavement. The item is structurally intact with no fissures, cracks, or chips across the vitreous surface. Destination: Glass recycling bin.",
+      "primary_category": "glass_bottle",
+      "material": "glass",
+      "condition": "intact",
+      "destination_bin": "Glass"
+    },
+    {
+      "image_id": "taco_000116",
+      "ground_truth_caption": "In the image, there are 5 discarded waste items, dominated by one transparent PET plastic beverage bottle of PET #1 rigid plastic on compacted soil with organic dry leaf litter. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000117",
+      "ground_truth_caption": "In the image, there is one translucent flexible LDPE packaging film composed of LDPE #4 flexible plastic film resting on coarse aggregate gravel ground. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000118",
+      "ground_truth_caption": "In the image, there is one weathered post-consumer solid litter fragment composed of composite multilayer material resting on coarse aggregate gravel ground. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. The terrain displays unpaved gravel with loose stone particles. Destination: Other recycling bin.",
+      "primary_category": "other_litter",
+      "material": "composite_multilayer",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000119",
+      "ground_truth_caption": "In the image, there is one crumpled metallic aluminum packaging foil composed of aluminum alloy resting on coarse aggregate gravel ground. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. The terrain displays unpaved gravel with loose stone particles. Destination: Metal recycling bin.",
+      "primary_category": "other_litter",
+      "material": "metal_aluminum",
+      "condition": "weathered",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000120",
+      "ground_truth_caption": "In the image, there is one sheet of white cellulose printing paper composed of cellulose wood pulp paper resting on natural soil ground bordered by green foliage. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Paper recycling bin.",
+      "primary_category": "paper_tissue",
+      "material": "paper_cardboard",
+      "condition": "crumpled",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000121",
+      "ground_truth_caption": "In the image, there are 11 discarded waste items, dominated by one translucent flexible LDPE packaging film of LDPE #4 flexible plastic film on compacted soil with organic dry leaf litter. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000122",
+      "ground_truth_caption": "In the image, there are 7 discarded waste items, dominated by one cylindrical glass beverage bottle of soda-lime silica glass on compacted soil with organic dry leaf litter. The item is structurally intact with no fissures, cracks, or chips across the vitreous surface. Destination: Glass recycling bin.",
+      "primary_category": "glass_bottle",
+      "material": "glass",
+      "condition": "intact",
+      "destination_bin": "Glass"
+    },
+    {
+      "image_id": "taco_000123",
+      "ground_truth_caption": "In the image, there are 4 discarded waste items, dominated by one translucent flexible LDPE packaging film of LDPE #4 flexible plastic film on compacted soil with organic dry leaf litter. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000124",
+      "ground_truth_caption": "In the image, there is one transparent PET plastic beverage bottle composed of PET #1 rigid plastic resting on compacted soil with organic dry leaf litter. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000125",
+      "ground_truth_caption": "In the image, there is one discarded synthetic footwear sole component composed of composite polymer substrate resting on rough coarse-aggregate asphalt pavement. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. The roadway surface exhibits coarse bitumen and mineral aggregates. Destination: Other recycling bin.",
+      "primary_category": "other_litter",
+      "material": "composite_multilayer",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000126",
+      "ground_truth_caption": "In the image, there is one cylindrical aluminum beverage can composed of aluminum alloy resting on compacted soil with organic dry leaf litter. The item is structurally intact with preserved cylindrical geometry and legible printed branding. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_aluminum",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000127",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one molded cellulose pulp egg carton of recycled paper pulp on compacted soil with organic dry leaf litter. The item is soiled with environmental surface dust and residual organic staining along the base. Destination: Paper recycling bin.",
+      "primary_category": "food_container",
+      "material": "paper_cardboard",
+      "condition": "soiled",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000128",
+      "ground_truth_caption": "In the image, there are 4 discarded waste items, dominated by one aseptic multilayer beverage carton of composite multilayer paperboard on concrete sidewalk pavement. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. Destination: Other recycling bin.",
+      "primary_category": "drink_carton",
+      "material": "composite_multilayer",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000129",
+      "ground_truth_caption": "In the image, there is one unidentified rigid plastic litter fragment composed of rigid plastic polymer resting on concrete sidewalk pavement. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. The ground features uniform concrete construction. Destination: Plastic recycling bin.",
+      "primary_category": "other_litter",
+      "material": "plastic_rigid",
+      "condition": "weathered",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000130",
+      "ground_truth_caption": "In the image, there are 4 discarded waste items, dominated by one transparent PET plastic beverage bottle of PET #1 rigid plastic on compacted soil with organic dry leaf litter. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000131",
+      "ground_truth_caption": "In the image, there is one corrugated kraft cardboard shipping box composed of corrugated kraft paperboard resting on concrete sidewalk pavement. The item is structurally intact with crisp rectangular edges and planar cardboard panels. The ground features uniform concrete construction. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000132",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one corrugated kraft cardboard shipping box made of corrugated kraft paperboard on concrete sidewalk pavement alongside one spent paper-wrapped cigarette butt filter. The item is structurally intact with crisp rectangular edges and planar cardboard panels. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000135",
+      "ground_truth_caption": "In the image, there are 21 discarded waste items, dominated by one cylindrical aluminum beverage can of aluminum alloy on concrete sidewalk pavement. The item exhibits severe mechanical compaction with dented sidewalls and chipped exterior coating. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_aluminum",
+      "condition": "crushed",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000136",
+      "ground_truth_caption": "In the image, there are 17 discarded waste items, dominated by one cylindrical aluminum beverage can of aluminum alloy on concrete sidewalk pavement. The item is structurally intact with preserved cylindrical geometry and legible printed branding. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_aluminum",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000137",
+      "ground_truth_caption": "In the image, there are 15 discarded waste items, dominated by one folded paperboard packaging carton of kraft paperboard on concrete sidewalk pavement. The item is structurally intact with crisp rectangular edges and planar cardboard panels. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000138",
+      "ground_truth_caption": "In the image, there are 5 discarded waste items, dominated by one folded paperboard packaging carton of kraft paperboard on concrete sidewalk pavement. The item is structurally intact with crisp rectangular edges and planar cardboard panels. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000139",
+      "ground_truth_caption": "In the image, there are 4 discarded waste items, dominated by one aseptic multilayer beverage carton of composite multilayer paperboard on concrete sidewalk pavement. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. Destination: Other recycling bin.",
+      "primary_category": "drink_carton",
+      "material": "composite_multilayer",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000140",
+      "ground_truth_caption": "In the image, there is one threaded rigid plastic bottle closure cap composed of PP #5 rigid plastic resting on concrete sidewalk pavement. The item is structurally intact with an undamaged circular rim and clean sealing surfaces. Destination: Plastic recycling bin.",
+      "primary_category": "cup_lid",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000141",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one translucent flexible LDPE packaging film made of LDPE #4 flexible plastic film on concrete sidewalk pavement alongside one weathered post-consumer solid litter fragment. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000142",
+      "ground_truth_caption": "In the image, there are 5 discarded waste items, dominated by one translucent flexible LDPE packaging film of LDPE #4 flexible plastic film on coarse aggregate gravel ground. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000143",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one translucent flexible LDPE packaging film of LDPE #4 flexible plastic film on dense green vegetation and tall grass. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000144",
+      "ground_truth_caption": "In the image, there are 7 discarded waste items, dominated by one translucent flexible LDPE packaging film of LDPE #4 flexible plastic film on coarse aggregate gravel ground. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000145",
+      "ground_truth_caption": "In the image, there is one slender extruded rigid plastic drinking straw composed of polypropylene plastic resting on coarse aggregate gravel ground. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. The terrain displays unpaved gravel with loose stone particles. Destination: Plastic recycling bin.",
+      "primary_category": "other_litter",
+      "material": "plastic_rigid",
+      "condition": "weathered",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000146",
+      "ground_truth_caption": "In the image, there is one threaded rigid plastic bottle closure cap composed of PP #5 rigid plastic resting on coarse aggregate gravel ground. The item is structurally intact with an undamaged circular rim and clean sealing surfaces. Destination: Plastic recycling bin.",
+      "primary_category": "cup_lid",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000147",
+      "ground_truth_caption": "In the image, there is one folded paperboard packaging carton composed of kraft paperboard resting on coarse aggregate gravel ground. The item is structurally intact with crisp rectangular edges and planar cardboard panels. The terrain displays unpaved gravel with loose stone particles. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000148",
+      "ground_truth_caption": "In the image, there are 5 discarded waste items, dominated by one transparent PET plastic beverage bottle of PET #1 rigid plastic on asphalt roadway pavement. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000149",
+      "ground_truth_caption": "In the image, there are 5 discarded waste items, dominated by one fractured transparent glass container shard of soda-lime silica glass on coarse aggregate gravel ground. The item is fractured into irregular sharp shards with acute angles across the glass matrix. Destination: Glass recycling bin.",
+      "primary_category": "glass_bottle",
+      "material": "glass",
+      "condition": "crushed",
+      "destination_bin": "Glass"
+    },
+    {
+      "image_id": "taco_000150",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one flexible clear plastic wrapper packaging made of flexible plastic film on compacted soil with organic dry leaf litter alongside one weathered post-consumer solid litter fragment. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000151",
+      "ground_truth_caption": "In the image, there are 10 discarded waste items, dominated by one translucent flexible LDPE packaging film of LDPE #4 flexible plastic film on asphalt roadway pavement. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000152",
+      "ground_truth_caption": "In the image, there is one expanded polystyrene cellular foam fragment composed of expanded polystyrene (EPS) resting on concrete sidewalk pavement. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. The ground features uniform concrete construction. Destination: Other recycling bin.",
+      "primary_category": "other_litter",
+      "material": "plastic_rigid",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000153",
+      "ground_truth_caption": "In the image, there is one weathered post-consumer solid litter fragment composed of composite multilayer material resting on rough coarse-aggregate asphalt pavement. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. The roadway surface exhibits coarse bitumen and mineral aggregates. Destination: Other recycling bin.",
+      "primary_category": "other_litter",
+      "material": "composite_multilayer",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000154",
+      "ground_truth_caption": "In the image, there is one translucent flexible LDPE packaging film composed of LDPE #4 flexible plastic film resting on compacted soil with organic dry leaf litter. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000155",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one translucent flexible LDPE packaging film made of LDPE #4 flexible plastic film on asphalt roadway pavement alongside one spent paper-wrapped cigarette butt filter. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000156",
+      "ground_truth_caption": "In the image, there is one translucent flexible LDPE packaging film composed of LDPE #4 flexible plastic film resting on asphalt roadway pavement. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000158",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one translucent flexible LDPE packaging film made of LDPE #4 flexible plastic film on rough coarse-aggregate asphalt pavement alongside one unidentified rigid plastic litter fragment. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000159",
+      "ground_truth_caption": "In the image, there is one translucent flexible LDPE packaging film composed of LDPE #4 flexible plastic film resting on compacted soil with organic dry leaf litter. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000160",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one translucent flexible LDPE packaging film made of LDPE #4 flexible plastic film on coarse aggregate gravel ground alongside one unidentified rigid plastic litter fragment. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000161",
+      "ground_truth_caption": "In the image, there is one translucent flexible LDPE packaging film composed of LDPE #4 flexible plastic film resting on coarse aggregate gravel ground. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000162",
+      "ground_truth_caption": "In the image, there is one crumpled metallic aluminum packaging foil composed of aluminum alloy resting on compacted soil with organic dry leaf litter. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. Destination: Metal recycling bin.",
+      "primary_category": "other_litter",
+      "material": "metal_aluminum",
+      "condition": "weathered",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000163",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one translucent flexible LDPE packaging film of LDPE #4 flexible plastic film on asphalt roadway pavement. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000164",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one translucent flexible LDPE packaging film made of LDPE #4 flexible plastic film on coarse aggregate gravel ground alongside one translucent flexible LDPE packaging film. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000165",
+      "ground_truth_caption": "In the image, there is one spent paper-wrapped cigarette butt filter composed of composite cellulose acetate resting on coarse aggregate gravel ground. The item is weathered with compressed cellulose acetate fibers, scorched tip, and paper fading. Destination: Other recycling bin.",
+      "primary_category": "cigarette_butt",
+      "material": "composite_multilayer",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000166",
+      "ground_truth_caption": "In the image, there is one translucent flexible LDPE packaging film composed of LDPE #4 flexible plastic film resting on coarse aggregate gravel ground. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000167",
+      "ground_truth_caption": "In the image, there is one translucent flexible LDPE packaging film composed of LDPE #4 flexible plastic film resting on coarse aggregate gravel ground. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000168",
+      "ground_truth_caption": "In the image, there is one translucent flexible LDPE packaging film composed of LDPE #4 flexible plastic film resting on rough coarse-aggregate asphalt pavement. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000169",
+      "ground_truth_caption": "In the image, there is one translucent flexible LDPE packaging film composed of LDPE #4 flexible plastic film resting on rough coarse-aggregate asphalt pavement. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000170",
+      "ground_truth_caption": "In the image, there is one twisted synthetic polypropylene polymer cord composed of synthetic plastic cord resting on rough coarse-aggregate asphalt pavement. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. The roadway surface exhibits coarse bitumen and mineral aggregates. Destination: Plastic recycling bin.",
+      "primary_category": "other_litter",
+      "material": "plastic_film",
+      "condition": "weathered",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000171",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one twisted synthetic polypropylene polymer cord made of synthetic plastic cord on rough coarse-aggregate asphalt pavement alongside one weathered post-consumer solid litter fragment. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. Destination: Plastic recycling bin.",
+      "primary_category": "other_litter",
+      "material": "plastic_film",
+      "condition": "weathered",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000172",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one unidentified rigid plastic litter fragment made of rigid plastic polymer on rough coarse-aggregate asphalt pavement alongside one weathered post-consumer solid litter fragment. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. Destination: Plastic recycling bin.",
+      "primary_category": "other_litter",
+      "material": "plastic_rigid",
+      "condition": "weathered",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000173",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one twisted synthetic polypropylene polymer cord made of synthetic plastic cord on rough coarse-aggregate asphalt pavement alongside one unidentified rigid plastic litter fragment. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. Destination: Plastic recycling bin.",
+      "primary_category": "other_litter",
+      "material": "plastic_film",
+      "condition": "weathered",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000174",
+      "ground_truth_caption": "In the image, there is one translucent flexible LDPE packaging film composed of LDPE #4 flexible plastic film resting on rough coarse-aggregate asphalt pavement. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000175",
+      "ground_truth_caption": "In the image, there is one unidentified rigid plastic litter fragment composed of rigid plastic polymer resting on compacted soil with organic dry leaf litter. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. Destination: Plastic recycling bin.",
+      "primary_category": "other_litter",
+      "material": "plastic_rigid",
+      "condition": "weathered",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000176",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one transparent PET plastic beverage bottle of PET #1 rigid plastic on asphalt roadway pavement. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000177",
+      "ground_truth_caption": "In the image, there are 4 discarded waste items, dominated by one translucent flexible LDPE packaging film of LDPE #4 flexible plastic film on a flat concrete pavement slab. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000178",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one translucent flexible LDPE packaging film made of LDPE #4 flexible plastic film on concrete sidewalk pavement alongside one spent paper-wrapped cigarette butt filter. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000179",
+      "ground_truth_caption": "In the image, there is one unidentified rigid plastic litter fragment composed of rigid plastic polymer resting on an open outdoor ground surface. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. The surrounding environment is a dry outdoor terrain. Destination: Plastic recycling bin.",
+      "primary_category": "other_litter",
+      "material": "plastic_rigid",
+      "condition": "weathered",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000180",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one weathered post-consumer solid litter fragment made of composite multilayer material on an open outdoor ground surface alongside one weathered post-consumer solid litter fragment. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. Destination: Other recycling bin.",
+      "primary_category": "other_litter",
+      "material": "composite_multilayer",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000181",
+      "ground_truth_caption": "In the image, there is one slender extruded rigid plastic drinking straw composed of polypropylene plastic resting on concrete sidewalk pavement. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. The ground features uniform concrete construction. Destination: Plastic recycling bin.",
+      "primary_category": "other_litter",
+      "material": "plastic_rigid",
+      "condition": "weathered",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000182",
+      "ground_truth_caption": "In the image, there are 4 discarded waste items, dominated by one transparent PET plastic beverage bottle of PET #1 rigid plastic on concrete sidewalk pavement. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000183",
+      "ground_truth_caption": "In the image, there is one unidentified rigid plastic litter fragment composed of rigid plastic polymer resting on an open outdoor ground surface. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. The surrounding environment is a dry outdoor terrain. Destination: Plastic recycling bin.",
+      "primary_category": "other_litter",
+      "material": "plastic_rigid",
+      "condition": "weathered",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000184",
+      "ground_truth_caption": "In the image, there are 5 discarded waste items, dominated by one folded bleached paperboard meal carton of paperboard substrate on compacted soil with organic dry leaf litter. The item is soiled with environmental surface dust and residual organic staining along the base. Destination: Paper recycling bin.",
+      "primary_category": "food_container",
+      "material": "paper_cardboard",
+      "condition": "soiled",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000185",
+      "ground_truth_caption": "In the image, there are 5 discarded waste items, dominated by one black low-density polyethylene waste bag of LDPE plastic film on a clean wooden table surface. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000186",
+      "ground_truth_caption": "In the image, there are 9 discarded waste items, dominated by one corrugated kraft cardboard shipping box of corrugated kraft paperboard on compacted soil with organic dry leaf litter. The item is structurally intact with crisp rectangular edges and planar cardboard panels. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000187",
+      "ground_truth_caption": "In the image, there are 7 discarded waste items, dominated by one cylindrical glass beverage bottle of soda-lime silica glass on concrete sidewalk pavement. The item is structurally intact with no fissures, cracks, or chips across the vitreous surface. Destination: Glass recycling bin.",
+      "primary_category": "glass_bottle",
+      "material": "glass",
+      "condition": "intact",
+      "destination_bin": "Glass"
+    },
+    {
+      "image_id": "taco_000188",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one transparent PET plastic beverage bottle of PET #1 rigid plastic on concrete sidewalk pavement. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000189",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one folded paperboard packaging carton made of kraft paperboard on compacted soil with organic dry leaf litter alongside one absorbent white cellulose paper tissue. The item is structurally intact with crisp rectangular edges and planar cardboard panels. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000190",
+      "ground_truth_caption": "In the image, there are 5 discarded waste items, dominated by one clear thermoformed plastic beverage cup of PP #5 rigid plastic on compacted soil with organic dry leaf litter. The item is structurally intact with an undamaged circular rim and clean sealing surfaces. Destination: Plastic recycling bin.",
+      "primary_category": "cup_lid",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000191",
+      "ground_truth_caption": "In the image, there are 5 discarded waste items, dominated by one translucent flexible LDPE packaging film of LDPE #4 flexible plastic film on concrete sidewalk pavement. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000192",
+      "ground_truth_caption": "In the image, there are 4 discarded waste items, dominated by one cylindrical glass beverage bottle of soda-lime silica glass on compacted soil with organic dry leaf litter. The item is structurally intact with no fissures, cracks, or chips across the vitreous surface. Destination: Glass recycling bin.",
+      "primary_category": "glass_bottle",
+      "material": "glass",
+      "condition": "intact",
+      "destination_bin": "Glass"
+    },
+    {
+      "image_id": "taco_000193",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one translucent flexible LDPE packaging film made of LDPE #4 flexible plastic film on concrete sidewalk pavement alongside one weathered post-consumer solid litter fragment. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000194",
+      "ground_truth_caption": "In the image, there are 14 discarded waste items, dominated by one cylindrical glass beverage bottle of soda-lime silica glass on concrete sidewalk pavement. The item is structurally intact with no fissures, cracks, or chips across the vitreous surface. Destination: Glass recycling bin.",
+      "primary_category": "glass_bottle",
+      "material": "glass",
+      "condition": "intact",
+      "destination_bin": "Glass"
+    },
+    {
+      "image_id": "taco_000195",
+      "ground_truth_caption": "In the image, there are 6 discarded waste items, dominated by one clear thermoformed plastic beverage cup of PP #5 rigid plastic on concrete sidewalk pavement. The item is structurally intact with an undamaged circular rim and clean sealing surfaces. Destination: Plastic recycling bin.",
+      "primary_category": "cup_lid",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000196",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one spent paper-wrapped cigarette butt filter made of composite cellulose acetate on concrete sidewalk pavement alongside one crumpled metallic aluminum packaging foil. The item is weathered with compressed cellulose acetate fibers, scorched tip, and paper fading. Destination: Other recycling bin.",
+      "primary_category": "cigarette_butt",
+      "material": "composite_multilayer",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000197",
+      "ground_truth_caption": "In the image, there are 6 discarded waste items, dominated by one fractured transparent glass container shard of soda-lime silica glass on concrete sidewalk pavement. The item is fractured into irregular sharp shards with acute angles across the glass matrix. Destination: Glass recycling bin.",
+      "primary_category": "glass_bottle",
+      "material": "glass",
+      "condition": "crushed",
+      "destination_bin": "Glass"
+    },
+    {
+      "image_id": "taco_000198",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one transparent PET plastic beverage bottle made of PET #1 rigid plastic on compacted soil with organic dry leaf litter alongside one threaded rigid plastic bottle closure cap. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000199",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one corrugated kraft cardboard shipping box of corrugated kraft paperboard on a flat concrete pavement slab. The item is structurally intact with crisp rectangular edges and planar cardboard panels. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000200",
+      "ground_truth_caption": "In the image, there is one flexible clear plastic wrapper packaging composed of flexible plastic film resting on compacted soil with organic dry leaf litter. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000201",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one corrugated kraft cardboard shipping box of corrugated kraft paperboard on compacted soil with organic dry leaf litter. The item is flattened along primary fold creases with compressed interior corrugation fluting. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "flattened",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000202",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one corrugated kraft cardboard shipping box of corrugated kraft paperboard on rough coarse-aggregate asphalt pavement. The item is structurally intact with crisp rectangular edges and planar cardboard panels. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000203",
+      "ground_truth_caption": "In the image, there is one expanded polystyrene cellular foam fragment composed of expanded polystyrene (EPS) resting on compacted soil with organic dry leaf litter. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. Destination: Other recycling bin.",
+      "primary_category": "other_litter",
+      "material": "plastic_rigid",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000204",
+      "ground_truth_caption": "In the image, there are 5 discarded waste items, dominated by one corrugated kraft cardboard shipping box of corrugated kraft paperboard on a flat concrete pavement slab. The item is structurally intact with crisp rectangular edges and planar cardboard panels. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000205",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one corrugated kraft cardboard shipping box made of corrugated kraft paperboard on a flat concrete pavement slab alongside one expanded polystyrene cellular foam fragment. The item is structurally intact with crisp rectangular edges and planar cardboard panels. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000206",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one corrugated kraft cardboard shipping box made of corrugated kraft paperboard on a flat concrete pavement slab alongside one expanded polystyrene cellular foam fragment. The item is structurally intact with crisp rectangular edges and planar cardboard panels. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000207",
+      "ground_truth_caption": "In the image, there are 4 discarded waste items, dominated by one corrugated kraft cardboard shipping box of corrugated kraft paperboard on a flat concrete pavement slab. The item is structurally intact with crisp rectangular edges and planar cardboard panels. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000208",
+      "ground_truth_caption": "In the image, there is one expanded polystyrene cellular foam fragment composed of expanded polystyrene (EPS) resting on a flat concrete pavement slab. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. The walkway surface shows uniform concrete paving texture. Destination: Other recycling bin.",
+      "primary_category": "other_litter",
+      "material": "plastic_rigid",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000209",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one corrugated kraft cardboard shipping box of corrugated kraft paperboard on compacted soil with organic dry leaf litter. The item is structurally intact with crisp rectangular edges and planar cardboard panels. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000210",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one corrugated kraft cardboard shipping box made of corrugated kraft paperboard on rough coarse-aggregate asphalt pavement alongside one black low-density polyethylene waste bag. The item is structurally intact with crisp rectangular edges and planar cardboard panels. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000211",
+      "ground_truth_caption": "In the image, there are 5 discarded waste items, dominated by one corrugated kraft cardboard shipping box of corrugated kraft paperboard on rough coarse-aggregate asphalt pavement. The item is structurally intact with crisp rectangular edges and planar cardboard panels. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000212",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one corrugated kraft paperboard pizza delivery box of corrugated paperboard on rough coarse-aggregate asphalt pavement. The item is structurally intact with crisp rectangular edges and planar cardboard panels. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000214",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one corrugated kraft cardboard shipping box made of corrugated kraft paperboard on concrete sidewalk pavement alongside one corrugated kraft cardboard shipping box. The item is structurally intact with crisp rectangular edges and planar cardboard panels. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000215",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one corrugated kraft cardboard shipping box made of corrugated kraft paperboard on asphalt roadway pavement alongside one expanded polystyrene cellular foam fragment. The item is structurally intact with crisp rectangular edges and planar cardboard panels. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000216",
+      "ground_truth_caption": "In the image, there are 5 discarded waste items, dominated by one spent paper-wrapped cigarette butt filter of composite cellulose acetate on rough coarse-aggregate asphalt pavement. The item is weathered with compressed cellulose acetate fibers, scorched tip, and paper fading. Destination: Other recycling bin.",
+      "primary_category": "cigarette_butt",
+      "material": "composite_multilayer",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000217",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one corrugated kraft cardboard shipping box made of corrugated kraft paperboard on compacted soil with organic dry leaf litter alongside one expanded polystyrene cellular foam fragment. The item is structurally intact with crisp rectangular edges and planar cardboard panels. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000218",
+      "ground_truth_caption": "In the image, there is one expanded polystyrene cellular foam fragment composed of expanded polystyrene (EPS) resting on rough coarse-aggregate asphalt pavement. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. The roadway surface exhibits coarse bitumen and mineral aggregates. Destination: Other recycling bin.",
+      "primary_category": "other_litter",
+      "material": "plastic_rigid",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000219",
+      "ground_truth_caption": "In the image, there are 7 discarded waste items, dominated by one translucent flexible LDPE packaging film of LDPE #4 flexible plastic film on asphalt roadway pavement. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000220",
+      "ground_truth_caption": "In the image, there are 4 discarded waste items, dominated by one opaque HDPE plastic bottle container of HDPE #2 rigid plastic on an open outdoor ground surface. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000221",
+      "ground_truth_caption": "In the image, there is one twisted synthetic polypropylene polymer cord composed of synthetic plastic cord resting on an open outdoor ground surface. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. The surrounding environment is a dry outdoor terrain. Destination: Plastic recycling bin.",
+      "primary_category": "other_litter",
+      "material": "plastic_film",
+      "condition": "weathered",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000222",
+      "ground_truth_caption": "In the image, there is one opaque HDPE plastic bottle container composed of HDPE #2 rigid plastic resting on an open outdoor ground surface. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000223",
+      "ground_truth_caption": "In the image, there is one injection-molded plastic margarine tub composed of PP #5 rigid plastic resting on an open outdoor ground surface. The item is structurally intact with undamaged perimeter flanges and rigid container walls. Destination: Plastic recycling bin.",
+      "primary_category": "food_container",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000224",
+      "ground_truth_caption": "In the image, there is one threaded rigid plastic bottle closure cap composed of PP #5 rigid plastic resting on an open outdoor ground surface. The item is structurally intact with an undamaged circular rim and clean sealing surfaces. Destination: Plastic recycling bin.",
+      "primary_category": "cup_lid",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000225",
+      "ground_truth_caption": "In the image, there is one threaded rigid plastic bottle closure cap composed of PP #5 rigid plastic resting on an open outdoor ground surface. The item is structurally intact with an undamaged circular rim and clean sealing surfaces. Destination: Plastic recycling bin.",
+      "primary_category": "cup_lid",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000226",
+      "ground_truth_caption": "In the image, there is one discarded synthetic footwear sole component composed of composite polymer substrate resting on an open outdoor ground surface. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. The surrounding environment is a dry outdoor terrain. Destination: Other recycling bin.",
+      "primary_category": "other_litter",
+      "material": "composite_multilayer",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000227",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one transparent PET plastic beverage bottle of PET #1 rigid plastic on an open outdoor ground surface. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000228",
+      "ground_truth_caption": "In the image, there is one disposable transparent polymer glove composed of polyethylene plastic film resting on concrete sidewalk pavement. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. The ground features uniform concrete construction. Destination: Plastic recycling bin.",
+      "primary_category": "other_litter",
+      "material": "plastic_film",
+      "condition": "weathered",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000229",
+      "ground_truth_caption": "In the image, there are 11 discarded waste items, dominated by one opaque HDPE plastic bottle container of HDPE #2 rigid plastic on an open outdoor ground surface. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000230",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one unidentified rigid plastic litter fragment made of rigid plastic polymer on dense green vegetation and tall grass alongside one unidentified rigid plastic litter fragment. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. Destination: Plastic recycling bin.",
+      "primary_category": "other_litter",
+      "material": "plastic_rigid",
+      "condition": "weathered",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000231",
+      "ground_truth_caption": "In the image, there is one translucent flexible LDPE packaging film composed of LDPE #4 flexible plastic film resting on a flat concrete pavement slab. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000232",
+      "ground_truth_caption": "In the image, there is one folded paperboard packaging carton composed of kraft paperboard resting on a flat concrete pavement slab. The item is flattened along primary fold creases with compressed interior corrugation fluting. The walkway surface shows uniform concrete paving texture. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "flattened",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000233",
+      "ground_truth_caption": "In the image, there is one translucent flexible LDPE packaging film composed of LDPE #4 flexible plastic film resting on rough coarse-aggregate asphalt pavement. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000234",
+      "ground_truth_caption": "In the image, there is one absorbent white cellulose paper tissue composed of cellulose tissue paper resting on a flat concrete pavement slab. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Paper recycling bin.",
+      "primary_category": "paper_tissue",
+      "material": "paper_cardboard",
+      "condition": "crumpled",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000235",
+      "ground_truth_caption": "In the image, there is one opaque HDPE plastic bottle container composed of HDPE #2 rigid plastic resting on a clean wooden table surface. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000236",
+      "ground_truth_caption": "In the image, there is one expanded polystyrene cellular foam fragment composed of expanded polystyrene (EPS) resting on a clean wooden table surface. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. The table surface is smooth, clean, and uncluttered. Destination: Other recycling bin.",
+      "primary_category": "other_litter",
+      "material": "plastic_rigid",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000237",
+      "ground_truth_caption": "In the image, there is one opaque HDPE plastic bottle container composed of HDPE #2 rigid plastic resting on a clean wooden table surface. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000238",
+      "ground_truth_caption": "In the image, there is one gloss-coated printed magazine paper sheet composed of coated paper substrate resting on dense green vegetation and tall grass. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Paper recycling bin.",
+      "primary_category": "paper_tissue",
+      "material": "paper_cardboard",
+      "condition": "crumpled",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000239",
+      "ground_truth_caption": "In the image, there is one single-use poly-coated paper beverage cup composed of paperboard substrate resting on dense green vegetation and tall grass. The item is structurally intact with an undamaged circular rim and clean sealing surfaces. Destination: Paper recycling bin.",
+      "primary_category": "cup_lid",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000240",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one folded bleached paperboard meal carton of paperboard substrate on concrete sidewalk pavement. The item is structurally intact with undamaged perimeter flanges and rigid container walls. Destination: Paper recycling bin.",
+      "primary_category": "food_container",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000241",
+      "ground_truth_caption": "In the image, there are 4 discarded waste items, dominated by one folded bleached paperboard meal carton of paperboard substrate on natural soil ground bordered by green foliage. The item is soiled with environmental surface dust and residual organic staining along the base. Destination: Paper recycling bin.",
+      "primary_category": "food_container",
+      "material": "paper_cardboard",
+      "condition": "soiled",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000242",
+      "ground_truth_caption": "In the image, there is one cylindrical aluminum beverage can composed of aluminum alloy resting on dense green vegetation and tall grass. The item is structurally intact with preserved cylindrical geometry and legible printed branding. The surrounding outdoor ground is covered with natural foliage. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_aluminum",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000243",
+      "ground_truth_caption": "In the image, there is one single-use poly-coated paper beverage cup composed of paperboard substrate resting on natural soil ground bordered by green foliage. The item is structurally intact with an undamaged circular rim and clean sealing surfaces. Destination: Paper recycling bin.",
+      "primary_category": "cup_lid",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000244",
+      "ground_truth_caption": "In the image, there is one flexible clear plastic wrapper packaging composed of flexible plastic film resting on asphalt roadway pavement. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. The operational area consists of weathered paved asphalt. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000245",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one black low-density polyethylene waste bag of LDPE plastic film on dense green vegetation and tall grass. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000246",
+      "ground_truth_caption": "In the image, there is one flexible clear plastic wrapper packaging composed of flexible plastic film resting on a flat concrete pavement slab. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000247",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one flexible clear plastic wrapper packaging made of flexible plastic film on natural soil ground bordered by green foliage alongside one single-use poly-coated paper beverage cup. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000248",
+      "ground_truth_caption": "In the image, there is one flexible clear plastic wrapper packaging composed of flexible plastic film resting on a flat concrete pavement slab. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000249",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one cylindrical aluminum beverage can made of aluminum alloy on asphalt roadway pavement alongside one stamped metallic aluminum pull-ring tab. The item is structurally intact with preserved cylindrical geometry and legible printed branding. Destination: Metal recycling bin.",
+      "primary_category": "metal_can",
+      "material": "metal_aluminum",
+      "condition": "intact",
+      "destination_bin": "Metal"
+    },
+    {
+      "image_id": "taco_000250",
+      "ground_truth_caption": "In the image, there is one weathered post-consumer solid litter fragment composed of composite multilayer material resting on a flat concrete pavement slab. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. The walkway surface shows uniform concrete paving texture. Destination: Other recycling bin.",
+      "primary_category": "other_litter",
+      "material": "composite_multilayer",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000251",
+      "ground_truth_caption": "In the image, there is one translucent flexible LDPE packaging film composed of LDPE #4 flexible plastic film resting on asphalt roadway pavement. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000252",
+      "ground_truth_caption": "In the image, there is one flexible clear plastic wrapper packaging composed of flexible plastic film resting on asphalt roadway pavement. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. The operational area consists of weathered paved asphalt. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000253",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one single-use poly-coated paper beverage cup made of paperboard substrate on a flat concrete pavement slab alongside one circular thermoformed plastic lid. The item is structurally intact with an undamaged circular rim and clean sealing surfaces. Destination: Paper recycling bin.",
+      "primary_category": "cup_lid",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000254",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one folded paperboard packaging carton made of kraft paperboard on compacted soil with organic dry leaf litter alongside one translucent flexible LDPE packaging film. The item is structurally intact with crisp rectangular edges and planar cardboard panels. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000255",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one corrugated kraft cardboard shipping box made of corrugated kraft paperboard on concrete sidewalk pavement alongside one twisted synthetic polypropylene polymer cord. The item is structurally intact with crisp rectangular edges and planar cardboard panels. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000256",
+      "ground_truth_caption": "In the image, there is one expanded polystyrene cellular foam fragment composed of expanded polystyrene (EPS) resting on rough coarse-aggregate asphalt pavement. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. The roadway surface exhibits coarse bitumen and mineral aggregates. Destination: Other recycling bin.",
+      "primary_category": "other_litter",
+      "material": "plastic_rigid",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000257",
+      "ground_truth_caption": "In the image, there is one weathered post-consumer solid litter fragment composed of composite multilayer material resting on concrete sidewalk pavement. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. The ground features uniform concrete construction. Destination: Other recycling bin.",
+      "primary_category": "other_litter",
+      "material": "composite_multilayer",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000258",
+      "ground_truth_caption": "In the image, there is one threaded rigid plastic bottle closure cap composed of PP #5 rigid plastic resting on concrete sidewalk pavement. The item is structurally intact with an undamaged circular rim and clean sealing surfaces. Destination: Plastic recycling bin.",
+      "primary_category": "cup_lid",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000259",
+      "ground_truth_caption": "In the image, there is one weathered post-consumer solid litter fragment composed of composite multilayer material resting on concrete sidewalk pavement. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. The ground features uniform concrete construction. Destination: Other recycling bin.",
+      "primary_category": "other_litter",
+      "material": "composite_multilayer",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000260",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one translucent flexible LDPE packaging film of LDPE #4 flexible plastic film on compacted soil with organic dry leaf litter. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000261",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one woven polypropylene flexible polymer bag made of PP flexible plastic film on rough coarse-aggregate asphalt pavement alongside one unidentified rigid plastic litter fragment. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000262",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one translucent flexible LDPE packaging film made of LDPE #4 flexible plastic film on rough coarse-aggregate asphalt pavement alongside one weathered post-consumer solid litter fragment. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000263",
+      "ground_truth_caption": "In the image, there is one expanded polystyrene cellular foam fragment composed of expanded polystyrene (EPS) resting on an open outdoor ground surface. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. The surrounding environment is a dry outdoor terrain. Destination: Other recycling bin.",
+      "primary_category": "other_litter",
+      "material": "plastic_rigid",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000264",
+      "ground_truth_caption": "In the image, there are 5 discarded waste items, dominated by one thin-gauge high-density plastic shopping bag of HDPE #2 plastic film on rough coarse-aggregate asphalt pavement. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000265",
+      "ground_truth_caption": "In the image, there is one translucent flexible LDPE packaging film composed of LDPE #4 flexible plastic film resting on natural soil ground bordered by green foliage. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000266",
+      "ground_truth_caption": "In the image, there is one thin-gauge high-density plastic shopping bag composed of HDPE #2 plastic film resting on asphalt roadway pavement. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. The operational area consists of weathered paved asphalt. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000267",
+      "ground_truth_caption": "In the image, there is one translucent flexible LDPE packaging film composed of LDPE #4 flexible plastic film resting on concrete sidewalk pavement. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000268",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one aseptic multilayer beverage carton made of composite multilayer paperboard on an open outdoor ground surface alongside one slender extruded rigid plastic drinking straw. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. Destination: Other recycling bin.",
+      "primary_category": "drink_carton",
+      "material": "composite_multilayer",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000269",
+      "ground_truth_caption": "In the image, there is one expanded polystyrene cellular foam fragment composed of expanded polystyrene (EPS) resting on asphalt roadway pavement. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. The operational area consists of weathered paved asphalt. Destination: Other recycling bin.",
+      "primary_category": "other_litter",
+      "material": "plastic_rigid",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000270",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one translucent flexible LDPE packaging film made of LDPE #4 flexible plastic film on asphalt roadway pavement alongside one expanded polystyrene cellular foam fragment. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000271",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one transparent PET plastic beverage bottle made of PET #1 rigid plastic on concrete sidewalk pavement alongside one threaded rigid plastic bottle closure cap. The item is mechanically compressed and flattened along the body with prominent crease lines. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "flattened",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000272",
+      "ground_truth_caption": "In the image, there are 7 discarded waste items, dominated by one translucent flexible LDPE packaging film of LDPE #4 flexible plastic film on a flat concrete pavement slab. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000273",
+      "ground_truth_caption": "In the image, there is one flexible clear plastic wrapper packaging composed of flexible plastic film resting on asphalt roadway pavement. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. The operational area consists of weathered paved asphalt. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000274",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one translucent flexible LDPE packaging film made of LDPE #4 flexible plastic film on asphalt roadway pavement alongside one weathered post-consumer solid litter fragment. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000275",
+      "ground_truth_caption": "In the image, there are 9 discarded waste items, dominated by one translucent flexible LDPE packaging film of LDPE #4 flexible plastic film on rough coarse-aggregate asphalt pavement. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000276",
+      "ground_truth_caption": "In the image, there are 5 discarded waste items, dominated by one transparent PET plastic beverage bottle of PET #1 rigid plastic on natural soil ground bordered by green foliage. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000277",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one translucent flexible LDPE packaging film made of LDPE #4 flexible plastic film on natural soil ground bordered by green foliage alongside one expanded polystyrene cellular foam fragment. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000278",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one expanded polystyrene cellular foam fragment made of expanded polystyrene (EPS) on rough coarse-aggregate asphalt pavement alongside one weathered post-consumer solid litter fragment. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. Destination: Other recycling bin.",
+      "primary_category": "other_litter",
+      "material": "plastic_rigid",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000279",
+      "ground_truth_caption": "In the image, there is one expanded polystyrene cellular foam fragment composed of expanded polystyrene (EPS) resting on an open outdoor ground surface. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. The surrounding environment is a dry outdoor terrain. Destination: Other recycling bin.",
+      "primary_category": "other_litter",
+      "material": "plastic_rigid",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000280",
+      "ground_truth_caption": "In the image, there are 9 discarded waste items, dominated by one translucent flexible LDPE packaging film of LDPE #4 flexible plastic film on rough coarse-aggregate asphalt pavement. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000281",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one black low-density polyethylene waste bag made of LDPE plastic film on a flat concrete pavement slab alongside one translucent flexible LDPE packaging film. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000282",
+      "ground_truth_caption": "In the image, there is one expanded polystyrene cellular foam fragment composed of expanded polystyrene (EPS) resting on asphalt roadway pavement. The item shows surface weathering, environmental abrasive wear, and minor structural deformation. The operational area consists of weathered paved asphalt. Destination: Other recycling bin.",
+      "primary_category": "other_litter",
+      "material": "plastic_rigid",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000283",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one flexible clear plastic wrapper packaging of flexible plastic film on asphalt roadway pavement. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000284",
+      "ground_truth_caption": "In the image, there is one translucent flexible LDPE packaging film composed of LDPE #4 flexible plastic film resting on asphalt roadway pavement. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000285",
+      "ground_truth_caption": "In the image, there is one translucent flexible LDPE packaging film composed of LDPE #4 flexible plastic film resting on asphalt roadway pavement. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000286",
+      "ground_truth_caption": "In the image, there is one threaded rigid plastic bottle closure cap composed of PP #5 rigid plastic resting on a flat concrete pavement slab. The item is structurally intact with an undamaged circular rim and clean sealing surfaces. Destination: Plastic recycling bin.",
+      "primary_category": "cup_lid",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000287",
+      "ground_truth_caption": "In the image, there is one flexible clear plastic wrapper packaging composed of flexible plastic film resting on natural soil ground bordered by green foliage. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000288",
+      "ground_truth_caption": "In the image, there is one translucent flexible LDPE packaging film composed of LDPE #4 flexible plastic film resting on asphalt roadway pavement. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000289",
+      "ground_truth_caption": "In the image, there are 3 discarded waste items, dominated by one single-use poly-coated paper beverage cup of paperboard substrate on a flat concrete pavement slab. The item is structurally intact with an undamaged circular rim and clean sealing surfaces. Destination: Paper recycling bin.",
+      "primary_category": "cup_lid",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000290",
+      "ground_truth_caption": "In the image, there is one folded paperboard packaging carton composed of kraft paperboard resting on a flat concrete pavement slab. The item is structurally intact with crisp rectangular edges and planar cardboard panels. The walkway surface shows uniform concrete paving texture. Destination: Paper recycling bin.",
+      "primary_category": "cardboard_box",
+      "material": "paper_cardboard",
+      "condition": "intact",
+      "destination_bin": "Paper"
+    },
+    {
+      "image_id": "taco_000291",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one transparent PET plastic beverage bottle made of PET #1 rigid plastic on a flat concrete pavement slab alongside one spent paper-wrapped cigarette butt filter. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000292",
+      "ground_truth_caption": "In the image, there is one spent paper-wrapped cigarette butt filter composed of composite cellulose acetate resting on a flat concrete pavement slab. The item is weathered with compressed cellulose acetate fibers, scorched tip, and paper fading. Destination: Other recycling bin.",
+      "primary_category": "cigarette_butt",
+      "material": "composite_multilayer",
+      "condition": "weathered",
+      "destination_bin": "Other"
+    },
+    {
+      "image_id": "taco_000293",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one flexible clear plastic wrapper packaging made of flexible plastic film on dense green vegetation and tall grass alongside one flexible clear plastic wrapper packaging. The item is crumpled into an irregular profile displaying prominent plastic deformation wrinkles. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bag_wrapper",
+      "material": "plastic_film",
+      "condition": "crumpled",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000295",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one transparent PET plastic beverage bottle made of PET #1 rigid plastic on asphalt roadway pavement alongside one printed decorative cellulose gift wrapping paper. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000296",
+      "ground_truth_caption": "In the image, there are 8 discarded waste items, dominated by one transparent PET plastic beverage bottle of PET #1 rigid plastic on concrete sidewalk pavement. The item is structurally intact with uncompromised cylindrical sidewalls and molded grip ridges. Destination: Plastic recycling bin.",
+      "primary_category": "plastic_bottle",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000298",
+      "ground_truth_caption": "In the image, there are 12 discarded waste items, dominated by one molded rigid plastic packaging container of rigid plastic polymer on asphalt roadway pavement. The item is structurally intact with undamaged perimeter flanges and rigid container walls. Destination: Plastic recycling bin.",
+      "primary_category": "food_container",
+      "material": "plastic_rigid",
+      "condition": "intact",
+      "destination_bin": "Plastic"
+    },
+    {
+      "image_id": "taco_000299",
+      "ground_truth_caption": "In the image, there are two discarded items, primarily one cylindrical glass beverage bottle made of soda-lime silica glass on a flat concrete pavement slab alongside one spent paper-wrapped cigarette butt filter. The item is structurally intact with no fissures, cracks, or chips across the vitreous surface. Destination: Glass recycling bin.",
+      "primary_category": "glass_bottle",
+      "material": "glass",
+      "condition": "intact",
+      "destination_bin": "Glass"
+    }
+  ]
+}
