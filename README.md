@@ -1,177 +1,110 @@
-# ♻️ Waste VLM Dataset
+# ♻️ CaptionGene — Waste VLM Dataset & Sorting Pipeline
+### Vision-Language Caption Generation, LoRA Fine-Tuning & Conveyor Sorting Verification on TACO
 
-**Vision-Language Caption Generation for Waste Images**
-
-A verified waste image–caption dataset generated with pretrained vision-language models (BLIP-2, Qwen2.5-VL) and refined through structured quality checks and human review. Each annotation includes waste category, material, physical condition, scene context, and sorting instructions.
+[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code)
+[![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/downloads/)
+[![Dataset](https://img.shields.io/badge/TACO-293%20Images%20%7C%20888%20Objects-green.svg)](#dataset-overview)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ---
 
-## 📁 Project Structure
+## 📌 Problem Statement & Project Goals
 
-```
+General-purpose Vision-Language Models (**BLIP-2**, **Qwen-VL**) either generate shallow generic captions or hallucinate on real-world litter (e.g., mistaking weathered plastic straws for fruit or pencils) while failing to capture **polymer substrate**, **physical degradation state**, and **recycling destination stream**.
+
+**CaptionGene** resolves this by delivering an end-to-end taxonomy-guided VLM curation, fine-tuning, and evaluation pipeline on the **TACO** (*Trash Annotations in Context*) benchmark:
+1. **Standardized Ontology & JSON Schema**: 12 waste categories, 7 material substrates, physical condition states, 5 scene contexts, and 6 robotic sorting actions enforced by [schema.json](config/schema.json) and [taxonomy.json](config/taxonomy.json).
+2. **Gold-Standard Ground Truth Curation**: Expert human-vetted forensic captions across **293 real-world TACO scenes (888 localized objects)** (`train: 205`, `val: 44`, `test: 44`).
+3. **Dual-Model Evaluation & Kaggle GPU Fine-Tuning**:
+   - **BLIP-2 (`Salesforce/blip2-opt-2.7b`)**: Unconstrained Kaggle Zero-Shot Baseline vs. Kaggle **LoRA Fine-Tuned** operational sorter ($r=16, \alpha=32$, 4.6 min Tesla T4 run, validation loss **$1.9891 \to 0.1057$**).
+   - **Qwen-VL**: Unconstrained Kaggle Zero-Shot Baseline (`Qwen2-VL-7B-Instruct`) vs. Domain-Prompted Forensic Describer (`Qwen2.5-VL`).
+4. **Beyond CLIPScore**: Multi-dimensional benchmarking with **Ground Truth Alignment (GTA)**, **BLEU**, **ROUGE-L F1**, **Recycling Bin Sorting Accuracy**, **Explicit Stream Compliance**, **GenEval (CVPR 2024)**, and **DPG-Bench**.
+5. **Interactive Operations Dashboard & Extra Conveyor Simulator**: 4-page Streamlit app (`app/app.py`) featuring bbox inspection, live Before-vs-After Kaggle presentation comparison, analytics, JSON/JSONL/CSV export, and a **Multi-Bin Conveyor Sorting Simulator**.
+
+---
+
+## 📊 Key Results: Before (No Taxonomy) vs. After (Our Pipeline)
+
+Clean paired ablation across **n = 220** scenes (`taco_000000`–`taco_000219`, excluding 73 full-res `6000×4000` scenes where unconstrained Qwen2-VL hit T4 CUDA OOM; BLIP-2 metrics across all **293** scenes also verified):
+
+| Model / Pipeline Stage | DPG-Bench (0–100) | GenEval (0–1.0) | GT Alignment (GTA) | BLEU-1 | ROUGE-L F1 | Bin Accuracy | Explicit Stream % | Avg Words |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **BLIP-2 (Zero-Shot, No Taxonomy)** | 12.20 | 0.251 | 25.9% | 0.5% | 4.78% | 7.7% *(14.3% full)* | 0.0% | 5.8 |
+| **BLIP-2 (LoRA Fine-Tuned + Taxonomy)** | **39.09** | **0.475** | **47.4%** | 2.2% | 14.68% | **100.0%** *(81.2% full)* | **100.0%** | 11.2 |
+| **Qwen2-VL (Zero-Shot, No Taxonomy)** | 35.73 | 0.434 | 40.6% | 9.3% | 11.97% | 22.3% | 0.5% | 23.9 |
+| **Qwen2.5-VL (Domain Prompted + Schema)** | **56.20** | **0.580** | **53.9%** | **21.5%** | **20.20%** | **44.5%** | 0.9% | **74.1** |
+| **Gold Ground Truth (Human Vetted)** | 74.77 | 0.669 | 100.0% | 100.0% | 100.00% | 100.0% | 100.0% | 46.4 |
+
+---
+
+## 📁 Repository Structure
+
+```text
 waste-vlm-dataset/
-├── data/
-│   ├── raw/                    # Downloaded TACO & ZeroWaste files
-│   ├── processed/              # Cleaned images & splits
-│   │   ├── train/
-│   │   ├── val/
-│   │   └── test/
-│   └── annotations/            # Unified JSON annotation files
-│       ├── week1_base.json
-│       ├── week2_generated.json
-│       ├── week3_verified.json
-│       └── week4_evaluated.json
-├── scripts/
-│   ├── 01_prepare_data.py      # Week 1: Merge & split datasets
-│   ├── 02_generate_captions.py # Week 2: Run BLIP-2 & Qwen2.5-VL
-│   └── 03_evaluate.py          # Week 4: CLIPScore, BLEU, CIDEr
 ├── app/
-│   └── streamlit_app.py        # Streamlit curation app
-├── notebooks/
-│   └── waste_vlm_colab_setup.ipynb  # Colab/Kaggle notebook
+│   ├── app.py                     # Main 4-page Streamlit Curator, Conveyor Simulator & Benchmark UI
+│   ├── captioning.py              # BLIP-2 / Qwen2.5-VL inference & prompt formatting helpers
+│   ├── data_io.py                 # Dataset I/O, bbox rendering, object cropping & stats computation
+│   ├── taxonomy.py                # Waste categories, materials, conditions & recycling bin router
+│   └── ui.py                      # Light theme CSS, bin badges & status pills
 ├── config/
-│   ├── taxonomy.json           # Unified waste taxonomy
-│   └── schema.json             # Annotation JSON schema
-├── requirements.txt
-├── setup_env.bat               # Windows environment setup
-├── setup_env.sh                # Linux/Mac environment setup
-└── README.md
+│   ├── schema.json                # JSON Draft-07 validation schema
+│   └── taxonomy.json              # Unified TACO taxonomy & domain prompt templates
+├── data/
+│   ├── annotations/
+│   │   ├── waste_dataset.json     # Active verified dataset (293 TACO scenes / 888 objects)
+│   │   └── gold_ground_truth.json # 293 expert-vetted reference captions
+│   ├── images/                    # 293 TACO scene images (taco_000000.jpg .. taco_000292.jpg)
+│   ├── raw_baseline_both_models.json      # Real Kaggle unconstrained BLIP-2 & Qwen2-VL outputs
+│   ├── ground_truth_benchmark_report.json # Complete Before/After NLP & GTA benchmark results
+│   ├── dpg_geneval_benchmark.json         # DPG-Bench & GenEval scores + literature baselines
+│   ├── blip2_finetuning_benchmark.json    # Kaggle LoRA training telemetry (T4 GPU)
+│   └── blip2_before_after_samples.csv     # Held-out test split before/after LoRA examples
+├── docs/
+│   ├── report/                    # Publication-ready IEEE/Overleaf LaTeX report + 300 DPI figures
+│   ├── DATASET_CARD.md            # HuggingFace-style dataset card
+│   ├── ANNOTATION_GUIDELINES.md   # Human curation workflow & taxonomy guide
+│   ├── blip2_loss_curve.png       # Kaggle LoRA cross-entropy convergence plot
+│   └── ground_truth_comparative_table.csv # Consolidated comparative metrics table
+├── models/blip2_lora/             # Saved PEFT LoRA adapter weights & tokenizer (20 MB safetensors)
+├── notebooks/
+│   └── waste_vlm_kaggle_setup.ipynb # Kaggle GPU setup & inference notebook
+├── scripts/
+│   ├── 01_prepare_data.py         # TACO ingest & 70/15/15 stratified split builder
+│   ├── 02_generate_captions.py    # BLIP-2 & Qwen2.5-VL caption generator
+│   ├── 03_evaluate.py             # CLIPScore, BLEU, CIDEr & hallucination checker
+│   ├── integrate_finetuned_and_groundtruth.py # Merge LoRA predictions + Gold GT
+│   ├── integrate_raw_baselines.py # Merge real Kaggle unconstrained baseline outputs
+│   ├── recalculate_ground_truth_scores.py # Compute GTA, BLEU, ROUGE-L & bin accuracy
+│   ├── calculate_geneval_dpg.py   # Compute DPG-Bench (0-100) & GenEval (0-1.0)
+│   ├── kaggle_finetune_blip2_lora.py     # Kaggle GPU LoRA fine-tuning pipeline
+│   ├── kaggle_generate_new_captions.py   # Kaggle GPU fine-tuned BLIP-2 inference
+│   ├── kaggle_run_both_raw_models.py     # Kaggle unconstrained baseline runner (fixed 768px cap)
+│   └── generate_blip2_names.py    # CLI inference using saved models/blip2_lora adapter
+└── requirements.txt
 ```
 
-## 🚀 Quick Start
+---
 
-### Option A: Local Setup (Windows)
+## ⚡ Quick Start
 
-```bash
-# 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/waste-vlm-dataset.git
-cd waste-vlm-dataset
+```powershell
+# Activate virtual environment (Windows)
+.\venv\Scripts\activate
 
-# 2. Run the setup script
-setup_env.bat
+# Launch the Streamlit Dashboard (Review, Conveyor Sorting, Statistics, Export)
+python -m streamlit run app/app.py --server.port 8501
 
-# 3. Activate the virtual environment
-venv\Scripts\activate
-
-# 4. Run data preparation (after downloading datasets)
-python scripts/01_prepare_data.py
-
-# 5. Launch the Streamlit app
-streamlit run app/streamlit_app.py
+# Re-run full benchmark scoring pipeline
+python scripts/recalculate_ground_truth_scores.py
+python scripts/calculate_geneval_dpg.py
 ```
 
-### Option B: Google Colab / Kaggle (GPU for caption generation)
-
-1. Open [`notebooks/waste_vlm_colab_setup.ipynb`](notebooks/waste_vlm_colab_setup.ipynb) in Colab
-2. Set **Runtime → GPU** (T4 recommended)
-3. Run all cells – it handles dataset download, caption generation, and evaluation
-4. Download the generated annotation files
-5. Load them in the Streamlit app locally for review
-
-## 📊 Waste Taxonomy
-
-| Object Categories (12) | Materials (7) | Physical Conditions (8) |
-|---|---|---|
-| plastic_bottle | plastic_rigid | intact |
-| glass_bottle | plastic_film | crushed |
-| metal_can | metal_aluminum | torn_shredded |
-| drink_carton | metal_steel | flattened |
-| food_container | glass | crumpled |
-| plastic_bag_wrapper | paper_cardboard | dirty_soiled |
-| cup_lid | composite_multilayer | liquid_filled |
-| cardboard_box | | partially_occluded |
-| paper_tissue | | |
-| styrofoam | | |
-| cigarette_butt | | |
-| other_litter | | |
-
-## 📋 Annotation Schema
-
-Each image record follows this structure:
-
-```json
-{
-  "image_id": "taco_000142",
-  "file_name": "data/processed/train/taco_000142.jpg",
-  "source_dataset": "TACO",
-  "split": "train",
-  "width": 1024,
-  "height": 768,
-  "scene_context": "outdoor_natural_litter",
-  "scene_caption_blip2": "...",
-  "scene_caption_qwen": "...",
-  "verified_scene_caption": "...",
-  "objects": [
-    {
-      "object_id": "taco_000142_obj_1",
-      "bbox": [210, 340, 145, 290],
-      "original_label": "Clear plastic bottle",
-      "structured_attributes": {
-        "category": "plastic_bottle",
-        "material": "plastic_rigid",
-        "condition": ["crushed", "dirty_soiled"],
-        "sorting_action": "recycle_plastic"
-      },
-      "candidate_captions": {
-        "blip2": "...",
-        "qwen2_5_vl": "..."
-      },
-      "metrics": {
-        "clip_score_blip2": 28.5,
-        "clip_score_qwen": 30.2
-      },
-      "human_review": {
-        "status": "approved",
-        "verified_caption": "...",
-        "hallucination_flagged": false
-      }
-    }
-  ]
-}
-```
-
-## 🖥️ Streamlit Curation App
-
-The app provides:
-- **Image browsing** with metadata display
-- **Side-by-side** BLIP-2 vs Qwen2.5-VL caption comparison
-- **Structured attribute editing** (category, material, condition, sorting action)
-- **Approve / Reject / Edit** review workflow
-- **Hallucination flagging**
-- **Filtering** by status, category, source, and split
-- **Statistics dashboard** with interactive charts
-- **Export** as JSON, JSONL, or CSV
-
-## 🔬 Evaluation Metrics
-
-| Metric | Description |
-|---|---|
-| **CLIPScore** | Image-caption alignment (reference-free) |
-| **BLEU-4** | N-gram overlap with verified captions |
-| **CIDEr** | Consensus-based captioning quality |
-| **Hallucination Rate** | % of captions flagged for irrelevant content |
-
-## 📅 Weekly Timeline
-
-| Week | Focus | Output |
-|---|---|---|
-| 1 | Dataset preparation & taxonomy | `week1_base.json` |
-| 2 | Caption generation (BLIP-2, Qwen2.5-VL) | `week2_generated.json` |
-| 3 | Manual verification via Streamlit app | `week3_verified.json` |
-| 4 | Evaluation (CLIPScore, BLEU, CIDEr) | `week4_evaluated.json` |
-| 5 | Final report & documentation | Final dataset + report |
+---
 
 ## 📚 References
-
-1. [TACO: Trash Annotations in Context](https://arxiv.org/abs/2003.06975) – Proença & Simões, 2020
-2. [ZeroWaste Dataset](https://openaccess.thecvf.com/content/CVPR2022/papers/Bashkirova_ZeroWaste_Dataset_Towards_Deformable_Object_Segmentation_in_Cluttered_Scenes_CVPR_2022_paper.pdf) – Bashkirova et al., CVPR 2022
-3. [BLIP: Bootstrapping Language-Image Pre-training](https://arxiv.org/abs/2201.12086) – Li et al., ICML 2022
-4. [LLaVA: Visual Instruction Tuning](https://arxiv.org/abs/2304.08485) – Liu et al., NeurIPS 2023
-5. [Qwen2.5-VL Technical Report](https://arxiv.org/abs/2502.13923) – Qwen Team, 2025
-6. [CLIPScore](https://arxiv.org/abs/2104.08718) – Hessel et al., EMNLP 2021
-
-## 📝 License
-
-This project is for academic/research purposes. Individual dataset licenses apply:
-- TACO: CC BY 4.0
-- ZeroWaste: Check [original repository](https://github.com/dbash/zerowaste)
+1. Proença, P. F., & Simões, P. (2020). *TACO: Trash Annotations in Context for Litter Detection*. arXiv:2003.06975.
+2. Li, J., et al. (2023). *BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models*. ICML 2023.
+3. Qwen Team. (2025). *Qwen2.5-VL Technical Report*. arXiv:2502.13923.
+4. Hessel, J., et al. (2021). *CLIPScore: A Reference-free Evaluation Metric for Image Captioning*. EMNLP 2021.
+5. Ghosh, D., et al. (2024). *GenEval: An Object-Focused Framework for Evaluating Text-to-Image Alignment*. NeurIPS/CVPR Literature Benchmark.

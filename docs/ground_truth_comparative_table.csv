@@ -1,0 +1,6 @@
+Model / Pipeline Stage,Scope (n),DPG-Bench (0-100),GenEval (0-1.0),GT Alignment (%),BLEU-1 (%),ROUGE-L F1 (%),Bin Accuracy (%),Explicit Stream (%),Avg Words
+"BLIP-2 (Zero-Shot, No Taxonomy)",220,12.2,0.251,25.9,0.48,4.78,7.7,0.0,5.8
+BLIP-2 (LoRA Fine-Tuned + Taxonomy),220,39.09,0.475,47.4,2.2,14.68,100.0,100.0,11.2
+"Qwen2-VL (Zero-Shot, No Taxonomy)",220,35.73,0.434,40.6,9.34,11.97,22.3,0.5,23.9
+Qwen2.5-VL (Domain Prompted + Schema),220,56.2,0.58,53.9,21.54,20.2,44.5,0.9,74.1
+Gold Ground Truth (Human Vetted),220,74.77,0.669,100.0,100.0,100.0,100.0,100.0,46.4
