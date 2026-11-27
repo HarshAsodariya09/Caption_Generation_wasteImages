@@ -735,7 +735,6 @@ def page_statistics() -> None:
                     "BLEU-1": f"{mv.get('bleu_1', 0.0):.1f}%",
                     "ROUGE-L F1": f"{mv.get('rouge_l_f1', 0.0):.1f}%",
                     "Bin Accuracy": f"{bin_accuracy[mk]:.1f}%",
-                    "Explicit Stream %": f"{mv.get('explicit_stream_pct', 0.0):.1f}%",
                     "Avg Words": f"{mv.get('avg_words', 0.0):.1f}",
                 })
 
