@@ -1,0 +1,52 @@
+{
+  "blip2_zero_shot": {
+    "name": "BLIP-2 (Zero-Shot, No Taxonomy)",
+    "n_evaluated": 293,
+    "gt_alignment_score": 27.7,
+    "bleu_1": 0.5,
+    "rouge_l_f1": 4.8,
+    "bin_accuracy_pct": 14.3,
+    "explicit_stream_pct": 0.0,
+    "avg_words": 5.8
+  },
+  "blip2_finetuned_lora": {
+    "name": "BLIP-2 (LoRA Fine-Tuned + Taxonomy)",
+    "n_evaluated": 293,
+    "gt_alignment_score": 42.4,
+    "bleu_1": 3.4,
+    "rouge_l_f1": 16.9,
+    "bin_accuracy_pct": 51.9,
+    "explicit_stream_pct": 100.0,
+    "avg_words": 12.5
+  },
+  "qwen_zero_shot": {
+    "name": "Qwen2-VL (Zero-Shot, No Taxonomy)",
+    "n_evaluated": 293,
+    "gt_alignment_score": 38.5,
+    "bleu_1": 7.0,
+    "rouge_l_f1": 11.0,
+    "bin_accuracy_pct": 16.7,
+    "explicit_stream_pct": 0.3,
+    "avg_words": 19.2
+  },
+  "qwen2_5_vl": {
+    "name": "Qwen2.5-VL (Domain Prompted + Schema)",
+    "n_evaluated": 293,
+    "gt_alignment_score": 65.0,
+    "bleu_1": 41.1,
+    "rouge_l_f1": 40.1,
+    "bin_accuracy_pct": 58.4,
+    "explicit_stream_pct": 25.6,
+    "avg_words": 67.0
+  },
+  "human_ground_truth": {
+    "name": "Gold Ground Truth (Human Vetted)",
+    "n_evaluated": 293,
+    "gt_alignment_score": 100.0,
+    "bleu_1": 100.0,
+    "rouge_l_f1": 100.0,
+    "bin_accuracy_pct": 100.0,
+    "explicit_stream_pct": 100.0,
+    "avg_words": 46.2
+  }
+}
